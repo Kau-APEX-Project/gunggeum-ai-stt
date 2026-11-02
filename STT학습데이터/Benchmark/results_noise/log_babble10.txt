@@ -1,0 +1,6 @@
+[aws-transcribe+location+post__babble10] 30/180
+[aws-transcribe+location+post__babble10] 60/180
+[aws-transcribe+location+post__babble10] 90/180
+[aws-transcribe+location+post__babble10] 120/180
+[aws-transcribe+location+post__babble10] 150/180
+[aws-transcribe+location+post__babble10] 180/180

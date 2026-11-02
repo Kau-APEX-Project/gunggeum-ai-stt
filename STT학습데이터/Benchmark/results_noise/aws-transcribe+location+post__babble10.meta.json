@@ -1,0 +1,8 @@
+{
+ "model": "aws-transcribe",
+ "hint": "location",
+ "device": "AWS ap-northeast-2 streaming",
+ "pace": "fast",
+ "machine": "macOS-27.2-arm64-arm-64bit",
+ "audio": ".cache/noisy/stt/babble10"
+}

@@ -7,6 +7,7 @@
   python run_transcribe.py --vocab global|location  # 사용자 지정 어휘 적용
   --pace realtime  : 100ms 조각을 실제 말하는 속도로 보내고, 마지막 조각 뒤 최종 결과까지 걸린 시간을 잰다
   --pace fast      : 조각을 쉬지 않고 보내고, 연결부터 최종 결과까지 걸린 시간을 잰다 (기본, RTF 비교용)
+  --wav-dir DIR --tag NAME : 다른 폴더의 wav(예: 소음 합성본)를 전사하고 결과 이름 뒤에 __NAME을 붙인다
 
 AWS 자격 증명은 표준 경로(~/.aws/credentials 또는 환경 변수)에서 읽는다.
 """
@@ -125,7 +126,9 @@ async def run(args):
     loc_vocab = {loc: name for loc, (name, _) in location_vocabs().items()}
     vocab_for = lambda r: {"none": None, "global": VOCAB, "location": loc_vocab[r["location"]]}[args.vocab]
     name = ("aws-transcribe" + ("-realtime" if args.pace == "realtime" else "")
-            + ("" if args.vocab == "none" else f"+{args.vocab}") + ("+post" if args.post else ""))
+            + ("" if args.vocab == "none" else f"+{args.vocab}") + ("+post" if args.post else "")
+            + (f"__{args.tag}" if args.tag else ""))
+    wav_dir = Path(args.wav_dir) if args.wav_dir else WAV_DIR
     res_dir = ROOT / args.out
     res_dir.mkdir(exist_ok=True)
     out_path = res_dir / f"{name}.jsonl"
@@ -133,11 +136,11 @@ async def run(args):
     done = {json.loads(l)["id"] for l in out_path.open(encoding="utf-8")} if out_path.exists() else set()
 
     client = TranscribeStreamingClient(region=REGION)
-    pcm = lambda r: sf.read(WAV_DIR / f"{r['id']}.wav", dtype="int16")[0].tobytes()
+    pcm = lambda r: sf.read(wav_dir / f"{r['id']}.wav", dtype="int16")[0].tobytes()
     await transcribe(client, pcm(refs[0]), vocab_for(refs[0]), args.pace)  # 워밍업(연결·인증)
 
     meta = {"model": "aws-transcribe", "hint": args.vocab, "device": f"AWS {REGION} streaming",
-            "pace": args.pace, "machine": platform.platform()}
+            "pace": args.pace, "machine": platform.platform(), "audio": str(wav_dir.relative_to(ROOT)) if wav_dir.is_relative_to(ROOT) else str(wav_dir)}
     (res_dir / f"{name}.meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=1))
     with out_path.open("a", encoding="utf-8") as fp:
         for i, r in enumerate(refs, 1):
@@ -164,6 +167,8 @@ def main():
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--out", default="results", help="결과 폴더")
     ap.add_argument("--post", action="store_true", help="받아쓰기 직후 후처리 사전(위치별·자모·0.85) 적용")
+    ap.add_argument("--wav-dir", help="전사할 wav 폴더 (기본 .cache/wav16k)")
+    ap.add_argument("--tag", help="결과 파일 이름에 붙일 조건 이름")
     args = ap.parse_args()
     if args.create_vocab:
         create_vocab(args.create_vocab)

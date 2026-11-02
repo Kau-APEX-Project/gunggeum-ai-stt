@@ -235,3 +235,7 @@ STT학습데이터/Benchmark/.venv/
 STT학습데이터/Benchmark/.cache/
 *.app/
 muesli_apply
+
+# 실시간 파이프라인 시험 서버 로그·pid
+results_live/server.log
+*.pid

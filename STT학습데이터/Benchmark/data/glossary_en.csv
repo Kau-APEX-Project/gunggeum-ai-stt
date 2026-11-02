@@ -1,0 +1,236 @@
+term,en,priority,category,grade
+정전,Jeongjeon (main hall of a palace),핵심,궁궐 공간·기능,A
+편전,Pyeonjeon (Royal Council Hall),핵심,궁궐 공간·기능,A
+침전,Chimjeon (royal bedchamber hall),핵심,궁궐 공간·기능,A
+동궁,Donggung (Crown Prince's residence),핵심,궁궐 공간·기능,A
+궐내각사,Gwollaegaksa (Government Offices Inside the Palace),핵심,궁궐 공간·기능,C
+행각,Haenggak (Covered Corridors Surrounding a Building),핵심,궁궐 공간·기능,C
+궁성,Gungseong (Palace Wall),핵심,궁궐 공간·기능,C
+권역,Gwonyeok (Zone / Designated Area),핵심,궁궐 공간·기능,C
+대비전,Daebijeon (Residence of the Queen Dowager),보조,궁궐 공간·기능,C
+중궁전,Junggungjeon (Residence of the Queen Consort),보조,궁궐 공간·기능,C
+빈전,Binjeon (hall for royal coffin),보조,궁궐 공간·기능,A
+혼전,Honjeon (Spirit Hall),보조,궁궐 공간·기능,A
+궐외각사,Gworoegaksa (Government Offices Outside the Palace),보조,궁궐 공간·기능,C
+궁장,Gungjang (Palace Wall),보조,궁궐 공간·기능,C
+망루,Mangnu (Watchtower),보조,궁궐 공간·기능,C
+궐,Gwol (side tower of a palace),보조,궁궐 공간·기능,A
+조정,Jojeong (Royal Court / Main Courtyard),보조,궁궐 공간·기능,C
+일곽,Ilgwak (Enclosed Courtyard / Precinct),보조,궁궐 공간·기능,C
+사대부가 형식,Sadaebuga Style (Architectural Style of a Scholar-Official's Residence),보조,궁궐 공간·기능,C
+문루,Mullu (Gate Tower),핵심,건축 구조·부재,C
+홍예 / 홍예문,Hongye / Hongyemun (arch),핵심,건축 구조·부재,A
+석축,Seokchuk (Stone Retaining Wall / Stonework),핵심,건축 구조·부재,C
+기단,Gidan (Podium),핵심,건축 구조·부재,A
+월대,Woldae (Elevated Stone Platform),핵심,건축 구조·부재,C
+칸,Kan (intercolumnar space),핵심,건축 구조·부재,A
+중층,Jungcheung (Multi-storied Structure),핵심,건축 구조·부재,C
+현판 / 편액,Hyeonpan / Pyeonaek (plaque),핵심,건축 구조·부재,A
+답도,Dapdo (Carved Stone Pathway for the King's Palanquin),보조,건축 구조·부재,C
+소맷돌,Somaetdol (Decorative Stone Block at Stair Sides),보조,건축 구조·부재,C
+삼도 / 어도,Samdo and Eodo (Three-path Walkway and King's Walkway),보조,건축 구조·부재,C
+품계석,Pumgyeseok (Rank Stones),보조,건축 구조·부재,C
+박석,Bakseok (Paving Stones),보조,건축 구조·부재,C
+차일 / 차일고리,Chail and Chailgori (Awning and Awning Ring),보조,건축 구조·부재,C
+드므,Deumeu (Large Iron Vessel for Water),보조,건축 구조·부재,C
+금천,Geumcheon (Sacred Waterway Marking the Palace Boundary),보조,건축 구조·부재,C
+명당수,Myeongdangsu (Auspicious Waterway Based on Feng Shui),보조,건축 구조·부재,C
+홍예교,Hongyegyo (Arch Bridge),보조,건축 구조·부재,C
+엄지기둥,Eomjigidung (Main Baluster / End Pillar of a Bridge),보조,건축 구조·부재,C
+가산,Gasan (Artificial Hill),보조,건축 구조·부재,A
+누각,Nugak (Multi-story Open Pavilion),보조,건축 구조·부재,C
+정자,Jeongja (pavilion),보조,건축 구조·부재,A
+누마루,Numaru (Raised Floor with Open Views),보조,건축 구조·부재,C
+복도각,Bokdogak (Covered Connecting Corridor),보조,건축 구조·부재,C
+다락집,Darakjip (elevated or multi-story building),보조,건축 구조·부재,A
+통층,Tongcheung (Open-through Floor Structure),보조,건축 구조·부재,C
+중2층,Jung-icheung (Mezzanine / Internal Two-story Structure),보조,건축 구조·부재,C
+다포계,Dapo Style (Multi-cluster Bracket Architecture),보조,건축 구조·부재,C
+공포 / 출목,Gongpo / Chulmok (bracket system),보조,건축 구조·부재,A
+우진각지붕,Ujingakjibung (Hipped Roof),보조,건축 구조·부재,A
+팔작지붕,Paljakjibung (half-hipped roof),보조,건축 구조·부재,A
+말각천장,Malgakcheonjang (Latern-ceiling / Truncated Square Ceiling),보조,건축 구조·부재,C
+보개,Bogae (Decorative Canopy over the Throne),보조,건축 구조·부재,C
+어좌 / 보좌,Eojwa / Bojwa (Royal Throne),보조,건축 구조·부재,C
+안두리기둥,Andurigidung (Inner Circumferential Column),보조,건축 구조·부재,C
+단청,Dancheong (multi-color painting),보조,건축 구조·부재,A
+온돌,Ondol (Traditional Korean Underfloor Heating System),보조,건축 구조·부재,C
+대청,Daecheong (hall),보조,건축 구조·부재,A
+곳간,Gotgan (storehouse),보조,건축 구조·부재,A
+연가,Yeonga (Roof-shaped Chimney Cap),보조,건축 구조·부재,C
+수문,Sumun (Water Gate),보조,건축 구조·부재,C
+암문,Ammun (Hidden Gate / Secret Gate),보조,건축 구조·부재,C
+장대석,Jangdaeseok (long pedestal stone),보조,건축 구조·부재,A
+지대석,Jidaeseok (Foundation Stone / Plinth),보조,건축 구조·부재,C
+초석 / 주춧돌,Choseok / Juchutdol (Foundation Stone),보조,건축 구조·부재,A
+부재,Bujae (Structural Material / Member),보조,건축 구조·부재,C
+유구,Yugu (Architectural Remains / Ruins),보조,건축 구조·부재,C
+꽃담,Kkotdam (Decorative Flower Wall),보조,건축 구조·부재,C
+석분 / 석지,Seokbun and Seokji (Stone Planter and Stone Basin),보조,건축 구조·부재,C
+오행,"Ohaeng (Five Elements: Metal, Water, Wood, Fire, Earth)",핵심,사상·상징·장식,C
+사신(四神),Sasin (Four Guardian Deities / Four Celestial Guardians),핵심,사상·상징·장식,C
+서수,Seosu (Auspicious Mythical Animal),핵심,사상·상징·장식,A
+벽사,Byeoksa (Warding Off Evil Spirits),핵심,사상·상징·장식,C
+십장생,Sipjangsaeng (ten symbols of longevity),핵심,사상·상징·장식,A
+봉황,Bonghwang (Phoenix),핵심,사상·상징·장식,C
+음양,Eumyang (Yin and Yang / Principle of Dual Energy),보조,사상·상징·장식,C
+인·의·예·지·신,"Inuiyejisin (Five Confucian Virtues: Benevolence, Righteousness, Propriety, Wisdom, Trust)",보조,사상·상징·장식,C
+천원지방,Cheonwonjibang (Principle of Round Heaven and Square Earth),보조,사상·상징·장식,C
+사군자,"Sagunja (Four Gracious Plants: Plum, Orchid, Chrysanthemum, Bamboo)",보조,사상·상징·장식,A
+길상무늬,Gilsangmunui (auspicious patterns),보조,사상·상징·장식,A
+신수,Sinsu (Divine Mythical Beast),보조,사상·상징·장식,C
+천록,Cheollok (Horned Divine Beast Guarding the Waterway),보조,사상·상징·장식,C
+해태,Haetae (Mythical Creature Warding Off Fire and Evil),보조,사상·상징·장식,A
+칠조룡,Chiljoryong (Seven-clawed Dragon),보조,사상·상징·장식,C
+쌍룡 / 여의보주,Ssangnyong and Yeouiboju (Twin Dragons and Wish-fulfilling Jewel),보조,사상·상징·장식,C
+십이지신상,Sibijisinsang (Statues of the Twelve Animals of the Chinese Zodiac),보조,사상·상징·장식,A
+나티,Nati (Monster Mask Warding Off Evil),보조,사상·상징·장식,C
+불가사리,Bulgasari (Metal-eating Mythical Creature),보조,사상·상징·장식,C
+일월오봉도 / 일월오봉병,"Irworobongdo and Irworobongbyeong (Painting / Screen of Sun, Moon, and Five Peaks)",보조,사상·상징·장식,C
+삼절병,Samjeolbyeong (Three-panel Folding Screen),보조,사상·상징·장식,C
+오복,Obok (Five Blessings),보조,사상·상징·장식,C
+태괘,Taegwae (Hexagram of Peace and Harmony),보조,사상·상징·장식,C
+피휘,Pihwi (Naming Taboo Custom),보조,사상·상징·장식,C
+태평성대,Taepyeongseongdae (Era of Peace and Prosperity),보조,사상·상징·장식,C
+화마,Hwama (Fire Demon / Destructive Fire),보조,사상·상징·장식,C
+세자 / 왕세자,Seja / Wangseja (Crown Prince),핵심,왕실·신분·관직,C
+대비,Daebi (Queen Dowager),핵심,왕실·신분·관직,A
+문반 / 무반,Munban and Muban (Civil and Military Officials),핵심,왕실·신분·관직,C
+어진,Eojin (Royal Portrait),핵심,왕실·신분·관직,C
+신료,Sillyo (Court Officials / Retainers),핵심,왕실·신분·관직,C
+동반 / 서반,Dongban and Seoban (Civil Officials in the East and Military Officials in the West),보조,왕실·신분·관직,C
+세자빈,Sejabin (Crown Princess),보조,왕실·신분·관직,C
+종친,Jongchin (Royal Relatives),보조,왕실·신분·관직,C
+자친,Jachin (King's Mother),보조,왕실·신분·관직,C
+양자 / 양어머니,Yangja and Yangeomeoni (Adopted Son and Adoptive Mother),보조,왕실·신분·관직,C
+수렴청정,Suryeomcheongjeong (Regency by a Queen Dowager),보조,왕실·신분·관직,C
+친정,Chinjeong (Direct Rule by the King),보조,왕실·신분·관직,C
+승하,Seungha (Passing of a Monarch),보조,왕실·신분·관직,C
+국상,Guksang (State Mourning),보조,왕실·신분·관직,C
+존호,Jonho (Honorific Title),보조,왕실·신분·관직,C
+봉안,Bongan (Enshrinement),보조,왕실·신분·관직,C
+모사,Mosa (Copying / Reproducing),보조,왕실·신분·관직,C
+문무백관,Munmubaekgwan (All Civil and Military Officials),보조,왕실·신분·관직,C
+품계 (정1품·종1품),Pumgye (Official Rank System),보조,왕실·신분·관직,C
+공신,Gongsin (Meritorious Official),보조,왕실·신분·관직,C
+회맹제,Hoemaengje (Ritual of Allegiance by Meritorious Officials),보조,왕실·신분·관직,C
+사관,Sagwan (Official Historian / Historiographer),보조,왕실·신분·관직,C
+주서,Juseo (Royal Recorder in the Seungjeongwon),보조,왕실·신분·관직,C
+승지,Seungji (Royal Secretary),보조,왕실·신분·관직,C
+판서,Panseo (Minister of the Six Ministries),보조,왕실·신분·관직,C
+당상,Dangsang (High-ranking Official),보조,왕실·신분·관직,C
+내탕금,Naetanggeum (King's Privy Purse / Personal Funds),보조,왕실·신분·관직,C
+사신(使臣),Sasin (Diplomatic Envoy),보조,왕실·신분·관직,C
+집현전,Jiphyeonjeon (Hall of Worthies / Royal Research Institute),핵심,관청·제도·의례,C
+승정원,Seungjeongwon (Royal Secretariat),핵심,관청·제도·의례,C
+의정부 / 육조,Uijeongbu and Yukjo (State Council and Six Ministries),핵심,관청·제도·의례,C
+경연,Gyeongyeon (Royal Lecture),핵심,관청·제도·의례,C
+하례,Harye (Formal Congratulations to the King),핵심,관청·제도·의례,C
+삼군부,Samgunbu (Three Armies Headquarters),보조,관청·제도·의례,C
+사헌부,Saheonbu (Office of the Inspector General),보조,관청·제도·의례,C
+관아,Gwana (site of government office),보조,관청·제도·의례,A
+홍문관(옥당),Hongmungwan / Okdang (Office of Special Advisors),보조,관청·제도·의례,C
+예문관,Yemungwan (Office of Royal Decrees),보조,관청·제도·의례,C
+내의원,Naeuiwon (Royal Infirmary / Royal Medical Bureau),보조,관청·제도·의례,C
+빈청,Bincheong (Conference Hall for High Officials),보조,관청·제도·의례,C
+비변사,Bibyeonsa (Border Defense Council),보조,관청·제도·의례,C
+선전관청,Seonjeongwancheong (Office of Royal Messengers and Guards),보조,관청·제도·의례,C
+수문장청,Sumunjangcheong (Headquarters of Palace Gate Guards),보조,관청·제도·의례,C
+의약청,Uiyakcheong (Special Medical Office for the King and Queen),보조,관청·제도·의례,C
+군국기무처,Gungukgimucheo (Deliberative Council for Military and State Affairs),보조,관청·제도·의례,C
+내각,Naegak (Royal Library and Inner Cabinet),보조,관청·제도·의례,C
+대전장방,Daejeonjangbang (King's Personal Storage and Attendant Office),보조,관청·제도·의례,C
+수라간,Suragan (Royal Kitchen),보조,관청·제도·의례,C
+세답방,Sedapbang (Royal Laundry Office),보조,관청·제도·의례,C
+기별 / 조보,Gibyeol and Jobo (Government Newsletter / Official Gazette),보조,관청·제도·의례,C
+관보,Gwanbo (Official Government Gazette),보조,관청·제도·의례,C
+상소,Sangso (Official Petition to the King),보조,관청·제도·의례,C
+임면,Immyeon (Appointment and Dismissal of Officials),보조,관청·제도·의례,C
+교서,Gyoseo (Royal Edict / Royal Decree),보조,관청·제도·의례,C
+상참,Sangcham (Daily Morning Court Assembly),보조,관청·제도·의례,C
+서연,Seoyeon (Royal Lecture for the Crown Prince),보조,관청·제도·의례,C
+조회,Johoe (Morning Assembly of Officials),보조,관청·제도·의례,C
+즉위식,Jeugwisik (Enthronement Ceremony),보조,관청·제도·의례,C
+왕명 출납,Wangmyeong Chullap (Transmission of Royal Decrees and Reports),보조,관청·제도·의례,C
+문치,Munchi (Civil Rule / Rule by Learning and Law),보조,관청·제도·의례,C
+보빙사,Bobingsa (First Special Korean Diplomatic Mission to the United States),보조,관청·제도·의례,C
+수라 / 별식 / 다식,"Sura, Byeolsik, and Dasik (Royal Meal, Special Delicacy, and Traditional Snacks)",보조,관청·제도·의례,C
+임진왜란,"Imjinwaeran (Japanese Invasions of Korea, 1592–1598)",핵심,역사 사건·시대,C
+창건 / 중건 / 재건 / 복원 / 소실,Changgeon / Junggeon / Jaegeon / Bogwon / Sosil (Foundation / Reconstruction / Restoration / Destruction by Fire),핵심,역사 사건·시대,C
+고종 대 경복궁 중건,Reconstruction of Gyeongbokgung Palace under King Gojong,핵심,역사 사건·시대,C
+일제강점기,"Iljegangjeomgi (Japanese Colonial Period, 1910–1945)",핵심,역사 사건·시대,C
+조선총독부,Joseon Chongdokbu (Japanese Government-General of Korea),핵심,역사 사건·시대,C
+조선물산공진회,Joseon Mulsan Gongjinhoe (Joseon Industrial Exhibition of 1915),핵심,역사 사건·시대,C
+흥선대원군,Heungseondaewongun (Regent and Father of King Gojong),보조,역사 사건·시대,C
+신정왕후(조대비),Sinjeongwanghu / Jodaebi (Queen Sinjeong),보조,역사 사건·시대,C
+명성황후,Myeongseonghwanghu (Empress Myeongseong),보조,역사 사건·시대,C
+을미사변,Eulmisabyeon (Assassination of Empress Myeongseong in 1895),보조,역사 사건·시대,C
+갑오개혁,Gabogaehyeok (Gabo Reforms of 1894),보조,역사 사건·시대,C
+훼철,Hwecheol (Demolition / Destruction of Buildings),보조,역사 사건·시대,C
+중앙청,Jungangcheong (Former Central Government Building),보조,역사 사건·시대,C
+창덕궁 대화재 (1917),The Great Fire of Changdeokgung Palace in 1917,보조,역사 사건·시대,C
+관동대지진,Gwandongdaejijin (Great Kanto Earthquake of 1923),보조,역사 사건·시대,C
+조선박람회,Joseon Exhibition (1929),보조,역사 사건·시대,C
+한국전쟁,Hangukjeonjaeng (Korean War),보조,역사 사건·시대,C
+광복,Gwangbok (Liberation of Korea in 1945),보조,역사 사건·시대,C
+5·16 군사정변,May 16 Military Coup (1961),보조,역사 사건·시대,C
+단종 복위 운동,Movement to Restore King Danjong,보조,역사 사건·시대,C
+효명세자(익종),Hyomyeongseja / Ikjong (Crown Prince Hyomyeong),보조,역사 사건·시대,C
+경복궁 복원 정비사업,Gyeongbokgung Palace Restoration Project,보조,역사 사건·시대,C
+전기등소,Jeon-gideungso (First Electric Power Plant in Korea),보조,역사 사건·시대,C
+물불 / 건달불,Mulbul and Geondalbul (Early Nicknames for the Electric Light),보조,역사 사건·시대,C
+조선왕조실록,Joseon Wangjo Sillok (Annals of the Joseon Dynasty),핵심,문헌·사료,C
+승정원일기,Seungjeongwon Ilgi (Diaries of the Royal Secretariat),핵심,문헌·사료,C
+서경,Seogyeong (Book of Documents),보조,문헌·사료,C
+주역,Juyeok (I Ching / Book of Changes),보조,문헌·사료,C
+한서,Hanseo (Books in Classical Chinese),보조,문헌·사료,C
+북궐도형,Bukgwoldohyeong (Floor Plan of Gyeongbokgung Palace),보조,문헌·사료,C
+동궐도,Donggwoldo (Painting of the Eastern Palaces),보조,문헌·사료,C
+경복궁 영건일기,Gyeongbokgung Yeonggeon Ilgi (Diary of the Reconstruction of Gyeongbokgung Palace),보조,문헌·사료,C
+경회루전도,Gyeonghoerujeondo (Detailed Illustrated Plan of Gyeonghoeru Pavilion),보조,문헌·사료,C
+궁궐지,Gunggwolji (Historical Records of Royal Palaces),보조,문헌·사료,C
+조선고적도보,Joseongojeokdobo (Illustrated Book of Korean Ancient Relics),보조,문헌·사료,C
+흠경각기,Heumgyeonggakgi (Record of Heumgyeonggak Pavilion),보조,문헌·사료,C
+동문선,Dongmunseon (Collection of Excellent Korean Literary Works),보조,문헌·사료,C
+춘성유기,Chunseongyugi (Travelogue of the Spring City),보조,문헌·사료,C
+기문,Gimun (Commemorative Record),보조,문헌·사료,C
+세계기록유산,Segyegirogyusan (UNESCO Memory of the World),보조,문헌·사료,C
+국보 / 보물 (구 지정번호),Gukbo and Bomul (National Treasure and Treasure),핵심,과학·문화재 행정,C
+국가유산청(구 문화재청),Gukgayusancheong (Korea Heritage Service),핵심,과학·문화재 행정,C
+옥루,Ongnu (Automated Water Clock),보조,과학·문화재 행정,C
+물시계 / 천문시계,Mulsigye and Cheonmunsigye (Water Clock and Astronomical Clock),보조,과학·문화재 행정,A
+시보장치,Sibojangchi (Time-announcing Mechanism),보조,과학·문화재 행정,C
+기륜,Giryun (Mechanical Wheel),보조,과학·문화재 행정,C
+연륜연대조사,Dendrochronology (Tree-ring Dating),보조,과학·문화재 행정,C
+발굴조사,Balgul Josa (Archaeological Excavation),보조,과학·문화재 행정,C
+촉광,Chokgwang (Candlepower),보조,과학·문화재 행정,C
+집자,Jipja (Collecting and Reassembling Calligraphic Characters),보조,과학·문화재 행정,C
+익공 / 이익공 / 초익공,Ikgong / Iikgong / Choikgong (wing-like bracket),핵심,건축 구조·부재,A
+퇴칸 / 툇간,Toekan / Toetgan (quadrangular walkway),핵심,건축 구조·부재,A
+맞배지붕,Matbaejibung (Gabled roof),보조,건축 구조·부재,A
+잡상,Japsang (decorative figures on a roof ridge),보조,건축 구조·부재,A
+겹처마 / 홑처마,Gyeopcheoma and Hotcheoma (Double Eaves and Single Eaves),보조,건축 구조·부재,C
+굴도리,Guldori (round purlin),보조,건축 구조·부재,A
+삼문,Sammun (Three-bay Gate),보조,건축 구조·부재,C
+사주문,Sajumun (Four-pillar Gate),보조,건축 구조·부재,C
+솟을대문,Soseuldaemun (Tall Main Gate),보조,건축 구조·부재,C
+월문,Wolmun (Moon Gate / Arched Gate),보조,건축 구조·부재,C
+내전,Naejeon (hall in the palace's inner quarters),핵심,궁궐 공간·기능,A
+재실 / 내재실,Jaesil and Naejaesil (Ritual Preparation Room),보조,궁궐 공간·기능,C
+내명부,Naemyeongbu (Court Ladies of the Inner Palace),보조,왕실·신분·관직,C
+나인,Nain (Official Court Lady),보조,왕실·신분·관직,C
+후궁,Hugung (Royal Concubine / Residence of Royal Concubines),보조,왕실·신분·관직,C
+빈궁,Bingung (Residence of Royal Concubines),보조,왕실·신분·관직,C
+서사관 / 제술관,Seosagwan and Jesulgwan (Calligrapher and Writer),보조,왕실·신분·관직,C
+진찬,Jinchan (Royal Banquet),보조,관청·제도·의례,C
+대리청정,Daericheongjeong (Regency by the Crown Prince),보조,관청·제도·의례,C
+조참,Jocham (Monthly Morning Audience),보조,관청·제도·의례,C
+야대,Yadae (Nighttime Royal Lecture and Conference),보조,관청·제도·의례,C
+간택,Gantaek (Selection of Royal Spouses),보조,관청·제도·의례,C
+국문,Gungmun (Royal Interrogation),보조,관청·제도·의례,C
+산릉,Salleung (Royal Tomb),보조,관청·제도·의례,C
+영건도감,Yeonggeondogam (Temporary Office for Royal Construction),보조,관청·제도·의례,C
+상량문,Sangnyangmun (message for a ridge beam-raising ceremony),보조,문헌·사료,A
+일성록,Ilseongnok (Records of Daily Reflections),보조,문헌·사료,C
+증보문헌비고,Jeungbomunheonbigo (Expanded Encyclopedia of the Joseon Dynasty),보조,문헌·사료,C
+경직도,Gyeongjikdo (paintings of farming life),보조,사상·상징·장식,A
