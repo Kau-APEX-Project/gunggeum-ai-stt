@@ -30,7 +30,7 @@ def vad_table():
     out = ["| 검출기 | " + " | ".join(f"{COND[k][0]} {COND[k][1]}" if k != "clean" else "깨끗" for k in ORDER) + " |", "|---|" + "---|" * len(ORDER)]
     blocks = []
     for metric, title in (("무음구간_오작동(%)", "해설사가 쉬는 동안 배경에 켜진 파일 (%) ↓"), ("검출률(%)", "해설사 발화 프레임 검출률 (%) ↑"), ("오검출률(%)", "비발화 프레임 오검출률 (%) ↓")):
-        rows = [f"**{title}**", out[0], out[1]]
+        rows = [f"**{title}**", "", out[0], out[1]]  # 제목 뒤 빈 줄이 있어야 표로 렌더링됨
         for key, label in VADS:
             rows.append(f"| {label} | " + " | ".join(f"{float(v[(k, key)][metric]):.1f}" for k in ORDER) + " |")
         blocks.append("\n".join(rows))
