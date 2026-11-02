@@ -1,6 +1,6 @@
 """자막 지연 측정: 녹음 180개를 해설사처럼 실제 속도로 시험 서버에 흘려 넣고, 관람객처럼 자막을 받아 지연을 잰다.
 
-  python -m gunggeum_stt.bench_client --server ws://localhost:8765 --langs en,th --gap 1.0 [--limit 20] [--vad 0]
+  python -m gunggeum_stt.bench_client --server ws://localhost:8765 --langs en --gap 1.0 [--limit 20] [--vad 0]
   → results_live/bench_<tag>.jsonl, bench_<tag>_summary.json (평균·p90: 문장 끝→확정, →자막 도착, 단계별)
 
 입력: STT학습데이터/Benchmark/data/references.csv 와 .cache/wav16k/*.wav (16 kHz). 발화마다 해설 위치를 먼저 보낸다.
@@ -162,7 +162,7 @@ async def run(args):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--server", default="ws://localhost:8765")
-    ap.add_argument("--langs", default="en,th")
+    ap.add_argument("--langs", default="en", help="자막 언어, 쉼표로 여러 개 (예: en,th). 빈 문자열이면 번역 없이 STT만")
     ap.add_argument("--gap", type=float, default=1.0, help="발화 사이 무음(초)")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--vad", type=int, default=1)

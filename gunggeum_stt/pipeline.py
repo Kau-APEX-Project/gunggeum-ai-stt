@@ -37,8 +37,9 @@ class PipelineConfig:
 
 
 class LivePipeline:
-    def __init__(self, languages, location=None, config: PipelineConfig | None = None,
+    def __init__(self, languages=("en",), location=None, config: PipelineConfig | None = None,
                  transcribe_factory=None, translator=None):
+        """languages: 자막 언어. 영어("en")가 기본이고, 태국어("th")는 용어집·품질 검증 뒤 추가."""
         self.languages = [l for l in languages if l != "ko"]
         self.location = location
         self.cfg = config or PipelineConfig()

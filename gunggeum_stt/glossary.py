@@ -1,8 +1,11 @@
 """공통 용어집(전각 71곳 + 용어 231개 카드)과 해설 위치별 용어 목록.
 
-data/cards.json          박윤서님 RAG DB(gunggeum-ai-llm-gps docs)의 카드 메타: name·name_en·name_th·type·serial/no
+영문·태국어 표기의 원본은 레포 루트의 엑셀 `경복궁_전각.xlsx`(name_en) · `경복궁_용어.xlsx`("영문 표기 (작성용)") 이고,
+`python -m gunggeum_stt.build_glossary` 가 아래 두 파일을 만든다. 엑셀이 바뀌면 다시 돌려 커밋한다.
+
+data/cards.json          카드 메타: type·serial/no·name·name_en·name_th·nameId (자막 카드 링크용)
 data/hints_by_location.json  해설 위치(26곳) → 그 위치에서 쓰는 용어 목록 (STT 벤치마크 data/와 같음)
-data/translate_terms.csv  Amazon Translate 사용자 지정 용어집 (ko,en,th). gunggeum-ai-llm-gps/server/export_terms.py 출력과 같음
+data/translate_terms.csv  Amazon Translate 사용자 지정 용어집 (ko,en,th). 규칙은 gunggeum-ai-llm-gps/server/export_terms.py 와 같음
 
 Transcribe 사용자 지정 어휘 이름은 벤치마크에서 만든 것과 같다: 전체 gungeum-gyeongbokgung-ko, 위치별 gungeum-loc-00~25
 (hints_by_location.json의 순서). 다른 계정에 새로 만들 때는 `python -m gunggeum_stt.glossary --create-vocab`.

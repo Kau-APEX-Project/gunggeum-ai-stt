@@ -4,7 +4,7 @@
 → 후처리 사전(고유명사 교정) → Amazon Translate(용어집) → 카드 링크 → 자막 이벤트.
 
     from gunggeum_stt import LivePipeline
-    pipe = LivePipeline(languages=["en", "th"], location="광화문")
+    pipe = LivePipeline(languages=["en"], location="광화문")   # 영어 우선, 태국어는 나중에 추가
     await pipe.start()
     await pipe.feed(pcm_bytes)          # 마이크 조각이 올 때마다
     async for ev in pipe.events():      # partial / final / subtitle
