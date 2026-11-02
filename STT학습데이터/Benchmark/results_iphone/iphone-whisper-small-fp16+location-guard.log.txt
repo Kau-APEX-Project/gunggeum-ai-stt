@@ -1,0 +1,16 @@
+2026-10-24T15:40:43.797Z 환경: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1 | GPU {"vendor":"apple","arch":"apple","f16":true,"maxBuf":1073741824,"maxStorage":1073741824} | 메모리 ?GB
+2026-10-24T15:40:43.854Z 발화 30개 로드. 모델 내려받는 중…
+2026-10-24T15:40:45.673Z   받기 시작: config.json
+2026-10-24T15:40:45.905Z   받음: config.json
+2026-10-24T15:40:45.909Z   받기 시작: preprocessor_config.json
+2026-10-24T15:40:45.911Z   받기 시작: tokenizer.json
+2026-10-24T15:40:45.912Z   받기 시작: tokenizer_config.json
+2026-10-24T15:40:45.919Z   받기 시작: onnx/encoder_model_fp16.onnx
+2026-10-24T15:40:45.918Z   받기 시작: generation_config.json
+2026-10-24T15:40:45.920Z   받기 시작: onnx/decoder_model_merged_fp16.onnx
+2026-10-24T15:40:46.328Z   받음: preprocessor_config.json
+2026-10-24T15:40:46.347Z   받음: tokenizer_config.json
+2026-10-24T15:40:46.383Z   받음: generation_config.json
+2026-10-24T15:40:46.479Z   받음: tokenizer.json
+2026-10-24T15:41:00.413Z   받음: onnx/encoder_model_fp16.onnx
+2026-10-24T15:41:16.133Z   받음: onnx/decoder_model_merged_fp16.onnx

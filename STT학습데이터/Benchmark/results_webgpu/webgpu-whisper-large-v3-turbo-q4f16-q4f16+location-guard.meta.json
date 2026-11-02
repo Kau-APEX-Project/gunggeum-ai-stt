@@ -1,0 +1,17 @@
+{
+ "model": "onnx-community/whisper-large-v3-turbo",
+ "enc": "q4f16",
+ "dec": "q4f16",
+ "hint": "location",
+ "guard": true,
+ "retries": 1,
+ "device": "webgpu",
+ "gpu": {
+  "vendor": "apple",
+  "arch": "metal-3",
+  "f16": true,
+  "maxBuf": 4294967292
+ },
+ "load_sec": 16.5,
+ "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Claude/3.6556.2 Chrome/152.0.7977.167 Safari/537.36"
+}

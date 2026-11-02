@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WebGPU STT 측정</title>
+<style>
+  body { font-family: -apple-system, "Apple SD Gothic Neo", sans-serif; margin: 16px; line-height: 1.5; background: #fff; color: #111; }
+  button { font-size: 16px; padding: 8px 14px; }
+  #log { white-space: pre-wrap; font-family: ui-monospace, Menlo, monospace; font-size: 12px; background: #f4f4f2; padding: 8px; max-height: 60vh; overflow: auto; }
+</style>
+</head>
+<body>
+<h1>WebGPU STT 측정</h1>
+<p id="info"></p>
+<button id="run">측정 시작</button>
+<div id="log"></div>
+<script type="module">
+// 쿼리: model(onnx-community 저장소), enc/dec(dtype), limit(발화 수), hint(none|location), name(결과 이름)
+import { pipeline, env } from "https://cdn.jsdelivr.net/npm/@huggingface/transformers@4.3.1";
+
+const q = new URLSearchParams(location.search);
+// nocache: 받은 모델 파일을 Cache API에 한 번 더 쓰지 않는다 (iPhone Safari 탭 메모리 한도 대응)
+if (q.has("nocache")) env.useBrowserCache = false;
+const model = q.get("model") || "onnx-community/whisper-large-v3-turbo";
+const enc = q.get("enc") || "q4f16", dec = q.get("dec") || "q4f16";
+const limit = +(q.get("limit") || 180);
+const hint = q.get("hint") || "none";
+const guard = q.has("guard");
+const name = q.get("name") || `webgpu-${model.split("/")[1]}-${enc}-${dec}` + (hint === "none" ? "" : `+${hint}`) + (guard ? "-guard" : "");
+const save = !q.has("nosave");
+const logEl = document.getElementById("log");
+const log = (s) => {
+  logEl.textContent += s + "\n"; logEl.scrollTop = logEl.scrollHeight;
+  if (save) fetch(`/save?name=${encodeURIComponent(name)}`, { method: "POST", body: JSON.stringify({ log: `${new Date().toISOString()} ${s}` }) }).catch(() => {});
+};
+window.addEventListener("error", (e) => log("window error: " + e.message));
+window.addEventListener("unhandledrejection", (e) => log("unhandled: " + (e.reason?.stack || e.reason)));
+document.getElementById("info").textContent = `${model} · encoder ${enc} · decoder ${dec} · ${limit}개 · 사전 ${hint}${guard ? " · 반복 방지" : ""} · WebGPU ${"gpu" in navigator ? "있음" : "없음"}`;
+
+function parseWav(buf) {  // 16bit PCM mono WAV -> Float32Array
+  const v = new DataView(buf);
+  let off = 12;
+  while (off < v.byteLength) {
+    const id = String.fromCharCode(...new Uint8Array(buf, off, 4)), size = v.getUint32(off + 4, true);
+    if (id === "data") {
+      const n = size / 2, out = new Float32Array(n);
+      for (let i = 0; i < n; i++) out[i] = v.getInt16(off + 8 + i * 2, true) / 32768;
+      return out;
+    }
+    off += 8 + size + (size % 2);
+  }
+  throw new Error("data chunk 없음");
+}
+
+function parseCsv(text) {
+  const rows = []; let row = [], cell = "", inQ = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (inQ) { if (c === '"' && text[i + 1] === '"') { cell += '"'; i++; } else if (c === '"') inQ = false; else cell += c; }
+    else if (c === '"') inQ = true;
+    else if (c === ",") { row.push(cell); cell = ""; }
+    else if (c === "\n") { row.push(cell); rows.push(row); row = []; cell = ""; }
+    else if (c !== "\r") cell += c;
+  }
+  if (cell || row.length) { row.push(cell); rows.push(row); }
+  const [head, ...body] = rows;
+  return body.map((r) => Object.fromEntries(head.map((h, i) => [h, r[i]])));
+}
+
+async function post(row) {
+  if (save) await fetch(`/save?name=${encodeURIComponent(name)}`, { method: "POST", body: JSON.stringify(row) });
+}
+
+document.getElementById("run").onclick = async () => {
+  document.getElementById("run").disabled = true;
+  try {
+    try { await navigator.wakeLock?.request("screen"); } catch {}  // 폰 화면이 꺼지면 측정이 멈춘다
+    const adapter = await navigator.gpu?.requestAdapter();
+    const gpu = adapter ? { vendor: adapter.info?.vendor, arch: adapter.info?.architecture,
+                            f16: adapter.features.has("shader-f16"), maxBuf: adapter.limits.maxBufferSize,
+                            maxStorage: adapter.limits.maxStorageBufferBindingSize } : null;
+    log(`환경: ${navigator.userAgent} | GPU ${JSON.stringify(gpu)} | 메모리 ${navigator.deviceMemory ?? "?"}GB`);
+    const refs = parseCsv(await (await fetch("../data/references.csv")).text()).slice(0, limit);
+    const locHints = await (await fetch("../data/hints_by_location.json")).json();
+    log(`발화 ${refs.length}개 로드. 모델 내려받는 중…`);
+    const t0 = performance.now();
+    const asr = await pipeline("automatic-speech-recognition", model, {
+      // transformers.js v4는 인코더 세션 키가 "model"이다 (파일은 encoder_model_*.onnx)
+      device: "webgpu", dtype: { model: enc, encoder_model: enc, decoder_model_merged: dec },
+      progress_callback: (p) => {
+        if (p.status === "initiate") log(`  받기 시작: ${p.file}`);
+        else if (p.status === "done") log(`  받음: ${p.file}`);
+        else if (p.status === "ready") log(`  세션 준비: ${p.task ?? p.model ?? ""}`);
+      },
+    });
+    const loadSec = (performance.now() - t0) / 1000;
+    log(`모델 준비 ${loadSec.toFixed(1)}초 (브라우저 캐시 ${env.useBrowserCache ? "사용" : "끔"})`);
+
+    // transformers.js에는 Whisper prompt_ids가 없어서, Python의 initial_prompt처럼
+    // <|startofprev|> + 사전 문장 + <|startoftranscript|><|ko|><|transcribe|><|notimestamps|>를 디코더 시작 토큰으로 직접 넘긴다.
+    const tok = (s) => asr.tokenizer.encode(s, { add_special_tokens: false });
+    const gc = asr.model.generation_config;
+    const head = [gc.decoder_start_token_id, gc.lang_to_id["<|ko|>"], gc.task_to_id["transcribe"], gc.no_timestamps_token_id];
+    const initTokens = (r) => {
+      if (hint !== "location") return head;
+      let terms = locHints[r.location];
+      let ids;
+      do {  // 프롬프트는 223토큰까지만 (Python 쪽과 같은 규칙)
+        ids = tok(" 경복궁 해설입니다. " + terms.join(", ") + ".");
+        terms = terms.slice(0, -1);
+      } while (ids.length > 223 && terms.length);
+      return [...tok("<|startofprev|>"), ...ids, ...head];
+    };
+    const decode = async (inputs, init, maxNew) => {
+      const out = await asr.model.generate({ ...inputs, decoder_input_ids: init, max_new_tokens: maxNew });
+      const seq = out.tolist()[0].map(Number).slice(init.length);
+      return { text: asr.tokenizer.decode(seq, { skip_special_tokens: true }).trim(), n: seq.length };
+    };
+    // transformers.js에는 Whisper의 temperature fallback(반복 감지 후 재디코딩)이 없다.
+    // guard: 출력 길이를 음성 길이에 비례해 제한하고(실측 최대 초당 6토큰의 2배), 상한에 닿거나
+    // 같은 단어가 4번 이상 반복되면 사전 없이 한 번 더 디코딩한다. 재디코딩 시간도 대기 시간에 포함된다.
+    const broken = ({ text, n }, maxNew) => {
+      const words = text.split(/[\s,.]+/).filter(Boolean), cnt = {};
+      words.forEach((w) => (cnt[w] = (cnt[w] || 0) + 1));
+      return n >= maxNew || Math.max(0, ...Object.values(cnt)) >= 4;
+    };
+    let retries = 0;
+    const run = async (r) => {
+      const audio = parseWav(await (await fetch(`../.cache/wav16k/${r.id}.wav`)).arrayBuffer());
+      const t = performance.now();
+      const init = initTokens(r);
+      const inputs = await asr.processor(audio);
+      const maxNew = guard ? Math.min(440 - init.length, Math.ceil(+r.duration * 12) + 10) : 440 - init.length;
+      let res = await decode(inputs, init, maxNew);
+      if (guard && init !== head && broken(res, maxNew)) {
+        retries++;
+        res = await decode(inputs, head, Math.min(440 - head.length, maxNew));
+      }
+      return { text: res.text, sec: (performance.now() - t) / 1000 };
+    };
+
+    await run(refs[0]);  // 워밍업
+    await post({ meta: { model, enc, dec, hint, device: "webgpu", gpu, load_sec: +loadSec.toFixed(1), ua: navigator.userAgent } });
+    let sumProc = 0, sumDur = 0;
+    for (const [i, r] of refs.entries()) {
+      const { text, sec } = await run(r);
+      sumProc += sec; sumDur += +r.duration;
+      await post({ id: r.id, hyp: text, proc_sec: +sec.toFixed(4), duration: +r.duration });
+      log(`${r.id} ${sec.toFixed(2)}s  ${text}`);
+      if ((i + 1) % 10 === 0) log(`-- ${i + 1}/${refs.length}  RTF ${(sumProc / sumDur).toFixed(3)}`);
+    }
+    log(`완료: RTF ${(sumProc / sumDur).toFixed(3)}, 평균 ${(sumProc / refs.length).toFixed(2)}초/발화, 재디코딩 ${retries}건`);
+    await post({ meta: { model, enc, dec, hint, guard, retries, device: "webgpu", gpu, load_sec: +loadSec.toFixed(1), ua: navigator.userAgent } });
+    document.title = "DONE";
+  } catch (e) {
+    log("오류: " + (e && e.stack || e));
+    document.title = "ERROR";
+  }
+};
+if (q.has("autorun")) document.getElementById("run").click();
+</script>
+</body>
+</html>

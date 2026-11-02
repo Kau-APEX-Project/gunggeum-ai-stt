@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- gunggeum-ai-stt 추가 ---
+# macOS
+.DS_Store
+
+# 자격 증명·환경 파일 (CLOVA·AWS 키 등)
+*.env
+.env.*
+*.pem
+*.key
+credentials*
+
+# STT 벤치마크: 가상환경·캐시·빌드 산출물 (실행 시 자동 생성)
+STT학습데이터/Benchmark/.venv/
+STT학습데이터/Benchmark/.cache/
+*.app/
+muesli_apply

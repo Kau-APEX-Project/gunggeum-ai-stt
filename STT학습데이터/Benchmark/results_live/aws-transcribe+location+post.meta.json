@@ -1,0 +1,7 @@
+{
+ "model": "aws-transcribe",
+ "hint": "location",
+ "device": "AWS ap-northeast-2 streaming",
+ "pace": "fast",
+ "machine": "macOS-27.0.1-arm64-arm-64bit"
+}

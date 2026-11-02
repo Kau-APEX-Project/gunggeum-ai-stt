@@ -1,0 +1,6 @@
+{
+ "model": "apple-transcriber",
+ "hint": "location",
+ "device": "Apple Speech framework",
+ "machine": "macOS-27.0.1-arm64-arm-64bit"
+}

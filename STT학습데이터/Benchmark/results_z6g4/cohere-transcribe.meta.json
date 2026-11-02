@@ -1,0 +1,9 @@
+{
+ "model": "cohere-transcribe",
+ "repo": "models/cohere-transcribe-03-2026",
+ "hint": "none",
+ "device": "cuda",
+ "dtype": "float16",
+ "load_sec": 8.0,
+ "machine": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43"
+}

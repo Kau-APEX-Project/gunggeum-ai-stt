@@ -1,0 +1,2 @@
+﻿run,model,hint,load_sec,n,CER(%),CER_원문(%),완전일치(%),붕괴발화(CER≥50%),용어인식률(%),용어집용어(%),전각명(%),RTF,지연_평균(s),지연_p90(s),지연_최대(s),CER_숫자·연도(%),CER_용어 3개 이상(%),CER_긴 발화(%)
+iphone-whisper-base-fp16+location-guard,iphone-whisper-base-fp16,location-guard,14.2,1,7.89,7.89,0.0,0,100.0,,100.0,0.4187,2.813,2.813,2.813,,,

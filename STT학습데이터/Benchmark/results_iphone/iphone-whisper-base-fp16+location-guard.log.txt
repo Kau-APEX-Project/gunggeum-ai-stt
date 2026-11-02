@@ -1,0 +1,19 @@
+2026-10-24T15:42:35.289Z 환경: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1 | GPU {"vendor":"apple","arch":"apple","f16":true,"maxBuf":1073741824,"maxStorage":1073741824} | 메모리 ?GB
+2026-10-24T15:42:35.347Z 발화 30개 로드. 모델 내려받는 중…
+2026-10-24T15:42:37.425Z   받기 시작: config.json
+2026-10-24T15:42:37.665Z   받음: config.json
+2026-10-24T15:42:37.672Z   받기 시작: tokenizer_config.json
+2026-10-24T15:42:37.671Z   받기 시작: tokenizer.json
+2026-10-24T15:42:37.669Z   받기 시작: preprocessor_config.json
+2026-10-24T15:42:37.678Z   받기 시작: generation_config.json
+2026-10-24T15:42:37.679Z   받기 시작: onnx/encoder_model_fp16.onnx
+2026-10-24T15:42:37.681Z   받기 시작: onnx/decoder_model_merged_fp16.onnx
+2026-10-24T15:42:38.093Z   받음: preprocessor_config.json
+2026-10-24T15:42:38.107Z   받음: tokenizer_config.json
+2026-10-24T15:42:38.141Z   받음: generation_config.json
+2026-10-24T15:42:38.206Z   받음: tokenizer.json
+2026-10-24T15:42:43.849Z   받음: onnx/encoder_model_fp16.onnx
+2026-10-24T15:42:48.639Z   받음: onnx/decoder_model_merged_fp16.onnx
+2026-10-24T15:42:49.526Z   세션 준비: automatic-speech-recognition
+2026-10-24T15:42:49.527Z 모델 준비 14.2초 (브라우저 캐시 끔)
+2026-10-24T15:42:56.781Z U0001 2.81s  광화문은 경복궁의 정문이자 남문으로 임금의 큰 덕의 온 나라를 빛인다는 뜻을 담고 있습니다.

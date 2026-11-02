@@ -1,0 +1,9 @@
+{
+ "model": "cohere-transcribe",
+ "repo": "models/cohere-transcribe-03-2026",
+ "hint": "none",
+ "device": "mps",
+ "dtype": "float16",
+ "load_sec": 10.1,
+ "machine": "macOS-26.5.2-arm64-arm-64bit"
+}

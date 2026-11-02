@@ -1,0 +1,9 @@
+{
+ "model": "whisper-large-v3-turbo",
+ "repo": "mobiuslabsgmbh/faster-whisper-large-v3-turbo",
+ "hint": "location",
+ "device": "cuda",
+ "dtype": "float16",
+ "load_sec": 1.8,
+ "machine": "Linux-7.0.0-38-generic-x86_64-with-glibc2.43"
+}
