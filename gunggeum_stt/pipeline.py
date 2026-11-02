@@ -5,7 +5,9 @@
   {"type": "final", "seq": n, "ko_raw": "…", "ko": "…", "changes": [[원래, 용어, 점수]], "audio_end": 초(이 연결 기준),
    "audio_end_abs": 초(세션 시작부터 받은 오디오 기준), "ms": {...}}
   {"type": "subtitle", "seq": n, "ko": "…", "text": {"en": "…", "th": "…"}, "links": {"en": "…", "th": "…"},
-   "ms": {"stt": 문장 끝→확정, "post": 후처리, "translate": 번역(가장 늦은 언어), "total": 문장 끝→자막}}
+   "ms": {"stt": Transcribe가 말한 문장 끝 시각→확정 도착, "stt_speech": VAD가 본 마지막 말소리→확정 도착(VAD 켤 때만),
+          "post": 후처리, "translate": 번역(가장 늦은 언어), "total": 문장 끝→자막}}
+  Transcribe의 end_time은 문장 뒤 무음까지 포함하는 경향이 있어 "stt"가 실제보다 작게 나온다. 자막 지연은 stt_speech·total로 본다.
   {"type": "gate", "kind": "start"|"end", "audio_sec": 초}           VAD가 발화 시작·끝을 본 시점
   {"type": "error", "where": "...", "message": "..."}
 
@@ -134,9 +136,12 @@ class LivePipeline:
         seq = self.seq
         stt_ms = (rec.received_at - rec.sent_at) * 1000
         audio_end_abs = round(self.stream_offset + rec.end_sec, 3)
+        ms = {"stt": round(stt_ms, 1), "post": round(post_ms, 2)}
+        last_speech = self.gate.last_speech_sec
+        if last_speech is not None and self.stream is not None and last_speech - self.stream_offset <= rec.end_sec + 0.05:
+            ms["stt_speech"] = round((rec.received_at - self.stream.sent_time_at(last_speech - self.stream_offset)) * 1000, 1)
         await self.queue.put({"type": "final", "seq": seq, "ko_raw": rec.text, "ko": ko, "changes": changes,
-                             "audio_end": round(rec.end_sec, 3), "audio_end_abs": audio_end_abs,
-                             "ms": {"stt": round(stt_ms, 1), "post": round(post_ms, 2)}})
+                             "audio_end": round(rec.end_sec, 3), "audio_end_abs": audio_end_abs, "ms": ms})
         task = asyncio.create_task(self._translate_and_emit(seq, ko, rec.sent_at, stt_ms, post_ms, audio_end_abs))
         self._translate_tasks.add(task)
         task.add_done_callback(self._translate_tasks.discard)

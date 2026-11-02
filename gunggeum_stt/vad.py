@@ -80,6 +80,11 @@ class StreamGate:
     def audio_sec(self) -> float:
         return self.frames_in * FRAME / SR
 
+    @property
+    def last_speech_sec(self) -> float | None:
+        """마지막으로 말로 본 조각의 끝(세션 오디오 기준). VAD를 끄면 None."""
+        return self.last_on * FRAME / SR if self.cfg.enabled and self.last_on > 0 else None
+
     def reset(self):
         if self.model is not None:
             self.model.reset_states()

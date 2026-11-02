@@ -65,3 +65,17 @@ AWS에 어휘·용어집이 없으면 한 번 만든다 (Transcribe·Translate �
 - 해설사: `ws://…/ws/guide?session=S&location=광화문&langs=en,th` 에 PCM 바이너리 프레임, `{"type":"location",…}`·`{"type":"mic","on":false}` 텍스트 프레임
 - 관람객: `ws://…/ws/listen?session=S&lang=en` 에서 `{"type":"subtitle","seq","ko","text","linked","ms"}`
 - 결과: `results_live/bench_<tag>.jsonl`, `bench_<tag>_summary.json`
+
+### 지연 실측 (2026-11-02, 녹음 20개, 맥북 → 서울 리전, 번역 제외)
+
+"말 끝"은 녹음에서 말소리가 끝나는 지점(파일 끝 무음 제외)을 보낸 시각, "확정"은 Transcribe 확정 문장이 서버를 거쳐 해설사 소켓에 닿은 시각.
+
+| 구성 | 말 끝 → 확정 평균 (ms) ↓ | p90 (ms) ↓ | 확정 문장 수 (발화 20개) | 비고 |
+|---|---|---|---|---|
+| VAD 켬, 연결 유지(무음 1.5초 뒤 닫음) | 617 | 756 | 20 | 문장 사이 1초 쉼은 그대로 보내 Transcribe가 스스로 문장 끝 판정 |
+| VAD 켬, 무음 0.7초 뒤 닫음 | 245 | 387 | 26 | 닫으면 바로 확정되지만 0.7초 쉼마다 문장이 잘림(6개 추가) |
+| VAD 끔(항상 보냄) | 589 | 762 | 20 | 연속 스트림, 쉬는 동안도 과금 |
+
+Transcribe 자체 문장 끝 판정은 말이 끝나고 약 0.6초 뒤에 확정을 보냅니다. 목표(문장 끝 → 자막 3초) 중 STT가 쓰는 몫은
+p90 0.8초라 번역(0.2~0.4초)을 더해도 여유가 있으므로, 기본값은 **VAD 켬 + 무음 1.5초 뒤 닫기**(문장이 잘리지 않음)입니다.
+번역을 포함한 전체 지연은 Translate 권한이 붙은 뒤 `bench_client --langs en,th`로 잽니다.
