@@ -1,0 +1,16 @@
+2026-10-24T15:36:55.511Z 환경: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1 | GPU {"vendor":"apple","arch":"apple","f16":true,"maxBuf":1073741824,"maxStorage":1073741824} | 메모리 ?GB
+2026-10-24T15:36:55.574Z 발화 30개 로드. 모델 내려받는 중…
+2026-10-24T15:36:56.283Z   받음: config.json
+2026-10-24T15:36:56.291Z   받음: preprocessor_config.json
+2026-10-24T15:36:56.305Z   받음: tokenizer.json
+2026-10-24T15:36:56.346Z   받음: tokenizer_config.json
+2026-10-24T15:36:56.456Z   받음: generation_config.json
+2026-10-24T15:36:56.455Z   받음: onnx/decoder_model_merged_q4f16.onnx
+2026-10-24T15:37:01.801Z 환경: Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0.1 Mobile/15E148 Safari/604.1 | GPU {"vendor":"apple","arch":"apple","f16":true,"maxBuf":1073741824,"maxStorage":1073741824} | 메모리 ?GB
+2026-10-24T15:37:01.882Z 발화 30개 로드. 모델 내려받는 중…
+2026-10-24T15:37:02.426Z   받음: config.json
+2026-10-24T15:37:02.436Z   받음: preprocessor_config.json
+2026-10-24T15:37:02.451Z   받음: tokenizer.json
+2026-10-24T15:37:02.493Z   받음: tokenizer_config.json
+2026-10-24T15:37:02.611Z   받음: generation_config.json
+2026-10-24T15:37:02.610Z   받음: onnx/decoder_model_merged_q4f16.onnx

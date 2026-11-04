@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>apple_stt</string>
+	<key>CFBundleIdentifier</key>
+	<string>kr.gungeum.apple-stt-bench</string>
+	<key>CFBundleName</key>
+	<string>apple_stt</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>STT 벤치마크용 녹음 파일을 전사합니다.</string>
+</dict>
+</plist>

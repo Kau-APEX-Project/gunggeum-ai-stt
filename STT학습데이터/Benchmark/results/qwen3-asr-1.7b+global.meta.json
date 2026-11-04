@@ -1,0 +1,9 @@
+{
+ "model": "qwen3-asr-1.7b",
+ "repo": "Qwen/Qwen3-ASR-1.7B-hf",
+ "hint": "global",
+ "device": "mps",
+ "dtype": "float16",
+ "load_sec": 11.2,
+ "machine": "macOS-27.0.1-arm64-arm-64bit"
+}

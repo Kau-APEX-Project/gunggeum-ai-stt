@@ -1,0 +1,9 @@
+{
+ "model": "whisper-large-v3",
+ "repo": "mlx-community/whisper-large-v3-mlx",
+ "hint": "location",
+ "device": "mlx(gpu)",
+ "dtype": "float16",
+ "load_sec": 0.9,
+ "machine": "macOS-26.5.2-arm64-arm-64bit"
+}

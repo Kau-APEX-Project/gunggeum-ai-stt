@@ -1,0 +1,7 @@
+{
+ "model": "clova",
+ "hint": "location",
+ "weight": 1.0,
+ "device": "CLOVA Speech 장문 인식 sync",
+ "machine": "macOS-27.0.1-arm64-arm-64bit"
+}
