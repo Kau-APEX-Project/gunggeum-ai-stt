@@ -1,0 +1,8 @@
+﻿run,model,hint,load_sec,n,CER(%),CER_원문(%),완전일치(%),붕괴발화(CER≥50%),용어인식률(%),용어집용어(%),전각명(%),RTF,지연_평균(s),지연_p90(s),지연_최대(s),CER_숫자·연도(%),CER_용어 3개 이상(%),CER_긴 발화(%)
+aws-transcribe+location+post__babble0,aws-transcribe,location+post__babble0,,180,40.39,40.8,7.78,63,53.47,51.59,57.89,0.1657,1.255,1.673,2.091,40.51,39.46,38.53
+aws-transcribe+location+post__babble10,aws-transcribe,location+post__babble10,,180,4.45,4.7,33.33,0,92.17,91.08,94.74,0.1656,1.255,1.71,2.023,3.94,3.91,3.66
+aws-transcribe+location+post__babble20,aws-transcribe,location+post__babble20,,180,3.89,4.07,40.56,0,93.06,91.72,96.24,0.165,1.25,1.635,2.189,3.39,3.64,2.17
+aws-transcribe+location+post__babble5,aws-transcribe,location+post__babble5,,180,9.11,9.47,17.78,0,82.77,82.17,84.21,0.1652,1.251,1.67,2.036,9.22,8.44,6.51
+aws-transcribe+location+post__talker0,aws-transcribe,location+post__talker0,,180,62.07,62.48,0.56,107,42.95,41.08,47.37,0.1654,1.253,1.69,2.083,56.71,68.36,61.74
+aws-transcribe+location+post__talker10,aws-transcribe,location+post__talker10,,180,8.26,8.43,27.78,4,88.59,88.54,88.72,0.1655,1.254,1.672,2.027,5.27,6.73,5.7
+aws-transcribe+location+post__talker5,aws-transcribe,location+post__talker5,,180,24.42,24.67,12.78,29,74.05,71.97,78.95,0.1668,1.264,1.674,2.22,16.59,25.94,16.55

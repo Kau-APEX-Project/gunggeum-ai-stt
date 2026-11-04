@@ -1,0 +1,2 @@
+silero_vad.onnx — Silero VAD (https://github.com/snakers4/silero-vad), MIT License, Copyright (c) 2020-present Silero Team.
+파이프라인의 음성 구간 검출에 쓰는 모델 파일. torch 없이 onnxruntime으로 돌리기 위해 패키지에 포함.

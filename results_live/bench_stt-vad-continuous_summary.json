@@ -1,0 +1,38 @@
+{
+ "tag": "stt-vad-continuous",
+ "vad": 1,
+ "close_ms": 1500,
+ "gap_sec": 1.0,
+ "utterances": 20,
+ "finals": 20,
+ "utterances_with_final": 20,
+ "unmatched_finals": 0,
+ "missing_utterances": [],
+ "speech_end_to_final_ms": {
+  "n": 20,
+  "avg": 617.0,
+  "p90": 755.6,
+  "max": 851.8
+ },
+ "file_end_to_final_ms": {
+  "n": 20,
+  "avg": 62.5,
+  "p90": 258.3,
+  "max": 281.9
+ },
+ "stt_ms(transcribe_end_time→final)": {
+  "n": 20,
+  "avg": 120.2,
+  "p90": 155.7,
+  "max": 156.6
+ },
+ "speech_end_to__ms": {
+  "n": 20,
+  "avg": 617.9,
+  "p90": 756.8,
+  "max": 852.6
+ },
+ "_translate_ms": null,
+ "wall_sec": 166.0,
+ "audio_sec": 155.9
+}

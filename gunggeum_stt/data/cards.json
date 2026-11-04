@@ -1,0 +1,2649 @@
+[
+ {
+  "type": "building",
+  "serial": 151,
+  "name": "광화문",
+  "name_en": "Gwanghwamun (Palace Gate)",
+  "name_th": "ควังฮวามุน (ประตูพระราชวัง)",
+  "nameId": "place:gwanghwamun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 152,
+  "name": "건춘문",
+  "name_en": "Geonchunmun (Palace Gate)",
+  "name_th": "คอนชุนมุน (ประตูพระราชวัง)",
+  "nameId": "place:geonchunmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 153,
+  "name": "영추문",
+  "name_en": "Yeongchumun (Palace Gate)",
+  "name_th": "ยองชุมุน (ประตูพระราชวัง)",
+  "nameId": "place:yeongchumun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 154,
+  "name": "신무문",
+  "name_en": "Sinmumun (Palace Gate)",
+  "name_th": "ชินมุมุน (ประตูพระราชวัง)",
+  "nameId": "place:p-16"
+ },
+ {
+  "type": "building",
+  "serial": 155,
+  "name": "흥례문",
+  "name_en": "Heungnyemun (Palace Gate)",
+  "name_th": "ฮึงนเยมุน (ประตูพระราชวัง)",
+  "nameId": "place:heungnyemun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 156,
+  "name": "영제교",
+  "name_en": "Yeongjegyo (Stone Bridge)",
+  "name_th": "ยองเจกโย (สะพานหิน)",
+  "nameId": "place:p-17"
+ },
+ {
+  "type": "building",
+  "serial": 157,
+  "name": "기별청",
+  "name_en": "Gibyeolcheong (News Office)",
+  "name_th": "คีบยอลชอง (สำนักงานข่าว)",
+  "nameId": "place:p-18"
+ },
+ {
+  "type": "building",
+  "serial": 158,
+  "name": "근정문",
+  "name_en": "Geunjeongmun (Palace Gate)",
+  "name_th": "คึนจองมุน (ประตูพระราชวัง)",
+  "nameId": "place:geunjeongmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 159,
+  "name": "근정전 조정",
+  "name_en": "Geunjeongjeon Jojeong (Ceremonial Courtyard)",
+  "name_th": "คึนจองจอน โจจอง (ลานประกอบพิธี)",
+  "nameId": "place:p-19"
+ },
+ {
+  "type": "building",
+  "serial": 160,
+  "name": "근정전",
+  "name_en": "Geunjeongjeon (Throne Hall)",
+  "name_th": "คึนจองจอน (ท้องพระโรง)",
+  "nameId": "place:geunjeongjeon-hall"
+ },
+ {
+  "type": "building",
+  "serial": 161,
+  "name": "근정전 내부",
+  "name_en": "Geunjeongjeon Naebu (Hall Interior)",
+  "name_th": "คึนจองจอน แนบู (ภายในท้องพระโรง)",
+  "nameId": "place:p-20"
+ },
+ {
+  "type": "building",
+  "serial": 162,
+  "name": "사정전",
+  "name_en": "Sajeongjeon (Royal Council Hall)",
+  "name_th": "ซาจองจอน (ท้องพระโรงทรงงาน)",
+  "nameId": "place:seojeongjeon"
+ },
+ {
+  "type": "building",
+  "serial": 163,
+  "name": "강녕전",
+  "name_en": "Gangnyeongjeon (King’s Bedchamber)",
+  "name_th": "คังนยองจอน (พระตำหนักบรรทมกษัตริย์)",
+  "nameId": "place:gangnyeongjeon"
+ },
+ {
+  "type": "building",
+  "serial": 164,
+  "name": "교태전",
+  "name_en": "Gyotaejeon (Queen’s Bedchamber)",
+  "name_th": "คโยแทจอน (พระตำหนักบรรทมราชินี)",
+  "nameId": "place:gyotaejeon"
+ },
+ {
+  "type": "building",
+  "serial": 165,
+  "name": "아미산",
+  "name_en": "Amisan (Artificial Hill)",
+  "name_th": "อามีซัน (เนินเขาจำลอง)",
+  "nameId": "place:p-21"
+ },
+ {
+  "type": "building",
+  "serial": 166,
+  "name": "흠경각",
+  "name_en": "Heumgyeonggak (Astronomical Clock Pavilion)",
+  "name_th": "ฮึมกยองกัก (หอนาฬิกาดาราศาสตร์)",
+  "nameId": "place:heumgyeonggak"
+ },
+ {
+  "type": "building",
+  "serial": 167,
+  "name": "함원전",
+  "name_en": "Hamwonjeon (Buddhist Ritual Hall)",
+  "name_th": "ฮัมวอนจอน (ศาลาประกอบพิธีพุทธ)",
+  "nameId": "place:hamwonjeon"
+ },
+ {
+  "type": "building",
+  "serial": 169,
+  "name": "자경전",
+  "name_en": "Jagyeongjeon (Queen Dowager’s Residence)",
+  "name_th": "จากยองจอน (ตำหนักพระพันปีหลวง)",
+  "nameId": "place:jagyeongjeon"
+ },
+ {
+  "type": "building",
+  "serial": 170,
+  "name": "십장생 굴뚝",
+  "name_en": "Sipjangsaeng Gulttuk (Decorative Chimney)",
+  "name_th": "ชิบจังแซง คุลตุก (ปล่องไฟประดับ)",
+  "nameId": "place:p-22"
+ },
+ {
+  "type": "building",
+  "serial": 171,
+  "name": "꽃담",
+  "name_en": "Kkotdam (Decorative Brick Wall)",
+  "name_th": "กดตัม (กำแพงอิฐประดับ)",
+  "nameId": "place:p-23"
+ },
+ {
+  "type": "building",
+  "serial": 172,
+  "name": "동궁전",
+  "name_en": "Donggungjeon (Crown Prince’s Residence)",
+  "name_th": "ทงกุงจอน (ที่ประทับมกุฎราชกุมาร)",
+  "nameId": "place:p-24"
+ },
+ {
+  "type": "building",
+  "serial": 173,
+  "name": "경회루",
+  "name_en": "Gyeonghoeru (Banquet Pavilion)",
+  "name_th": "คยองฮเวรู (พลับพลาจัดงานเลี้ยง)",
+  "nameId": "place:gyeonghoeru-pavilion"
+ },
+ {
+  "type": "building",
+  "serial": 174,
+  "name": "향원정",
+  "name_en": "Hyangwonjeong (Pond Pavilion)",
+  "name_th": "ฮยังวอนจอง (พลับพลากลางสระ)",
+  "nameId": "place:hyangwonjeong"
+ },
+ {
+  "type": "building",
+  "serial": 175,
+  "name": "태원전",
+  "name_en": "Taewonjeon (Funeral Hall)",
+  "name_th": "แทวอนจอน (ตำหนักประดิษฐานพระศพ)",
+  "nameId": "place:taewonjeon"
+ },
+ {
+  "type": "building",
+  "serial": 176,
+  "name": "건청궁",
+  "name_en": "Geoncheonggung (Royal Residence)",
+  "name_th": "คอนชองกุง (ที่ประทับหลวง)",
+  "nameId": "place:p-25"
+ },
+ {
+  "type": "building",
+  "serial": 177,
+  "name": "집옥재",
+  "name_en": "Jibokjae (Royal Library)",
+  "name_th": "ชิบกแจ (หอพระสมุดหลวง)",
+  "nameId": "place:jibokjae"
+ },
+ {
+  "type": "building",
+  "serial": 178,
+  "name": "수정전",
+  "name_en": "Sujeongjeon (Royal Hall)",
+  "name_th": "ซูจองจอน (ตำหนักหลวง)",
+  "nameId": "place:sujeongjeon"
+ },
+ {
+  "type": "building",
+  "serial": 183,
+  "name": "소주방",
+  "name_en": "Sojubang (Royal Kitchen)",
+  "name_th": "โซจูบัง (ห้องเครื่องหลวง)",
+  "nameId": "place:p-26"
+ },
+ {
+  "type": "building",
+  "serial": 185,
+  "name": "궐내각사 터",
+  "name_en": "Gwollaegaksa Teo (Site of Palace Offices)",
+  "name_th": "ควอลแรกักซา ทอ (ที่ตั้งหน่วยงานในพระราชวัง)",
+  "nameId": "place:p-27"
+ },
+ {
+  "type": "building",
+  "serial": 186,
+  "name": "기원문",
+  "name_en": "Giwonmun (Gate to Laundry Quarters)",
+  "name_th": "คีวอนมุน (ประตูสู่ตำหนักซักรีด)",
+  "nameId": "place:p-3"
+ },
+ {
+  "type": "building",
+  "serial": 187,
+  "name": "건숙문",
+  "name_en": "Geonsungmun (Outer Gate)",
+  "name_th": "คอนซุงมุน (ประตูชั้นนอก)",
+  "nameId": "place:geonsukmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 188,
+  "name": "경안문",
+  "name_en": "Gyeonganmun (Inner Gate)",
+  "name_th": "คยองอันมุน (ประตูชั้นใน)",
+  "nameId": "place:gyeonganmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 189,
+  "name": "인수문",
+  "name_en": "Insumun (Courtyard Gate)",
+  "name_th": "อินซูมุน (ประตูสู่ลาน)",
+  "nameId": "place:p-8"
+ },
+ {
+  "type": "building",
+  "serial": 190,
+  "name": "공묵재",
+  "name_en": "Gongmukjae (Royal Mourning Residence)",
+  "name_th": "คงมุกแจ (ที่ประทับหลวงช่วงไว้ทุกข์)",
+  "nameId": "place:gongbukjae"
+ },
+ {
+  "type": "building",
+  "serial": 191,
+  "name": "숙문당",
+  "name_en": "Sungmundang (Royal Hall)",
+  "name_th": "ซุงมุนดัง (ตำหนักหลวง)",
+  "nameId": "place:sungmundang"
+ },
+ {
+  "type": "building",
+  "serial": 192,
+  "name": "건길문",
+  "name_en": "Geongilmun (Gate to Yeongsajae)",
+  "name_th": "คอนกิลมุน (ประตูสู่ยองซาแจ)",
+  "nameId": "place:p-2"
+ },
+ {
+  "type": "building",
+  "serial": 193,
+  "name": "영사재",
+  "name_en": "Yeongsajae (Inner Mourning Residence)",
+  "name_th": "ยองซาแจ (ที่ประทับฝ่ายในช่วงไว้ทุกข์)",
+  "nameId": "place:yeongsajae"
+ },
+ {
+  "type": "building",
+  "serial": 194,
+  "name": "보강문",
+  "name_en": "Bogangmun (Wall Gate)",
+  "name_th": "โพกังมุน (ประตูช่องกำแพง)",
+  "nameId": "place:p-28"
+ },
+ {
+  "type": "building",
+  "serial": 195,
+  "name": "홍경문",
+  "name_en": "Honggyeongmun (Gate to Gongmukjae)",
+  "name_th": "ฮงคยองมุน (ประตูสู่คงมุกแจ)",
+  "nameId": "place:honggyeongmun"
+ },
+ {
+  "type": "building",
+  "serial": 196,
+  "name": "일중문",
+  "name_en": "Iljungmun (Gate)",
+  "name_th": "อิลจุงมุน (ประตู)",
+  "nameId": "place:iljungmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 197,
+  "name": "필성문",
+  "name_en": "Pilseongmun (Gate)",
+  "name_th": "พิลซองมุน (ประตู)",
+  "nameId": "place:p-29"
+ },
+ {
+  "type": "building",
+  "serial": 198,
+  "name": "장안당",
+  "name_en": "Jangandang (Residence Hall)",
+  "name_th": "จังอันดัง (เรือนประทับ)",
+  "nameId": "place:jangandang"
+ },
+ {
+  "type": "building",
+  "serial": 199,
+  "name": "초양문",
+  "name_en": "Choyangmun (Gate)",
+  "name_th": "โชยังมุน (ประตู)",
+  "nameId": "place:p-11"
+ },
+ {
+  "type": "building",
+  "serial": 200,
+  "name": "인유문",
+  "name_en": "Inyumun (Gate)",
+  "name_th": "อินยูมุน (ประตู)",
+  "nameId": "place:p-30"
+ },
+ {
+  "type": "building",
+  "serial": 201,
+  "name": "정시합",
+  "name_en": "Jeongsihap (Bedchamber)",
+  "name_th": "จองซีฮับ (ห้องบรรทม)",
+  "nameId": "place:p-31"
+ },
+ {
+  "type": "building",
+  "serial": 202,
+  "name": "복수당",
+  "name_en": "Boksudang (Residence Hall)",
+  "name_th": "พกซูดัง (เรือนพัก)",
+  "nameId": "place:boksudang"
+ },
+ {
+  "type": "building",
+  "serial": 203,
+  "name": "녹금당",
+  "name_en": "Nokgeumdang (Residence Hall)",
+  "name_th": "นกกึมดัง (เรือนพัก)",
+  "nameId": "place:p-32"
+ },
+ {
+  "type": "building",
+  "serial": 204,
+  "name": "곤녕합",
+  "name_en": "Gonnyeonghap (Queen’s Residence)",
+  "name_th": "คน-นยองฮับ (ตำหนักพระมเหสี)",
+  "nameId": "place:gonnyeonghap"
+ },
+ {
+  "type": "building",
+  "serial": 205,
+  "name": "협길당",
+  "name_en": "Hyeopgildang (Residence Hall)",
+  "name_th": "ฮยอบกิลดัง (เรือนประทับ)",
+  "nameId": "place:hyeopgildang"
+ },
+ {
+  "type": "building",
+  "serial": 206,
+  "name": "함화당",
+  "name_en": "Hamhwadang (Bedchamber)",
+  "name_th": "ฮัมฮวาดัง (ห้องบรรทม)",
+  "nameId": "place:hamhwadang"
+ },
+ {
+  "type": "building",
+  "serial": 207,
+  "name": "흥복전",
+  "name_en": "Heungbokjeon (Bedchamber)",
+  "name_th": "ฮึงบกจอน (ห้องบรรทม)",
+  "nameId": "place:heungbokjeon"
+ },
+ {
+  "type": "building",
+  "serial": 208,
+  "name": "용성문",
+  "name_en": "Yongseongmun (Gate)",
+  "name_th": "ยงซองมุน (ประตู)",
+  "nameId": "place:yongseongmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 209,
+  "name": "협생문",
+  "name_en": "Hyeopsaengmun (Gate)",
+  "name_th": "ฮยอบแซงมุน (ประตู)",
+  "nameId": "place:hyupsaengmun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 210,
+  "name": "유화문",
+  "name_en": "Yuhwamun (Gate)",
+  "name_th": "ยูฮวามุน (ประตู)",
+  "nameId": "place:yuhwamun-gate"
+ },
+ {
+  "type": "building",
+  "serial": 211,
+  "name": "양의문",
+  "name_en": "Yanguimun (Gate)",
+  "name_th": "ยังอึยมุน (ประตู)",
+  "nameId": "place:p-33"
+ },
+ {
+  "type": "building",
+  "serial": 212,
+  "name": "경성전",
+  "name_en": "Gyeongseongjeon (Bedchamber)",
+  "name_th": "คยองซองจอน (ห้องบรรทม)",
+  "nameId": "place:gyeongseongjeon"
+ },
+ {
+  "type": "building",
+  "serial": 213,
+  "name": "응지당",
+  "name_en": "Eungjidang (Auxiliary Hall)",
+  "name_th": "อึงจีดัง (อาคารเสริม)",
+  "nameId": "place:eungjidang"
+ },
+ {
+  "type": "building",
+  "serial": 214,
+  "name": "만춘전",
+  "name_en": "Manchunjeon (Royal Study Hall)",
+  "name_th": "มันชุนจอน (ท้องพระโรงทรงงาน)",
+  "nameId": "place:manchunjeon"
+ },
+ {
+  "type": "building",
+  "serial": 215,
+  "name": "연길당",
+  "name_en": "Yeongildang (Auxiliary Hall)",
+  "name_th": "ยอนกิลดัง (อาคารเสริม)",
+  "nameId": "place:yeongildang"
+ },
+ {
+  "type": "building",
+  "serial": 216,
+  "name": "연생전",
+  "name_en": "Yeonsaengjeon (Royal Bedchamber Hall)",
+  "name_th": "ยอนแซงจอน (ห้องบรรทมกษัตริย์)",
+  "nameId": "place:yeonsaengjeon"
+ },
+ {
+  "type": "building",
+  "serial": 217,
+  "name": "천추전",
+  "name_en": "Cheonchujeon (Royal Council Hall)",
+  "name_th": "ชอนชูจอน (ท้องพระโรงว่าราชการ)",
+  "nameId": "place:cheonchujeon"
+ },
+ {
+  "type": "building",
+  "serial": 218,
+  "name": "자선당",
+  "name_en": "Jaseondang (Crown Prince’s Residence)",
+  "name_th": "จาซอนดัง (ที่ประทับองค์รัชทายาท)",
+  "nameId": "place:jaseondang"
+ },
+ {
+  "type": "building",
+  "serial": 219,
+  "name": "비현각",
+  "name_en": "Bihyeongak (Crown Prince’s Study)",
+  "name_th": "บีฮยองกัก (ห้องทรงงานองค์รัชทายาท)",
+  "nameId": "place:bihyeongak"
+ },
+ {
+  "type": "building",
+  "serial": 220,
+  "name": "중광문",
+  "name_en": "Junggwangmun (Gate)",
+  "name_th": "จุงกวังมุน (ประตู)",
+  "nameId": "place:p-34"
+ },
+ {
+  "type": "building",
+  "serial": 221,
+  "name": "집경당",
+  "name_en": "Jipgyeongdang (Royal Bedchamber Hall)",
+  "name_th": "จิบคยองดัง (ห้องบรรทมหลวง)",
+  "nameId": "place:jipgyeongdang"
+ },
+ {
+  "type": "building",
+  "serial": 222,
+  "name": "제수합",
+  "name_en": "Jesuhap (Royal Annex)",
+  "name_th": "เจซูฮับ (อาคารประกอบเขตพระราชฐาน)",
+  "nameId": "place:p-35"
+ },
+ {
+  "type": "building",
+  "serial": 223,
+  "name": "계조당",
+  "name_en": "Gyejodang (Crown Prince’s Audience Hall)",
+  "name_th": "คเยโจดัง (ท้องพระโรงองค์รัชทายาท)",
+  "nameId": "place:gyejodang"
+ },
+ {
+  "type": "building",
+  "serial": 224,
+  "name": "원길헌",
+  "name_en": "Wongilheon (Royal Annex)",
+  "name_th": "วอนกิลฮอน (อาคารประกอบพระตำหนัก)",
+  "nameId": "place:p-36"
+ },
+ {
+  "type": "building",
+  "serial": 225,
+  "name": "팔우정",
+  "name_en": "Parujeong (Octagonal Pavilion)",
+  "name_th": "พารูจอง (ศาลาแปดเหลี่ยม)",
+  "nameId": "place:parujeong"
+ },
+ {
+  "type": "building",
+  "serial": 226,
+  "name": "함홍각",
+  "name_en": "Hamhonggak (Royal Annex)",
+  "name_th": "ฮัมฮงกัก (อาคารประกอบพระตำหนัก)",
+  "nameId": "place:p-13"
+ },
+ {
+  "type": "building",
+  "serial": 227,
+  "name": "건순각",
+  "name_en": "Geonsungak (Royal Annex)",
+  "name_th": "คอนซุนกัก (อาคารประกอบพระตำหนัก)",
+  "nameId": "place:p-37"
+ },
+ {
+  "type": "term",
+  "no": 1,
+  "name": "정전",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Jeongjeon (main hall of a palace)",
+  "name_th": "ชองจอน (ท้องพระโรงหลัก)"
+ },
+ {
+  "type": "term",
+  "no": 2,
+  "name": "편전",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Pyeonjeon (Royal Council Hall)",
+  "name_th": "พยอนจอน (ท้องพระโรงว่าราชการ)"
+ },
+ {
+  "type": "term",
+  "no": 3,
+  "name": "침전",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Chimjeon (royal bedchamber hall)",
+  "name_th": "ชิมจอน (ตำหนักบรรทมของกษัตริย์)"
+ },
+ {
+  "type": "term",
+  "no": 4,
+  "name": "동궁",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Donggung (Crown Prince's residence)",
+  "name_th": "ทงกุง (ที่ประทับของมกุฎราชกุมาร)"
+ },
+ {
+  "type": "term",
+  "no": 5,
+  "name": "궐내각사",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Gwollaegaksa (Government Offices Inside the Palace)",
+  "name_th": "ควลเลกักซา (หน่วยงานราชการในพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 6,
+  "name": "행각",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Haenggak (Covered Corridors Surrounding a Building)",
+  "name_th": "แฮงกัก (ระเบียงมีหลังคารอบอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 7,
+  "name": "궁성",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Gungseong (Palace Wall)",
+  "name_th": "คุงซอง (กำแพงพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 8,
+  "name": "권역",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Gwonyeok (Zone / Designated Area)",
+  "name_th": "ควอนยอก (เขตพื้นที่เฉพาะ)"
+ },
+ {
+  "type": "term",
+  "no": 9,
+  "name": "대비전",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Daebijeon (Residence of the Queen Dowager)",
+  "name_th": "แทบีจอน (ที่ประทับของพระพันปีหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 10,
+  "name": "중궁전",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Junggungjeon (Residence of the Queen Consort)",
+  "name_th": "ชุงกุงจอน (ที่ประทับของพระมเหสี)"
+ },
+ {
+  "type": "term",
+  "no": 11,
+  "name": "빈전",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Binjeon (hall for royal coffin)",
+  "name_th": "พินจอน (ท้องพระโรงประดิษฐานพระศพ)"
+ },
+ {
+  "type": "term",
+  "no": 12,
+  "name": "혼전",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Honjeon (Spirit Hall)",
+  "name_th": "ฮนจอน (ท้องพระโรงประดิษฐานพระวิญญาณ)"
+ },
+ {
+  "type": "term",
+  "no": 13,
+  "name": "궐외각사",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Gworoegaksa (Government Offices Outside the Palace)",
+  "name_th": "ควอเวกักซา (หน่วยงานราชการนอกพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 17,
+  "name": "조정",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Jojeong (Royal Court / Main Courtyard)",
+  "name_th": "โจจอง (ราชสำนัก / ลานหน้าท้องพระโรง)"
+ },
+ {
+  "type": "term",
+  "no": 18,
+  "name": "일곽",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Ilgwak (Enclosed Courtyard / Precinct)",
+  "name_th": "อิลกวัก (เขตล้อมรั้ว / บริเวณพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 19,
+  "name": "사대부가 형식",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Sadaebuga Style (Architectural Style of a Scholar-Official's Residence)",
+  "name_th": "ซาแดบูกา สไตล์ (รูปแบบเรือนขุนนางนักปราชญ์)"
+ },
+ {
+  "type": "term",
+  "no": 20,
+  "name": "문루",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Mullu (Gate Tower)",
+  "name_th": "มุลลู (หอเหนือประตูเมือง)"
+ },
+ {
+  "type": "term",
+  "no": 21,
+  "name": "홍예 / 홍예문",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Hongye / Hongyemun (arch)",
+  "name_th": "ฮงเย / ฮงเยมุน (ซุ้มโค้ง / ประตูซุ้มโค้ง)"
+ },
+ {
+  "type": "term",
+  "no": 22,
+  "name": "석축",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Seokchuk (Stone Retaining Wall / Stonework)",
+  "name_th": "ซอกชุก (กำแพงกันดินหิน / งานก่อหิน)"
+ },
+ {
+  "type": "term",
+  "no": 23,
+  "name": "기단",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Gidan (Podium)",
+  "name_th": "คีดัน (ฐานอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 24,
+  "name": "월대",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Woldae (Elevated Stone Platform)",
+  "name_th": "วอลแด (ลานหินยกระดับ)"
+ },
+ {
+  "type": "term",
+  "no": 25,
+  "name": "칸",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Kan (intercolumnar space)",
+  "name_th": "คัน (ช่องระหว่างเสา)"
+ },
+ {
+  "type": "term",
+  "no": 26,
+  "name": "중층",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Jungcheung (Multi-storied Structure)",
+  "name_th": "ชุงชึง (อาคารหลายชั้น)"
+ },
+ {
+  "type": "term",
+  "no": 27,
+  "name": "현판 / 편액",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Hyeonpan / Pyeonaek (plaque)",
+  "name_th": "ฮยอนพัน / พยอนแอก (ป้าย / ป้ายอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 28,
+  "name": "답도",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Dapdo (Carved Stone Pathway for the King's Palanquin)",
+  "name_th": "ทับโด (ทางหินสลักสำหรับพระราชยาน)"
+ },
+ {
+  "type": "term",
+  "no": 29,
+  "name": "소맷돌",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Somaetdol (Decorative Stone Block at Stair Sides)",
+  "name_th": "โซแมดล (หินประดับข้างบันได)"
+ },
+ {
+  "type": "term",
+  "no": 30,
+  "name": "삼도 / 어도",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Samdo and Eodo (Three-path Walkway and King's Walkway)",
+  "name_th": "ซัมโด / ออโด (ทางเดินสามช่อง / ทางเสด็จของกษัตริย์)"
+ },
+ {
+  "type": "term",
+  "no": 31,
+  "name": "품계석",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Pumgyeseok (Rank Stones)",
+  "name_th": "พุมกเยซอก (ศิลาจัดลำดับขุนนาง)"
+ },
+ {
+  "type": "term",
+  "no": 32,
+  "name": "박석",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Bakseok (Paving Stones)",
+  "name_th": "พึกซอก (แผ่นหินปูพื้น)"
+ },
+ {
+  "type": "term",
+  "no": 33,
+  "name": "차일 / 차일고리",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Chail and Chailgori (Awning and Awning Ring)",
+  "name_th": "ชายิล / ชายิลโกรี (ผ้าใบกันแดด / ห่วงผูกผ้าใบ)"
+ },
+ {
+  "type": "term",
+  "no": 34,
+  "name": "드므",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Deumeu (Large Iron Vessel for Water)",
+  "name_th": "ดือมึ (ภาชนะเหล็กใส่น้ำขนาดใหญ่)"
+ },
+ {
+  "type": "term",
+  "no": 35,
+  "name": "금천",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Geumcheon (Sacred Waterway Marking the Palace Boundary)",
+  "name_th": "คึมชอน (ลำน้ำศักดิ์สิทธิ์แบ่งเขตพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 36,
+  "name": "명당수",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Myeongdangsu (Auspicious Waterway Based on Feng Shui)",
+  "name_th": "มยองดังซู (ลำน้ำมงคลตามหลักฮวงจุ้ย)"
+ },
+ {
+  "type": "term",
+  "no": 37,
+  "name": "홍예교",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Hongyegyo (Arch Bridge)",
+  "name_th": "ฮงเยกโย (สะพานโค้ง)"
+ },
+ {
+  "type": "term",
+  "no": 38,
+  "name": "엄지기둥",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Eomjigidung (Main Baluster / End Pillar of a Bridge)",
+  "name_th": "ออมจีกีดุง (เสาลูกกรงหลัก / เสาปลายสะพาน)"
+ },
+ {
+  "type": "term",
+  "no": 39,
+  "name": "가산",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Gasan (Artificial Hill)",
+  "name_th": "คาซัน (เนินเขาจำลอง)"
+ },
+ {
+  "type": "term",
+  "no": 40,
+  "name": "누각",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Nugak (Multi-story Open Pavilion)",
+  "name_th": "นูกัก (ศาลาเปิดโล่งหลายชั้น)"
+ },
+ {
+  "type": "term",
+  "no": 41,
+  "name": "정자",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Jeongja (pavilion)",
+  "name_th": "จองจา (ศาลาพักชมวิว)"
+ },
+ {
+  "type": "term",
+  "no": 42,
+  "name": "누마루",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Numaru (Raised Floor with Open Views)",
+  "name_th": "นูมารู (พื้นยกสูงเปิดรับวิว)"
+ },
+ {
+  "type": "term",
+  "no": 43,
+  "name": "복도각",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Bokdogak (Covered Connecting Corridor)",
+  "name_th": "พกโดกัก (ระเบียงทางเดินมีหลังคาเชื่อมอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 44,
+  "name": "다락집",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Darakjip (elevated or multi-story building)",
+  "name_th": "ทารักจิบ (อาคารยกพื้นหรือหลายชั้น)"
+ },
+ {
+  "type": "term",
+  "no": 45,
+  "name": "통층",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Tongcheung (Open-through Floor Structure)",
+  "name_th": "ทงชึง (โครงสร้างภายในเปิดทะลุถึงกัน)"
+ },
+ {
+  "type": "term",
+  "no": 46,
+  "name": "중2층",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Jung-icheung (Mezzanine / Internal Two-story Structure)",
+  "name_th": "จุงอีชึง (ชั้นลอย / โครงสร้างสองชั้นภายใน)"
+ },
+ {
+  "type": "term",
+  "no": 47,
+  "name": "다포계",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Dapo Style (Multi-cluster Bracket Architecture)",
+  "name_th": "ทาโพ (สถาปัตยกรรมชุดค้ำยันหลายกลุ่ม)"
+ },
+ {
+  "type": "term",
+  "no": 48,
+  "name": "공포 / 출목",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Gongpo / Chulmok (bracket system)",
+  "name_th": "คงโพ / ชุลมก (ชุดค้ำยัน)"
+ },
+ {
+  "type": "term",
+  "no": 49,
+  "name": "우진각지붕",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Ujingakjibung (Hipped Roof)",
+  "name_th": "อูจินกักจิบุง (หลังคาทรงปั้นหยา)"
+ },
+ {
+  "type": "term",
+  "no": 50,
+  "name": "팔작지붕",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Paljakjibung (half-hipped roof)",
+  "name_th": "พัลจักจิบุง (หลังคาทรงปั้นหยาผสมจั่ว)"
+ },
+ {
+  "type": "term",
+  "no": 51,
+  "name": "말각천장",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Malgakcheonjang (Latern-ceiling / Truncated Square Ceiling)",
+  "name_th": "มัลกักชอนจัง (เพดานตัดมุมเป็นชั้น)"
+ },
+ {
+  "type": "term",
+  "no": 52,
+  "name": "보개",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Bogae (Decorative Canopy over the Throne)",
+  "name_th": "โพแก (เพดานประดับเหนือพระราชบัลลังก์)"
+ },
+ {
+  "type": "term",
+  "no": 53,
+  "name": "어좌 / 보좌",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Eojwa / Bojwa (Royal Throne)",
+  "name_th": "ออจวา / โพจวา (พระราชบัลลังก์)"
+ },
+ {
+  "type": "term",
+  "no": 54,
+  "name": "안두리기둥",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Andurigidung (Inner Circumferential Column)",
+  "name_th": "อันทูรีกีดุง (เสาชั้นในโดยรอบ)"
+ },
+ {
+  "type": "term",
+  "no": 55,
+  "name": "단청",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Dancheong (multi-color painting)",
+  "name_th": "ทันช็อง (ภาพเขียนหลายสีประดับอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 56,
+  "name": "온돌",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Ondol (Traditional Korean Underfloor Heating System)",
+  "name_th": "อนดล (ระบบทำความร้อนใต้พื้นแบบเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 57,
+  "name": "대청",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Daecheong (hall)",
+  "name_th": "แทช็อง (โถงพื้นไม้)"
+ },
+ {
+  "type": "term",
+  "no": 58,
+  "name": "곳간",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Gotgan (storehouse)",
+  "name_th": "คดกาน (ห้องเก็บของ)"
+ },
+ {
+  "type": "term",
+  "no": 59,
+  "name": "연가",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Yeonga (Roof-shaped Chimney Cap)",
+  "name_th": "ยอนกา (ยอดปล่องควันทรงหลังคา)"
+ },
+ {
+  "type": "term",
+  "no": 60,
+  "name": "수문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Sumun (Water Gate)",
+  "name_th": "ซูมุน (ประตูควบคุมน้ำ)"
+ },
+ {
+  "type": "term",
+  "no": 61,
+  "name": "암문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Ammun (Hidden Gate / Secret Gate)",
+  "name_th": "อัมมุน (ประตูซ่อนเร้น / ประตูลับ)"
+ },
+ {
+  "type": "term",
+  "no": 62,
+  "name": "장대석",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Jangdaeseok (long pedestal stone)",
+  "name_th": "จังแดซ็อก (หินฐานยาว)"
+ },
+ {
+  "type": "term",
+  "no": 63,
+  "name": "지대석",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Jidaeseok (Foundation Stone / Plinth)",
+  "name_th": "ชีแดซ็อก (หินฐานราก / ฐานอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 64,
+  "name": "초석 / 주춧돌",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Choseok / Juchutdol (Foundation Stone)",
+  "name_th": "โชซ็อก / จูชุดตล (หินฐานราก)"
+ },
+ {
+  "type": "term",
+  "no": 65,
+  "name": "부재",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Bujae (Structural Material / Member)",
+  "name_th": "พูแจ (วัสดุโครงสร้าง / ส่วนประกอบโครงสร้าง)"
+ },
+ {
+  "type": "term",
+  "no": 66,
+  "name": "유구",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Yugu (Architectural Remains / Ruins)",
+  "name_th": "ยูгу (ซากโครงสร้างโบราณ / ซากปรักหักพัง)"
+ },
+ {
+  "type": "term",
+  "no": 67,
+  "name": "꽃담",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Kkotdam (Decorative Flower Wall)",
+  "name_th": "กดดัม (กำแพงประดับลวดลายดอกไม้)"
+ },
+ {
+  "type": "term",
+  "no": 68,
+  "name": "석분 / 석지",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Seokbun and Seokji (Stone Planter and Stone Basin)",
+  "name_th": "ซ็อกบุน / ซ็อกจี (กระถางหินและอ่างหิน)"
+ },
+ {
+  "type": "term",
+  "no": 69,
+  "name": "오행",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Ohaeng (Five Elements: Metal, Water, Wood, Fire, Earth)",
+  "name_th": "โอแฮง (ธาตุทั้งห้า: โลหะ น้ำ ไม้ ไฟ ดิน)"
+ },
+ {
+  "type": "term",
+  "no": 70,
+  "name": "사신(四神)",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Sasin (Four Guardian Deities / Four Celestial Guardians)",
+  "name_th": "ซาซิน (เทพผู้พิทักษ์ทั้งสี่ / ผู้พิทักษ์สวรรค์ทั้งสี่)"
+ },
+ {
+  "type": "term",
+  "no": 71,
+  "name": "서수",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Seosu (Auspicious Mythical Animal)",
+  "name_th": "ซอซู (สัตว์มงคลในตำนาน)"
+ },
+ {
+  "type": "term",
+  "no": 72,
+  "name": "벽사",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Byeoksa (Warding Off Evil Spirits)",
+  "name_th": "พย็อกซา (การขับไล่วิญญาณชั่วร้าย)"
+ },
+ {
+  "type": "term",
+  "no": 73,
+  "name": "십장생",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Sipjangsaeng (ten symbols of longevity)",
+  "name_th": "ชิบจังแซง (สัญลักษณ์แห่งความยืนยาวสิบประการ)"
+ },
+ {
+  "type": "term",
+  "no": 74,
+  "name": "봉황",
+  "category": "사상·상징·장식",
+  "priority": "핵심",
+  "name_en": "Bonghwang (Phoenix)",
+  "name_th": "บงฮวัง (หงส์ไฟ)"
+ },
+ {
+  "type": "term",
+  "no": 75,
+  "name": "음양",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Eumyang (Yin and Yang / Principle of Dual Energy)",
+  "name_th": "อึมยัง (หยินและหยาง / หลักพลังคู่ตรงข้าม)"
+ },
+ {
+  "type": "term",
+  "no": 76,
+  "name": "인·의·예·지·신",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Inuiyejisin (Five Confucian Virtues: Benevolence, Righteousness, Propriety, Wisdom, Trust)",
+  "name_th": "อินอึยเยจีชิน (คุณธรรมขงจื๊อห้าประการ: เมตตา ความชอบธรรม มารยาท ปัญญา ความซื่อสัตย์)"
+ },
+ {
+  "type": "term",
+  "no": 77,
+  "name": "천원지방",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Cheonwonjibang (Principle of Round Heaven and Square Earth)",
+  "name_th": "ช็อนวอนจีบัง (หลักฟ้ากลมแผ่นดินเหลี่ยม)"
+ },
+ {
+  "type": "term",
+  "no": 78,
+  "name": "사군자",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Sagunja (Four Gracious Plants: Plum, Orchid, Chrysanthemum, Bamboo)",
+  "name_th": "ซากุนจา (พรรณไม้ผู้ทรงคุณธรรมสี่ชนิด: บ๊วย กล้วยไม้ เบญจมาศ ไผ่)"
+ },
+ {
+  "type": "term",
+  "no": 79,
+  "name": "길상무늬",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Gilsangmunui (auspicious patterns)",
+  "name_th": "คิลซังมุนอึย (ลวดลายมงคล)"
+ },
+ {
+  "type": "term",
+  "no": 80,
+  "name": "신수",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Sinsu (Divine Mythical Beast)",
+  "name_th": "ชินซู (สัตว์มงคลศักดิ์สิทธิ์ในตำนาน)"
+ },
+ {
+  "type": "term",
+  "no": 81,
+  "name": "천록",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Cheollok (Horned Divine Beast Guarding the Waterway)",
+  "name_th": "ช็อลลก (สัตว์เทพมีเขาผู้พิทักษ์ทางน้ำ)"
+ },
+ {
+  "type": "term",
+  "no": 82,
+  "name": "해태",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Haetae (Mythical Creature Warding Off Fire and Evil)",
+  "name_th": "แฮแท (สัตว์ในตำนานผู้ปัดเป่าไฟและสิ่งชั่วร้าย)"
+ },
+ {
+  "type": "term",
+  "no": 83,
+  "name": "칠조룡",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Chiljoryong (Seven-clawed Dragon)",
+  "name_th": "ชิลโจรยง (มังกรเจ็ดเล็บ)"
+ },
+ {
+  "type": "term",
+  "no": 84,
+  "name": "쌍룡 / 여의보주",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Ssangnyong and Yeouiboju (Twin Dragons and Wish-fulfilling Jewel)",
+  "name_th": "ซังนยง / ยออีโบจู (มังกรคู่ / แก้วสารพัดนึก)"
+ },
+ {
+  "type": "term",
+  "no": 85,
+  "name": "십이지신상",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Sibijisinsang (Statues of the Twelve Animals of the Chinese Zodiac)",
+  "name_th": "ชิบีจีชินซัง (รูปสลักสัตว์นักษัตรจีนทั้งสิบสอง)"
+ },
+ {
+  "type": "term",
+  "no": 86,
+  "name": "나티",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Nati (Monster Mask Warding Off Evil)",
+  "name_th": "นาที (หน้ากากอสูรผู้ปัดเป่าสิ่งชั่วร้าย)"
+ },
+ {
+  "type": "term",
+  "no": 87,
+  "name": "불가사리",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Bulgasari (Metal-eating Mythical Creature)",
+  "name_th": "พุลกาซารี (สัตว์ในตำนานกินเหล็ก)"
+ },
+ {
+  "type": "term",
+  "no": 88,
+  "name": "일월오봉도 / 일월오봉병",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Irworobongdo and Irworobongbyeong (Painting / Screen of Sun, Moon, and Five Peaks)",
+  "name_th": "อีรโวโรบงโด / อีรโวโรบงบยอง (ภาพวาด / ฉากกั้นพระอาทิตย์ พระจันทร์ และยอดเขาห้ายอด)"
+ },
+ {
+  "type": "term",
+  "no": 89,
+  "name": "삼절병",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Samjeolbyeong (Three-panel Folding Screen)",
+  "name_th": "ซัมจอลบยอง (ฉากกั้นพับสามตอน)"
+ },
+ {
+  "type": "term",
+  "no": 90,
+  "name": "오복",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Obok (Five Blessings)",
+  "name_th": "โอบก (พรประเสริฐห้าประการ)"
+ },
+ {
+  "type": "term",
+  "no": 91,
+  "name": "태괘",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Taegwae (Hexagram of Peace and Harmony)",
+  "name_th": "แทกแว (ข่วยแห่งสันติสุขและความปรองดอง)"
+ },
+ {
+  "type": "term",
+  "no": 92,
+  "name": "피휘",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Pihwi (Naming Taboo Custom)",
+  "name_th": "พีฮวี (ธรรมเนียมงดใช้ชื่อ)"
+ },
+ {
+  "type": "term",
+  "no": 93,
+  "name": "태평성대",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Taepyeongseongdae (Era of Peace and Prosperity)",
+  "name_th": "แทพยองซองแด (ยุคแห่งสันติสุขและความรุ่งเรือง)"
+ },
+ {
+  "type": "term",
+  "no": 94,
+  "name": "화마",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Hwama (Fire Demon / Destructive Fire)",
+  "name_th": "ฮวามา (ปีศาจเพลิง / ไฟทำลายล้าง)"
+ },
+ {
+  "type": "term",
+  "no": 95,
+  "name": "세자 / 왕세자",
+  "category": "왕실·신분·관직",
+  "priority": "핵심",
+  "name_en": "Seja / Wangseja (Crown Prince)",
+  "name_th": "เซจา / วังเซจา (องค์รัชทายาท)"
+ },
+ {
+  "type": "term",
+  "no": 96,
+  "name": "대비",
+  "category": "왕실·신분·관직",
+  "priority": "핵심",
+  "name_en": "Daebi (Queen Dowager)",
+  "name_th": "แทบี (พระพันปีหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 97,
+  "name": "문반 / 무반",
+  "category": "왕실·신분·관직",
+  "priority": "핵심",
+  "name_en": "Munban and Muban (Civil and Military Officials)",
+  "name_th": "มุนบัน / มูบัน (ขุนนางฝ่ายพลเรือนและฝ่ายทหาร)"
+ },
+ {
+  "type": "term",
+  "no": 98,
+  "name": "어진",
+  "category": "왕실·신분·관직",
+  "priority": "핵심",
+  "name_en": "Eojin (Royal Portrait)",
+  "name_th": "ออจิน (พระบรมสาทิสลักษณ์)"
+ },
+ {
+  "type": "term",
+  "no": 99,
+  "name": "신료",
+  "category": "왕실·신분·관직",
+  "priority": "핵심",
+  "name_en": "Sillyo (Court Officials / Retainers)",
+  "name_th": "ซิลโย (ขุนนางในราชสำนัก / ข้าราชบริพาร)"
+ },
+ {
+  "type": "term",
+  "no": 100,
+  "name": "동반 / 서반",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Dongban and Seoban (Civil Officials in the East and Military Officials in the West)",
+  "name_th": "ทงบัน / ซอบัน (ขุนนางฝ่ายพลเรือนทางตะวันออกและฝ่ายทหารทางตะวันตก)"
+ },
+ {
+  "type": "term",
+  "no": 101,
+  "name": "세자빈",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Sejabin (Crown Princess)",
+  "name_th": "เซจาบิน (มเหสีองค์รัชทายาท)"
+ },
+ {
+  "type": "term",
+  "no": 102,
+  "name": "종친",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Jongchin (Royal Relatives)",
+  "name_th": "จงชิน (พระประยูรญาติ)"
+ },
+ {
+  "type": "term",
+  "no": 103,
+  "name": "자친",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Jachin (King's Mother)",
+  "name_th": "จาชิน (พระราชมารดา)"
+ },
+ {
+  "type": "term",
+  "no": 104,
+  "name": "양자 / 양어머니",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Yangja and Yangeomeoni (Adopted Son and Adoptive Mother)",
+  "name_th": "ยังจา / ยังออมอนี (บุตรบุญธรรมชาย / มารดาบุญธรรม)"
+ },
+ {
+  "type": "term",
+  "no": 105,
+  "name": "수렴청정",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Suryeomcheongjeong (Regency by a Queen Dowager)",
+  "name_th": "ซูรยอมชองจอง (การสำเร็จราชการโดยพระพันปี)"
+ },
+ {
+  "type": "term",
+  "no": 106,
+  "name": "친정",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Chinjeong (Direct Rule by the King)",
+  "name_th": "ชินจอง (การปกครองโดยพระราชาโดยตรง)"
+ },
+ {
+  "type": "term",
+  "no": 107,
+  "name": "승하",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Seungha (Passing of a Monarch)",
+  "name_th": "ซึงฮา (การสวรรคตของพระมหากษัตริย์)"
+ },
+ {
+  "type": "term",
+  "no": 108,
+  "name": "국상",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Guksang (State Mourning)",
+  "name_th": "กุกซัง (พิธีไว้ทุกข์หลวง)"
+ },
+ {
+  "type": "term",
+  "no": 109,
+  "name": "존호",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Jonho (Honorific Title)",
+  "name_th": "จอนโฮ (พระราชสมัญญา)"
+ },
+ {
+  "type": "term",
+  "no": 110,
+  "name": "봉안",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Bongan (Enshrinement)",
+  "name_th": "บงอัน (การประดิษฐาน)"
+ },
+ {
+  "type": "term",
+  "no": 111,
+  "name": "모사",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Mosa (Copying / Reproducing)",
+  "name_th": "โมซา (การคัดลอก / การจำลองแบบ)"
+ },
+ {
+  "type": "term",
+  "no": 112,
+  "name": "문무백관",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Munmubaekgwan (All Civil and Military Officials)",
+  "name_th": "มุนมูแบ็กกวัน (ข้าราชการฝ่ายพลเรือนและทหารทั้งหมด)"
+ },
+ {
+  "type": "term",
+  "no": 113,
+  "name": "품계 (정1품·종1품)",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Pumgye (Official Rank System)",
+  "name_th": "พุมกเย (ระบบลำดับชั้นข้าราชการ)"
+ },
+ {
+  "type": "term",
+  "no": 114,
+  "name": "공신",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Gongsin (Meritorious Official)",
+  "name_th": "กงชิน (ขุนนางผู้มีความดีความชอบ)"
+ },
+ {
+  "type": "term",
+  "no": 115,
+  "name": "회맹제",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Hoemaengje (Ritual of Allegiance by Meritorious Officials)",
+  "name_th": "ฮเวแมงเจ (พิธีถวายสัตย์ปฏิญาณของขุนนางผู้มีความดีความชอบ)"
+ },
+ {
+  "type": "term",
+  "no": 116,
+  "name": "사관",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Sagwan (Official Historian / Historiographer)",
+  "name_th": "ซากวัน (เจ้าหน้าที่บันทึกประวัติศาสตร์)"
+ },
+ {
+  "type": "term",
+  "no": 117,
+  "name": "주서",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Juseo (Royal Recorder in the Seungjeongwon)",
+  "name_th": "จูซอ (เจ้าหน้าที่บันทึกพระราชดำรัส)"
+ },
+ {
+  "type": "term",
+  "no": 118,
+  "name": "승지",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Seungji (Royal Secretary)",
+  "name_th": "ซึงจี (เลขานุการพระราชา)"
+ },
+ {
+  "type": "term",
+  "no": 119,
+  "name": "판서",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Panseo (Minister of the Six Ministries)",
+  "name_th": "พันซอ (เสนาบดีแห่งหกกระทรวง)"
+ },
+ {
+  "type": "term",
+  "no": 120,
+  "name": "당상",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Dangsang (High-ranking Official)",
+  "name_th": "ดังซัง (ขุนนางระดับสูง)"
+ },
+ {
+  "type": "term",
+  "no": 121,
+  "name": "내탕금",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Naetanggeum (King's Privy Purse / Personal Funds)",
+  "name_th": "แนทังกึม (พระคลังส่วนพระองค์ / เงินส่วนพระองค์)"
+ },
+ {
+  "type": "term",
+  "no": 122,
+  "name": "사신(使臣)",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Sasin (Diplomatic Envoy)",
+  "name_th": "ซาซิน (ทูตทางการทูต)"
+ },
+ {
+  "type": "term",
+  "no": 123,
+  "name": "집현전",
+  "category": "관청·제도·의례",
+  "priority": "핵심",
+  "name_en": "Jiphyeonjeon (Hall of Worthies / Royal Research Institute)",
+  "name_th": "ชิพฮยอนจอน (หอประชุมนักปราชญ์ / สถาบันวิจัยหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 124,
+  "name": "승정원",
+  "category": "관청·제도·의례",
+  "priority": "핵심",
+  "name_en": "Seungjeongwon (Royal Secretariat)",
+  "name_th": "ซึงจองวอน (สำนักเลขานุการหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 125,
+  "name": "의정부 / 육조",
+  "category": "관청·제도·의례",
+  "priority": "핵심",
+  "name_en": "Uijeongbu and Yukjo (State Council and Six Ministries)",
+  "name_th": "อึยจองบู / ยุกโจ (สภาแห่งรัฐ / กระทรวงทั้งหก)"
+ },
+ {
+  "type": "term",
+  "no": 126,
+  "name": "경연",
+  "category": "관청·제도·의례",
+  "priority": "핵심",
+  "name_en": "Gyeongyeon (Royal Lecture)",
+  "name_th": "คยองยอน (การบรรยายหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 127,
+  "name": "하례",
+  "category": "관청·제도·의례",
+  "priority": "핵심",
+  "name_en": "Harye (Formal Congratulations to the King)",
+  "name_th": "ฮารเย (การถวายพระพรอย่างเป็นทางการ)"
+ },
+ {
+  "type": "term",
+  "no": 128,
+  "name": "삼군부",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Samgunbu (Three Armies Headquarters)",
+  "name_th": "ซัมกุนบู (กองบัญชาการสามกองทัพ)"
+ },
+ {
+  "type": "term",
+  "no": 129,
+  "name": "사헌부",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Saheonbu (Office of the Inspector General)",
+  "name_th": "ซาฮอนบู (สำนักผู้ตรวจการแผ่นดิน)"
+ },
+ {
+  "type": "term",
+  "no": 130,
+  "name": "관아",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gwana (site of government office)",
+  "name_th": "ควานา (ที่ตั้งหน่วยงานราชการ)"
+ },
+ {
+  "type": "term",
+  "no": 131,
+  "name": "홍문관(옥당)",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Hongmungwan / Okdang (Office of Special Advisors)",
+  "name_th": "ฮงมุนกวัน / อกดัง (สำนักที่ปรึกษาพิเศษ)"
+ },
+ {
+  "type": "term",
+  "no": 132,
+  "name": "예문관",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Yemungwan (Office of Royal Decrees)",
+  "name_th": "เยมุนกวัน (สำนักพระราชโองการ)"
+ },
+ {
+  "type": "term",
+  "no": 133,
+  "name": "내의원",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Naeuiwon (Royal Infirmary / Royal Medical Bureau)",
+  "name_th": "แนอึยวอน (สถานพยาบาลหลวง / สำนักแพทย์หลวง)"
+ },
+ {
+  "type": "term",
+  "no": 134,
+  "name": "빈청",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Bincheong (Conference Hall for High Officials)",
+  "name_th": "พินชอง (ห้องประชุมขุนนางชั้นสูง)"
+ },
+ {
+  "type": "term",
+  "no": 135,
+  "name": "비변사",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Bibyeonsa (Border Defense Council)",
+  "name_th": "พีบยอนซา (สภาป้องกันชายแดน)"
+ },
+ {
+  "type": "term",
+  "no": 136,
+  "name": "선전관청",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Seonjeongwancheong (Office of Royal Messengers and Guards)",
+  "name_th": "ซอนจอนกวันชอง (สำนักราชองครักษ์และผู้ส่งสาร)"
+ },
+ {
+  "type": "term",
+  "no": 137,
+  "name": "수문장청",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Sumunjangcheong (Headquarters of Palace Gate Guards)",
+  "name_th": "ซูมุนจังชอง (กองบัญชาการทหารรักษาประตูพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 138,
+  "name": "의약청",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Uiyakcheong (Special Medical Office for the King and Queen)",
+  "name_th": "อึยยักชอง (สำนักแพทย์เฉพาะกิจสำหรับพระมหากษัตริย์และพระราชินี)"
+ },
+ {
+  "type": "term",
+  "no": 139,
+  "name": "군국기무처",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gungukgimucheo (Deliberative Council for Military and State Affairs)",
+  "name_th": "คุนกุกกีมูชอ (สภาหารือกิจการทหารและบ้านเมือง)"
+ },
+ {
+  "type": "term",
+  "no": 140,
+  "name": "내각",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Naegak (Royal Library and Inner Cabinet)",
+  "name_th": "แนกัก (หอสมุดหลวงและสำนักบริหารภายใน)"
+ },
+ {
+  "type": "term",
+  "no": 141,
+  "name": "대전장방",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Daejeonjangbang (King's Personal Storage and Attendant Office)",
+  "name_th": "แทจอนจังบัง (ตำหนักเก็บของและที่ทำงานผู้ถวายงานกษัตริย์)"
+ },
+ {
+  "type": "term",
+  "no": 142,
+  "name": "수라간",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Suragan (Royal Kitchen)",
+  "name_th": "ซูรากัน (ห้องครัวหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 143,
+  "name": "세답방",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Sedapbang (Royal Laundry Office)",
+  "name_th": "เซดัปบัง (หน่วยซักรีดหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 144,
+  "name": "기별 / 조보",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gibyeol and Jobo (Government Newsletter / Official Gazette)",
+  "name_th": "คีบยอล / โจโบ (จดหมายข่าวราชการ / ราชกิจจานุเบกษา)"
+ },
+ {
+  "type": "term",
+  "no": 145,
+  "name": "관보",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gwanbo (Official Government Gazette)",
+  "name_th": "ควานโบ (ราชกิจจานุเบกษาของรัฐบาล)"
+ },
+ {
+  "type": "term",
+  "no": 146,
+  "name": "상소",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Sangso (Official Petition to the King)",
+  "name_th": "ซังโซ (ฎีกาถวายพระมหากษัตริย์)"
+ },
+ {
+  "type": "term",
+  "no": 147,
+  "name": "임면",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Immyeon (Appointment and Dismissal of Officials)",
+  "name_th": "อิมมยอน (การแต่งตั้งและปลดข้าราชการ)"
+ },
+ {
+  "type": "term",
+  "no": 148,
+  "name": "교서",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gyoseo (Royal Edict / Royal Decree)",
+  "name_th": "คโยซอ (พระราชโองการ / พระราชกำหนด)"
+ },
+ {
+  "type": "term",
+  "no": 149,
+  "name": "상참",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Sangcham (Daily Morning Court Assembly)",
+  "name_th": "ซังชัม (การประชุมขุนนางยามเช้าประจำวัน)"
+ },
+ {
+  "type": "term",
+  "no": 150,
+  "name": "서연",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Seoyeon (Royal Lecture for the Crown Prince)",
+  "name_th": "ซอยอน (การสอนหนังสือองค์รัชทายาท)"
+ },
+ {
+  "type": "term",
+  "no": 151,
+  "name": "조회",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Johoe (Morning Assembly of Officials)",
+  "name_th": "โจฮเว (การประชุมขุนนางยามเช้า)"
+ },
+ {
+  "type": "term",
+  "no": 152,
+  "name": "즉위식",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Jeugwisik (Enthronement Ceremony)",
+  "name_th": "ชึกวีชิก (พระราชพิธีขึ้นครองราชย์)"
+ },
+ {
+  "type": "term",
+  "no": 153,
+  "name": "왕명 출납",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Wangmyeong Chullap (Transmission of Royal Decrees and Reports)",
+  "name_th": "วังมยองชุลลับ (การส่งพระราชโองการและรายงาน)"
+ },
+ {
+  "type": "term",
+  "no": 154,
+  "name": "문치",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Munchi (Civil Rule / Rule by Learning and Law)",
+  "name_th": "มุนชี (การปกครองด้วยพลเรือน / การปกครองด้วยวิชาความรู้และกฎหมาย)"
+ },
+ {
+  "type": "term",
+  "no": 155,
+  "name": "보빙사",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Bobingsa (First Special Korean Diplomatic Mission to the United States)",
+  "name_th": "โพบิงซา (คณะทูตเกาหลีชุดแรกไปสหรัฐอเมริกา)"
+ },
+ {
+  "type": "term",
+  "no": 156,
+  "name": "수라 / 별식 / 다식",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Sura, Byeolsik, and Dasik (Royal Meal, Special Delicacy, and Traditional Snacks)",
+  "name_th": "ซูรา / พยอลชิก / ทาชิก (พระกระยาหาร / อาหารพิเศษ / ขนมพื้นเมือง)"
+ },
+ {
+  "type": "term",
+  "no": 157,
+  "name": "임진왜란",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Imjinwaeran (Japanese Invasions of Korea, 1592–1598)",
+  "name_th": "อิมจินแวรัน (การรุกรานเกาหลีของญี่ปุ่น ค.ศ. 1592–1598)"
+ },
+ {
+  "type": "term",
+  "no": 158,
+  "name": "창건 / 중건 / 재건 / 복원 / 소실",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Changgeon / Junggeon / Jaegeon / Bogwon / Sosil (Foundation / Reconstruction / Restoration / Destruction by Fire)",
+  "name_th": "ชังจอน / จุงจอน / แจจอน / โพกวอน / โซชิล (การก่อสร้าง / การสร้างขึ้นใหม่ / การบูรณะ / การฟื้นฟู / การถูกไฟไหม้เสียหาย)"
+ },
+ {
+  "type": "term",
+  "no": 159,
+  "name": "경복궁 중건",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Reconstruction of Gyeongbokgung Palace",
+  "name_th": "การบูรณะพระราชวังคยองบกกุง"
+ },
+ {
+  "type": "term",
+  "no": 160,
+  "name": "일제강점기",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Iljegangjeomgi (Japanese Colonial Period, 1910–1945)",
+  "name_th": "อิลเจกังจอมกี (ยุคอาณานิคมญี่ปุ่น ค.ศ. 1910–1945)"
+ },
+ {
+  "type": "term",
+  "no": 161,
+  "name": "조선총독부",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Joseon Chongdokbu (Japanese Government-General of Korea)",
+  "name_th": "โชซอนชงดกบู (หน่วยงานปกครองญี่ปุ่น)"
+ },
+ {
+  "type": "term",
+  "no": 162,
+  "name": "조선물산공진회",
+  "category": "역사 사건·시대",
+  "priority": "핵심",
+  "name_en": "Joseon Mulsan Gongjinhoe (Joseon Industrial Exhibition of 1915)",
+  "name_th": "โชซอนมุลซันกงจินฮเว (งานแสดงอุตสาหกรรมโชซอน ค.ศ. 1915)"
+ },
+ {
+  "type": "term",
+  "no": 163,
+  "name": "흥선대원군",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Heungseondaewongun (Regent and Father of King Gojong)",
+  "name_th": "ฮึงซ็อนแดว็อนกุน (ผู้สำเร็จราชการและพระบิดาพระเจ้าโกจง)"
+ },
+ {
+  "type": "term",
+  "no": 164,
+  "name": "신정왕후(조대비)",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Sinjeongwanghu / Jodaebi (Queen Sinjeong)",
+  "name_th": "ชินจ็องวังฮู / โจแดบี (พระราชินีชินจ็อง)"
+ },
+ {
+  "type": "term",
+  "no": 165,
+  "name": "명성황후",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Myeongseonghwanghu (Empress Myeongseong)",
+  "name_th": "มย็องซ็องฮวังฮู (จักรพรรดินีมย็องซ็อง)"
+ },
+ {
+  "type": "term",
+  "no": 166,
+  "name": "을미사변",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Eulmisabyeon (Assassination of Empress Myeongseong in 1895)",
+  "name_th": "อึลมีซาบย็อน (การลอบปลงพระชนม์จักรพรรดินีมย็องซ็อง ค.ศ. 1895)"
+ },
+ {
+  "type": "term",
+  "no": 167,
+  "name": "갑오개혁",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Gabogaehyeok (Gabo Reforms of 1894)",
+  "name_th": "คาบโอแคฮย็อก (การปฏิรูปคาบโอ ค.ศ. 1894)"
+ },
+ {
+  "type": "term",
+  "no": 168,
+  "name": "훼철",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Hwecheol (Demolition / Destruction of Buildings)",
+  "name_th": "ฮเวช็อล (การรื้อถอนอาคาร / การทำลายอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 169,
+  "name": "중앙청",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Jungangcheong (Former Central Government Building)",
+  "name_th": "ชุงอังช็อง (อาคารรัฐบาลกลางเดิม)"
+ },
+ {
+  "type": "term",
+  "no": 170,
+  "name": "창덕궁 대화재 (1917)",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "The Great Fire of Changdeokgung Palace in 1917",
+  "name_th": "ไฟไหม้ครั้งใหญ่พระราชวังชางด็อกกุง ค.ศ. 1917"
+ },
+ {
+  "type": "term",
+  "no": 171,
+  "name": "관동대지진",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Gwandongdaejijin (Great Kanto Earthquake of 1923)",
+  "name_th": "ควันดงแดจีจิน (แผ่นดินไหวครั้งใหญ่คันโต ค.ศ. 1923)"
+ },
+ {
+  "type": "term",
+  "no": 173,
+  "name": "한국전쟁",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Hangukjeonjaeng (Korean War)",
+  "name_th": "ฮันกุกจอนแจง (สงครามเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 174,
+  "name": "광복",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Gwangbok (Liberation of Korea in 1945)",
+  "name_th": "ควังบก (การปลดปล่อยเกาหลี ค.ศ. 1945)"
+ },
+ {
+  "type": "term",
+  "no": 175,
+  "name": "5·16 군사정변",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "May 16 Military Coup (1961)",
+  "name_th": "รัฐประหารโดยทหาร 16 พฤษภาคม (ค.ศ. 1961)"
+ },
+ {
+  "type": "term",
+  "no": 176,
+  "name": "단종 복위 운동",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Movement to Restore King Danjong",
+  "name_th": "การเคลื่อนไหวฟื้นฟูบัลลังก์พระเจ้าทันจง"
+ },
+ {
+  "type": "term",
+  "no": 177,
+  "name": "효명세자(익종)",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Hyomyeongseja / Ikjong (Crown Prince Hyomyeong)",
+  "name_th": "ฮโยมย็องเซจา / อิกจง (องค์รัชทายาทฮโยมย็อง)"
+ },
+ {
+  "type": "term",
+  "no": 178,
+  "name": "경복궁 복원 정비사업",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Gyeongbokgung Palace Restoration Project",
+  "name_th": "โครงการบูรณะและปรับปรุงพระราชวังคย็องบกกุง"
+ },
+ {
+  "type": "term",
+  "no": 179,
+  "name": "전기등소",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Jeon-gideungso (First Electric Power Plant in Korea)",
+  "name_th": "ช็อนกีดึงโซ (โรงไฟฟ้าแห่งแรกในเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 180,
+  "name": "물불 / 건달불",
+  "category": "역사 사건·시대",
+  "priority": "보조",
+  "name_en": "Mulbul and Geondalbul (Early Nicknames for the Electric Light)",
+  "name_th": "มุลบุล / ค็อนดัลบุล (ชื่อเรียกเล่นของไฟฟ้ายุคแรก)"
+ },
+ {
+  "type": "term",
+  "no": 181,
+  "name": "조선왕조실록",
+  "category": "문헌·사료",
+  "priority": "핵심",
+  "name_en": "Joseon Wangjo Sillok (Annals of the Joseon Dynasty)",
+  "name_th": "โชซอนวังโจซิลลก (พงศาวดารราชวงศ์โชซอน)"
+ },
+ {
+  "type": "term",
+  "no": 182,
+  "name": "승정원일기",
+  "category": "문헌·사료",
+  "priority": "핵심",
+  "name_en": "Seungjeongwon Ilgi (Diaries of the Royal Secretariat)",
+  "name_th": "ซึงจองวอนอิลกี (บันทึกสำนักเลขานุการพระราชสำนัก)"
+ },
+ {
+  "type": "term",
+  "no": 183,
+  "name": "서경",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Seogyeong (Book of Documents)",
+  "name_th": "ซอกยอง (คัมภีร์ว่าด้วยเอกสารโบราณ)"
+ },
+ {
+  "type": "term",
+  "no": 184,
+  "name": "주역",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Juyeok (I Ching / Book of Changes)",
+  "name_th": "จูยอก (คัมภีร์อี้จิง / คัมภีร์แห่งการเปลี่ยนแปลง)"
+ },
+ {
+  "type": "term",
+  "no": 185,
+  "name": "한서",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Hanseo (Books in Classical Chinese)",
+  "name_th": "ฮันซอ (หนังสือภาษาจีนคลาสสิก)"
+ },
+ {
+  "type": "term",
+  "no": 186,
+  "name": "북궐도형",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Bukgwoldohyeong (Floor Plan of Gyeongbokgung Palace)",
+  "name_th": "บุกกวอลโดฮยอง (แผนผังพระราชวังคยองบกกุง)"
+ },
+ {
+  "type": "term",
+  "no": 187,
+  "name": "동궐도",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Donggwoldo (Painting of the Eastern Palaces)",
+  "name_th": "ทงกวอลโด (ภาพวาดพระราชวังฝ่ายตะวันออก)"
+ },
+ {
+  "type": "term",
+  "no": 188,
+  "name": "경복궁 영건일기",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Gyeongbokgung Yeonggeon Ilgi (Diary of the Reconstruction of Gyeongbokgung Palace)",
+  "name_th": "คยองบกกุงยองกอนอิลกี (บันทึกการบูรณะพระราชวังคยองบกกุง)"
+ },
+ {
+  "type": "term",
+  "no": 189,
+  "name": "경회루전도",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Gyeonghoerujeondo (Detailed Illustrated Plan of Gyeonghoeru Pavilion)",
+  "name_th": "คยองฮเวรูจอนโด (แผนผังภาพประกอบโดยละเอียดของศาลาคยองฮเวรู)"
+ },
+ {
+  "type": "term",
+  "no": 190,
+  "name": "궁궐지",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Gunggwolji (Historical Records of Royal Palaces)",
+  "name_th": "กุงกวอลจี (บันทึกประวัติพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 191,
+  "name": "조선고적도보",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Joseongojeokdobo (Illustrated Book of Korean Ancient Relics)",
+  "name_th": "โชซอนโกจอกโดโบ (หนังสือภาพโบราณสถานเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 192,
+  "name": "흠경각기",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Heumgyeonggakgi (Record of Heumgyeonggak Pavilion)",
+  "name_th": "ฮึมกยองกักกี (บันทึกศาลาฮึมกยองกัก)"
+ },
+ {
+  "type": "term",
+  "no": 193,
+  "name": "동문선",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Dongmunseon (Collection of Excellent Korean Literary Works)",
+  "name_th": "ทงมุนซอน (รวมวรรณกรรมชั้นเยี่ยมของเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 194,
+  "name": "춘성유기",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Chunseongyugi (Travelogue of the Spring City)",
+  "name_th": "ชุนซองยูกี (บันทึกการเดินทางในนครฤดูใบไม้ผลิ)"
+ },
+ {
+  "type": "term",
+  "no": 195,
+  "name": "기문",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Gimun (Commemorative Record)",
+  "name_th": "กีมุน (บันทึกที่ระลึก)"
+ },
+ {
+  "type": "term",
+  "no": 196,
+  "name": "세계기록유산",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Segyegirogyusan (UNESCO Memory of the World)",
+  "name_th": "เซกเยกีรกยูซัน (มรดกความทรงจำแห่งโลกของยูเนสโก)"
+ },
+ {
+  "type": "term",
+  "no": 197,
+  "name": "국보 / 보물 (구 지정번호)",
+  "category": "과학·문화재 행정",
+  "priority": "핵심",
+  "name_en": "Gukbo and Bomul (National Treasure and Treasure)",
+  "name_th": "กุกโบ / โพมุล (สมบัติชาติ / สมบัติ)"
+ },
+ {
+  "type": "term",
+  "no": 198,
+  "name": "국가유산청(구 문화재청)",
+  "category": "과학·문화재 행정",
+  "priority": "핵심",
+  "name_en": "Gukgayusancheong (Korea Heritage Service)",
+  "name_th": "กุกกายูซันชอง (สำนักงานมรดกเกาหลี)"
+ },
+ {
+  "type": "term",
+  "no": 199,
+  "name": "옥루",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Ongnu (Automated Water Clock)",
+  "name_th": "องนู (นาฬิกาน้ำอัตโนมัติ)"
+ },
+ {
+  "type": "term",
+  "no": 200,
+  "name": "물시계 / 천문시계",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Mulsigye and Cheonmunsigye (Water Clock and Astronomical Clock)",
+  "name_th": "มุลซีกเย / ชอนมุนซีกเย (นาฬิกาน้ำ / นาฬิกาดาราศาสตร์)"
+ },
+ {
+  "type": "term",
+  "no": 201,
+  "name": "시보장치",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Sibojangchi (Time-announcing Mechanism)",
+  "name_th": "ซีโบจังชี (กลไกบอกเวลา)"
+ },
+ {
+  "type": "term",
+  "no": 202,
+  "name": "기륜",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Giryun (Mechanical Wheel)",
+  "name_th": "คีรยุน (ล้อกลไก)"
+ },
+ {
+  "type": "term",
+  "no": 203,
+  "name": "연륜연대조사",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Dendrochronology (Tree-ring Dating)",
+  "name_th": "ยอนนยุนยอนแดโจซา (การหาอายุจากวงปีไม้)"
+ },
+ {
+  "type": "term",
+  "no": 204,
+  "name": "발굴조사",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Balgul Josa (Archaeological Excavation)",
+  "name_th": "พัลกุลโจซา (การขุดค้นทางโบราณคดี)"
+ },
+ {
+  "type": "term",
+  "no": 205,
+  "name": "촉광",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Chokgwang (Candlepower)",
+  "name_th": "ชกกวัง (หน่วยวัดความสว่าง)"
+ },
+ {
+  "type": "term",
+  "no": 206,
+  "name": "집자",
+  "category": "과학·문화재 행정",
+  "priority": "보조",
+  "name_en": "Jipja (Collecting and Reassembling Calligraphic Characters)",
+  "name_th": "ชิบจา (การรวบรวมอักษรลายมือ)"
+ },
+ {
+  "type": "term",
+  "no": 207,
+  "name": "익공 / 이익공 / 초익공",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Ikgong / Iikgong / Choikgong (wing-like bracket)",
+  "name_th": "อิกกง / อีอิกกง / โชอิกกง (ไม้ค้ำยันรูปปีก)"
+ },
+ {
+  "type": "term",
+  "no": 208,
+  "name": "퇴칸 / 툇간",
+  "category": "건축 구조·부재",
+  "priority": "핵심",
+  "name_en": "Toekan / Toetgan (quadrangular walkway)",
+  "name_th": "ทเวกัน / ทเวตกาน (ทางเดินรอบอาคาร)"
+ },
+ {
+  "type": "term",
+  "no": 209,
+  "name": "맞배지붕",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Matbaejibung (Gabled roof)",
+  "name_th": "มัตแพจิบุง (หลังคาหน้าจั่ว)"
+ },
+ {
+  "type": "term",
+  "no": 210,
+  "name": "잡상",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Japsang (decorative figures on a roof ridge)",
+  "name_th": "ชับซัง (รูปประดับบนสันหลังคา)"
+ },
+ {
+  "type": "term",
+  "no": 211,
+  "name": "겹처마 / 홑처마",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Gyeopcheoma and Hotcheoma (Double Eaves and Single Eaves)",
+  "name_th": "คยอบชอมา / ฮดชอมา (ชายคาสองชั้น / ชายคาชั้นเดียว)"
+ },
+ {
+  "type": "term",
+  "no": 212,
+  "name": "굴도리",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Guldori (round purlin)",
+  "name_th": "คุลโดรี (ขื่อรับหลังคาทรงกลม)"
+ },
+ {
+  "type": "term",
+  "no": 213,
+  "name": "삼문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Sammun (Three-bay Gate)",
+  "name_th": "ซัมมุน (ประตูสามช่อง)"
+ },
+ {
+  "type": "term",
+  "no": 214,
+  "name": "사주문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Sajumun (Four-pillar Gate)",
+  "name_th": "ซาจูมุน (ประตูสี่เสา)"
+ },
+ {
+  "type": "term",
+  "no": 215,
+  "name": "솟을대문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Soseuldaemun (Tall Main Gate)",
+  "name_th": "โซซึลดาเอมุน (ประตูหลักยอดสูง)"
+ },
+ {
+  "type": "term",
+  "no": 216,
+  "name": "월문",
+  "category": "건축 구조·부재",
+  "priority": "보조",
+  "name_en": "Wolmun (Moon Gate / Arched Gate)",
+  "name_th": "วอลมุน (ประตูโค้ง)"
+ },
+ {
+  "type": "term",
+  "no": 217,
+  "name": "내전",
+  "category": "궁궐 공간·기능",
+  "priority": "핵심",
+  "name_en": "Naejeon (hall in the palace's inner quarters)",
+  "name_th": "แนจอน (อาคารเขตชั้นในของพระราชวัง)"
+ },
+ {
+  "type": "term",
+  "no": 218,
+  "name": "재실 / 내재실",
+  "category": "궁궐 공간·기능",
+  "priority": "보조",
+  "name_en": "Jaesil and Naejaesil (Ritual Preparation Room)",
+  "name_th": "แจชิล / แนแจชิล (ห้องเตรียมพิธีกรรม)"
+ },
+ {
+  "type": "term",
+  "no": 219,
+  "name": "내명부",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Naemyeongbu (Court Ladies of the Inner Palace)",
+  "name_th": "แนมยองบู (นางในฝ่ายใน)"
+ },
+ {
+  "type": "term",
+  "no": 220,
+  "name": "나인",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Nain (Official Court Lady)",
+  "name_th": "นาอิน (นางกำนัลประจำราชสำนัก)"
+ },
+ {
+  "type": "term",
+  "no": 221,
+  "name": "후궁",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Hugung (Royal Concubine / Residence of Royal Concubines)",
+  "name_th": "ฮูกุง (นางสนม / ที่ประทับของนางสนมหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 222,
+  "name": "빈궁",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Bingung (Residence of Royal Concubines)",
+  "name_th": "พินกุง (ที่ประทับของนางสนมหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 223,
+  "name": "서사관 / 제술관",
+  "category": "왕실·신분·관직",
+  "priority": "보조",
+  "name_en": "Seosagwan and Jesulgwan (Calligrapher and Writer)",
+  "name_th": "ซอซากวัน / เชซุลกวัน (ช่างเขียนอักษรและนักประพันธ์)"
+ },
+ {
+  "type": "term",
+  "no": 224,
+  "name": "진찬",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Jinchan (Royal Banquet)",
+  "name_th": "จินชัน (งานเลี้ยงหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 225,
+  "name": "대리청정",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Daericheongjeong (Regency by the Crown Prince)",
+  "name_th": "แทรีชองจอง (การสำเร็จราชการโดยองค์รัชทายาท)"
+ },
+ {
+  "type": "term",
+  "no": 226,
+  "name": "조참",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Jocham (Monthly Morning Audience)",
+  "name_th": "โจชัม (การเข้าเฝ้ายามเช้าประจำเดือน)"
+ },
+ {
+  "type": "term",
+  "no": 227,
+  "name": "야대",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Yadae (Nighttime Royal Lecture and Conference)",
+  "name_th": "ยาแด (การบรรยายและหารือกับพระราชายามค่ำคืน)"
+ },
+ {
+  "type": "term",
+  "no": 228,
+  "name": "간택",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gantaek (Selection of Royal Spouses)",
+  "name_th": "คันแท็ก (การคัดเลือกคู่สมรสในราชวงศ์)"
+ },
+ {
+  "type": "term",
+  "no": 229,
+  "name": "국문",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Gungmun (Royal Interrogation)",
+  "name_th": "กุงมุน (การไต่สวนหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 230,
+  "name": "산릉",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Salleung (Royal Tomb)",
+  "name_th": "ซัลลึง (สุสานหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 231,
+  "name": "영건도감",
+  "category": "관청·제도·의례",
+  "priority": "보조",
+  "name_en": "Yeonggeondogam (Temporary Office for Royal Construction)",
+  "name_th": "ยองกอนโดกัม (หน่วยงานชั่วคราวดูแลงานก่อสร้างหลวง)"
+ },
+ {
+  "type": "term",
+  "no": 232,
+  "name": "상량문",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Sangnyangmun (message for a ridge beam-raising ceremony)",
+  "name_th": "ซังยังมุน (ข้อความสำหรับพิธียกคานหลังคา)"
+ },
+ {
+  "type": "term",
+  "no": 233,
+  "name": "일성록",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Ilseongnok (Records of Daily Reflections)",
+  "name_th": "อิลซองนก (บันทึกการใคร่ครวญประจำวัน)"
+ },
+ {
+  "type": "term",
+  "no": 234,
+  "name": "증보문헌비고",
+  "category": "문헌·사료",
+  "priority": "보조",
+  "name_en": "Jeungbomunheonbigo (Expanded Encyclopedia of the Joseon Dynasty)",
+  "name_th": "ชึงโบมุนฮอนบีโก (สารานุกรมเพิ่มเติมเกี่ยวกับราชวงศ์โชซอน)"
+ },
+ {
+  "type": "term",
+  "no": 235,
+  "name": "경직도",
+  "category": "사상·상징·장식",
+  "priority": "보조",
+  "name_en": "Gyeongjikdo (paintings of farming life)",
+  "name_th": "คยองจิกโด (ภาพวิถีเกษตรกรรม)"
+ }
+]
