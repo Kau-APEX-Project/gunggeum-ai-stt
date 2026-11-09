@@ -83,12 +83,17 @@ def terminology_rows() -> list[tuple[str, str, str]]:
 
 
 def create_vocabularies(region: str = "ap-northeast-2"):
-    """Transcribe 사용자 지정 어휘(전체 1개 + 위치별 26개)를 만든다. 이미 있으면 갱신. 완료까지 수 분."""
+    """Transcribe 사용자 지정 어휘(전체 1개 + 위치별)를 만든다. 이미 있으면 갱신. 완료까지 수 분."""
+    todo = {GLOBAL_VOCAB: vocab_phrases(all_terms())}
+    todo |= {name: vocab_phrases(hints_by_location()[loc]) for loc, name in vocab_names().items()}
+    register_vocabularies(todo, region)
+
+
+def register_vocabularies(todo: dict[str, list[str]], region: str = "ap-northeast-2"):
+    """{어휘 이름: 문구 목록}을 Transcribe 에 등록한다. 이미 있으면 갱신. 동시 처리 한도에 걸리면 기다렸다 이어서."""
     import time
     import boto3
     tc = boto3.client("transcribe", region_name=region)
-    todo = {GLOBAL_VOCAB: vocab_phrases(all_terms())}
-    todo |= {name: vocab_phrases(hints_by_location()[loc]) for loc, name in vocab_names().items()}
     pending = dict(todo)
     while pending:
         for name, phrases in list(pending.items()):
@@ -101,23 +106,32 @@ def create_vocabularies(region: str = "ap-northeast-2"):
             except tc.exceptions.LimitExceededException:
                 break
             del pending[name]
+        if pending:
+            print(f"등록 대기 {len(pending)}개 …", flush=True)
         time.sleep(10)
     while any(tc.get_vocabulary(VocabularyName=n)["VocabularyState"] == "PENDING" for n in todo):
         time.sleep(10)
+    failed = 0
     for n in todo:
         s = tc.get_vocabulary(VocabularyName=n)
+        failed += s["VocabularyState"] != "READY"
         print(f"어휘 {n}: {s['VocabularyState']} ({len(todo[n])}개)", s.get("FailureReason", ""))
+    print(f"어휘 {len(todo)}개 중 실패 {failed}개")
 
 
-def create_terminology(name: str = "gungeum-ko", region: str = "ap-northeast-2"):
-    """Amazon Translate 사용자 지정 용어집(ko→en·th) 등록. 이미 있으면 덮어쓴다."""
+def create_terminology(name: str = "gungeum-ko", region: str = "ap-northeast-2", langs=("en", "th")):
+    """Amazon Translate 사용자 지정 용어집(ko→langs) 등록. 이미 있으면 덮어쓴다.
+    Translate 는 용어 하나가 200바이트를 넘으면 받지 않는다(태국어 묶음 항목 8행이 넘음) → 영어만 올릴 때는 langs=("en",)."""
     import boto3
+    col = {"en": 1, "th": 2}
     rows = terminology_rows()
-    body = "ko,en,th\n" + "\n".join(",".join('"' + c.replace('"', '""') + '"' for c in r) for r in rows)
+    lines = [",".join(["ko", *langs])]
+    for r in rows:
+        lines.append(",".join('"' + c.replace('"', '""') + '"' for c in [r[0], *(r[col[l]] for l in langs)]))
     boto3.client("translate", region_name=region).import_terminology(
         Name=name, MergeStrategy="OVERWRITE",
-        TerminologyData={"File": body.encode("utf-8"), "Format": "CSV", "Directionality": "UNI"})
-    print(f"용어집 {name}: {len(rows)}개")
+        TerminologyData={"File": "\n".join(lines).encode("utf-8"), "Format": "CSV", "Directionality": "UNI"})
+    print(f"용어집 {name}: {len(rows)}개 (ko→{'·'.join(langs)})")
 
 
 if __name__ == "__main__":
