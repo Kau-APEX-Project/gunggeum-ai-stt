@@ -603,6 +603,8 @@
 
 | 파일 | 내용 |
 |---|---|
+| `translate_terms_eval.py` | 5·6장의 번역과 채점을 하는 스크립트. `translate`는 Amazon Translate를 부르고, `score`는 저장된 번역 결과만으로 아래 파일을 다시 만듦 |
+| `results_translate/raw_*.jsonl` | 방식별 번역 결과 원본(보낸 문장, 받은 영어) 5개 |
 | `results_translate/terms300_summary.csv` | 5.4절 요약표 |
 | `results_translate/terms300_by_term.csv` | 용어별 등장 수, 일치 수, 조사가 붙어 나온 수 |
 | `results_translate/terms300_scored.jsonl` | 문장별 한국어, 영어 결과 두 가지, 용어별 일치 여부 |
