@@ -23,8 +23,8 @@ def test_data_matches_excel():
 def test_plain_words_are_merged_but_not_cards():
     metas = card_metas(XLSX_B, XLSX_T)
     plain = plain_rows()
-    assert ("왕비", "the queen", "") in plain and ("경복궁", "Gyeongbokgung Palace", "") in plain
-    assert all(len(ko) > 1 and en and "(" not in en for ko, en, _ in plain)  # 2글자 이상, 괄호 풀이 없는 일반 영어
+    assert {("왕", "the king", ""), ("왕비", "the queen", ""), ("경복궁", "Gyeongbokgung Palace", "")} <= set(plain)
+    assert all(ko and " " not in ko and en and "(" not in en for ko, en, _ in plain)  # 띄어쓰기 없음, 괄호 풀이 없는 일반 영어
     assert not {ko for ko, *_ in plain} & {ko for ko, *_ in terminology_rows(metas)}  # 카드 이름과 겹치지 않음
     assert len(all_rows(metas)) == len(terminology_rows(metas)) + len(plain)
 

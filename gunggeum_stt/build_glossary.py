@@ -14,7 +14,9 @@
   gunggeum_stt/data/translate_plain_words.csv  카드는 아니지만 번역이 자주 틀리는 일반 단어 (ko,en,th).
                                         괄호 풀이 없이 일반 영어로 적는다(예: 왕비 → the queen). 카드 목록(cards.json)에는 들어가지 않는다.
                                         표기가 없는 언어 칸은 비워 둔다(백엔드는 빈 칸이면 그 언어에서 바꾸지 않음).
-                                        1글자 단어는 넣지 않는다(백엔드가 1글자 용어를 읽지 않고, 다른 낱말 앞부분에 잘못 걸림).
+                                        1글자 단어(왕)는 백엔드가 뒤가 조사이거나 낱말이 거기서 끝날 때만 바꾼다
+                                        ('왕이'·'왕의'는 바꾸고 '왕실'·'왕권'은 그대로, gunggeum-be PR #7).
+                                        띄어쓰기가 든 단어는 넣지 않는다(백엔드가 읽지 않음).
 
 사용법: python -m gunggeum_stt.build_glossary [--buildings 경복궁_전각.xlsx] [--terms 경복궁_용어.xlsx]
 """
@@ -94,8 +96,8 @@ def all_rows(metas):
     rows = terminology_rows(metas)
     taken = {ko for ko, *_ in rows}
     for ko, en, th in plain_rows():
-        if len(ko) < 2 or not en:
-            raise ValueError(f"일반 단어는 2글자 이상이고 영어 표기가 있어야 함: {ko!r}")
+        if not ko or " " in ko or not en:
+            raise ValueError(f"일반 단어는 띄어쓰기가 없고 영어 표기가 있어야 함: {ko!r}")
         if ko in taken:
             raise ValueError(f"일반 단어가 카드 이름과 겹침: {ko}")
         taken.add(ko)

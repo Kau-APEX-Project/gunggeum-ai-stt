@@ -96,7 +96,7 @@ AWS_PROFILE=<팀 계정 프로필> python -m gunggeum_stt.be_export --register  
 | `dist/be/stt_hints.json` — POI 71곳 → 용어 목록 | 백엔드 `STT_HINTS_PATH` |
 | Transcribe 사용자 지정 어휘 72개 — `gungeum-<poiId>`(':' → '-') 71개 + 전체 `gungeum-gyeongbokgung-ko` | 백엔드 `TRANSCRIBE_VOCABULARY_PREFIX=gungeum-`, `TRANSCRIBE_VOCABULARY=gungeum-gyeongbokgung-ko` |
 | Translate 사용자 지정 용어집 `gungeum-ko` (329행, ko→en·th) | 백엔드 `TRANSLATE_TERMINOLOGY=gungeum-ko` |
-| `gunggeum_stt/data/translate_terms.csv` — 카드 표기 329행 + 일반 단어(`translate_plain_words.csv`, 예: 왕비 → the queen) | 백엔드가 복사해 번역 전 바꿔 넣기에 사용 |
+| `gunggeum_stt/data/translate_terms.csv` — 카드 표기 329행 + 일반 단어(`translate_plain_words.csv`: 왕 → the king, 왕비 → the queen, 경복궁 → Gyeongbokgung Palace) | 백엔드가 복사해 번역 전 바꿔 넣기에 사용 |
 
 `dist/be/vocab/*.txt` 는 콘솔의 "단어집 생성 → 파일 업로드"에 그대로 올릴 수 있는 표 형식이다(키 없이 손으로 올릴 때).
 위치 이름과 POI 대응 규칙은 `gunggeum_stt/be_export.py` 머리말 참고. POI 목록(`data/pois.json`)이 바뀌면 다시 받아 넣는다.
