@@ -1,0 +1,357 @@
+[
+ {
+"id": "place:gwanghwamun-gate",
+"name": "광화문",
+"group": "광화문"
+},
+ {
+"id": "place:geonchunmun-gate",
+"name": "건춘문",
+"group": "건춘문"
+},
+ {
+"id": "place:yeongchumun-gate",
+"name": "영추문",
+"group": "영추문"
+},
+ {
+"id": "place:p-16",
+"name": "신무문",
+"group": "신무문"
+},
+ {
+"id": "place:heungnyemun-gate",
+"name": "흥례문",
+"group": "흥례문"
+},
+ {
+"id": "place:p-17",
+"name": "영제교",
+"group": "흥례문"
+},
+ {
+"id": "place:p-18",
+"name": "기별청",
+"group": "흥례문"
+},
+ {
+"id": "place:geunjeongmun-gate",
+"name": "근정문",
+"group": "근정전"
+},
+ {
+"id": "place:p-19",
+"name": "근정전 조정",
+"group": "근정전"
+},
+ {
+"id": "place:geunjeongjeon-hall",
+"name": "근정전",
+"group": "근정전"
+},
+ {
+"id": "place:p-20",
+"name": "근정전 내부",
+"group": "근정전"
+},
+ {
+"id": "place:seojeongjeon",
+"name": "사정전",
+"group": "사정전"
+},
+ {
+"id": "place:gangnyeongjeon",
+"name": "강녕전",
+"group": "강녕전"
+},
+ {
+"id": "place:gyotaejeon",
+"name": "교태전",
+"group": "교태전"
+},
+ {
+"id": "place:p-21",
+"name": "아미산",
+"group": "교태전"
+},
+ {
+"id": "place:heumgyeonggak",
+"name": "흠경각",
+"group": "교태전"
+},
+ {
+"id": "place:hamwonjeon",
+"name": "함원전",
+"group": "교태전"
+},
+ {
+"id": "place:jagyeongjeon",
+"name": "자경전",
+"group": "자경전"
+},
+ {
+"id": "place:p-22",
+"name": "십장생 굴뚝",
+"group": "자경전"
+},
+ {
+"id": "place:p-23",
+"name": "꽃담",
+"group": "자경전"
+},
+ {
+"id": "place:p-24",
+"name": "동궁전",
+"group": "동궁전"
+},
+ {
+"id": "place:gyeonghoeru-pavilion",
+"name": "경회루",
+"group": "경회루"
+},
+ {
+"id": "place:hyangwonjeong",
+"name": "향원정",
+"group": "향원정"
+},
+ {
+"id": "place:taewonjeon",
+"name": "태원전",
+"group": "태원전"
+},
+ {
+"id": "place:p-25",
+"name": "건청궁",
+"group": "건청궁"
+},
+ {
+"id": "place:jibokjae",
+"name": "집옥재",
+"group": "집옥재"
+},
+ {
+"id": "place:sujeongjeon",
+"name": "수정전",
+"group": "수정전"
+},
+ {
+"id": "place:p-26",
+"name": "소주방",
+"group": "소주방"
+},
+ {
+"id": "place:p-27",
+"name": "궐내각사 터",
+"group": "수정전"
+},
+ {
+"id": "place:p-3",
+"name": "기원문",
+"group": "태원전"
+},
+ {
+"id": "place:geonsukmun-gate",
+"name": "건숙문",
+"group": "태원전"
+},
+ {
+"id": "place:gyeonganmun-gate",
+"name": "경안문",
+"group": "태원전"
+},
+ {
+"id": "place:p-8",
+"name": "인수문",
+"group": "태원전"
+},
+ {
+"id": "place:gongbukjae",
+"name": "공묵재",
+"group": "태원전"
+},
+ {
+"id": "place:sungmundang",
+"name": "숙문당",
+"group": "태원전"
+},
+ {
+"id": "place:p-2",
+"name": "건길문",
+"group": "태원전"
+},
+ {
+"id": "place:yeongsajae",
+"name": "영사재",
+"group": "태원전"
+},
+ {
+"id": "place:p-28",
+"name": "보강문",
+"group": "태원전"
+},
+ {
+"id": "place:honggyeongmun",
+"name": "홍경문",
+"group": "태원전"
+},
+ {
+"id": "place:iljungmun-gate",
+"name": "일중문",
+"group": "태원전"
+},
+ {
+"id": "place:p-29",
+"name": "필성문",
+"group": "건청궁"
+},
+ {
+"id": "place:jangandang",
+"name": "장안당",
+"group": "건청궁"
+},
+ {
+"id": "place:p-11",
+"name": "초양문",
+"group": "건청궁"
+},
+ {
+"id": "place:p-30",
+"name": "인유문",
+"group": "건청궁"
+},
+ {
+"id": "place:p-31",
+"name": "정시합",
+"group": "건청궁"
+},
+ {
+"id": "place:boksudang",
+"name": "복수당",
+"group": "건청궁"
+},
+ {
+"id": "place:p-32",
+"name": "녹금당",
+"group": "건청궁"
+},
+ {
+"id": "place:gonnyeonghap",
+"name": "곤녕합",
+"group": "건청궁"
+},
+ {
+"id": "place:hyeopgildang",
+"name": "협길당",
+"group": "집옥재"
+},
+ {
+"id": "place:hamhwadang",
+"name": "함화당",
+"group": "흥복전"
+},
+ {
+"id": "place:heungbokjeon",
+"name": "흥복전",
+"group": "흥복전"
+},
+ {
+"id": "place:yongseongmun-gate",
+"name": "용성문",
+"group": "흥례문"
+},
+ {
+"id": "place:hyupsaengmun-gate",
+"name": "협생문",
+"group": "흥례문"
+},
+ {
+"id": "place:yuhwamun-gate",
+"name": "유화문",
+"group": "흥례문"
+},
+ {
+"id": "place:p-33",
+"name": "양의문",
+"group": "교태전"
+},
+ {
+"id": "place:gyeongseongjeon",
+"name": "경성전",
+"group": "강녕전"
+},
+ {
+"id": "place:eungjidang",
+"name": "응지당",
+"group": "강녕전"
+},
+ {
+"id": "place:manchunjeon",
+"name": "만춘전",
+"group": "사정전"
+},
+ {
+"id": "place:yeongildang",
+"name": "연길당",
+"group": "강녕전"
+},
+ {
+"id": "place:yeonsaengjeon",
+"name": "연생전",
+"group": "강녕전"
+},
+ {
+"id": "place:cheonchujeon",
+"name": "천추전",
+"group": "사정전"
+},
+ {
+"id": "place:jaseondang",
+"name": "자선당",
+"group": "동궁전"
+},
+ {
+"id": "place:bihyeongak",
+"name": "비현각",
+"group": "동궁전"
+},
+ {
+"id": "place:p-34",
+"name": "중광문",
+"group": "동궁전"
+},
+ {
+"id": "place:jipgyeongdang",
+"name": "집경당",
+"group": "흥복전"
+},
+ {
+"id": "place:p-35",
+"name": "제수합",
+"group": "자경전"
+},
+ {
+"id": "place:gyejodang",
+"name": "계조당",
+"group": "동궁전"
+},
+ {
+"id": "place:p-36",
+"name": "원길헌",
+"group": "교태전"
+},
+ {
+"id": "place:parujeong",
+"name": "팔우정",
+"group": "집옥재"
+},
+ {
+"id": "place:p-13",
+"name": "함홍각",
+"group": "교태전"
+},
+ {
+"id": "place:p-37",
+"name": "건순각",
+"group": "교태전"
+}
+]

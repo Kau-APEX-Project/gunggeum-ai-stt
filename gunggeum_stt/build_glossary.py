@@ -8,6 +8,15 @@
   gunggeum_stt/data/translate_terms.csv Amazon Translate 사용자 지정 용어집 (ko,en,th). 한국어 이름마다 한 줄,
                                         '삼도 / 어도'는 둘로, 괄호(한자)는 떼고, 1글자 이름은 빼고, 같은 이름은 전각 우선
                                         (gunggeum-ai-llm-gps/server/export_terms.py 와 같은 규칙)
+                                        + 아래 일반 단어 목록을 끝에 합침
+
+일반 단어 목록 (손으로 관리)
+  gunggeum_stt/data/translate_plain_words.csv  카드는 아니지만 번역이 자주 틀리는 일반 단어 (ko,en,th).
+                                        괄호 풀이 없이 일반 영어로 적는다(예: 왕비 → the queen). 카드 목록(cards.json)에는 들어가지 않는다.
+                                        표기가 없는 언어 칸은 비워 둔다(백엔드는 빈 칸이면 그 언어에서 바꾸지 않음).
+                                        1글자 단어(왕)는 백엔드가 뒤가 조사이거나 낱말이 거기서 끝날 때만 바꾼다
+                                        ('왕이'·'왕의'는 바꾸고 '왕실'·'왕권'은 그대로, gunggeum-be PR #7).
+                                        띄어쓰기가 든 단어는 넣지 않는다(백엔드가 읽지 않음).
 
 사용법: python -m gunggeum_stt.build_glossary [--buildings 경복궁_전각.xlsx] [--terms 경복궁_용어.xlsx]
 """
@@ -73,13 +82,36 @@ def terminology_rows(metas):
     return out
 
 
+def plain_rows(path=None):
+    """일반 단어 목록 (ko, en, th). 파일이 없으면 빈 목록"""
+    path = Path(path) if path else DATA / "translate_plain_words.csv"
+    if not path.exists():
+        return []
+    with open(path, encoding="utf-8", newline="") as f:
+        return [(r["ko"].strip(), r["en"].strip(), (r.get("th") or "").strip()) for r in csv.DictReader(f)]
+
+
+def all_rows(metas):
+    """translate_terms.csv 에 쓰는 행: 카드 표기(terminology_rows) + 일반 단어, 한국어 순"""
+    rows = terminology_rows(metas)
+    taken = {ko for ko, *_ in rows}
+    for ko, en, th in plain_rows():
+        if not ko or " " in ko or not en:
+            raise ValueError(f"일반 단어는 띄어쓰기가 없고 영어 표기가 있어야 함: {ko!r}")
+        if ko in taken:
+            raise ValueError(f"일반 단어가 카드 이름과 겹침: {ko}")
+        taken.add(ko)
+        rows.append((ko, en, th))
+    return sorted(rows)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--buildings", default=str(ROOT / "경복궁_전각.xlsx"))
     ap.add_argument("--terms", default=str(ROOT / "경복궁_용어.xlsx"))
     a = ap.parse_args()
     metas = card_metas(a.buildings, a.terms)
-    rows = terminology_rows(metas)
+    rows = all_rows(metas)
     (DATA / "cards.json").write_text(json.dumps(metas, ensure_ascii=False, indent=1), encoding="utf-8")
     with open(DATA / "translate_terms.csv", "w", encoding="utf-8", newline="") as f:
         csv.writer(f).writerows([("ko", "en", "th"), *rows])

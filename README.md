@@ -81,3 +81,22 @@ AWS에 어휘·용어집이 없으면 한 번 만든다 (Transcribe·Translate �
 Transcribe 자체 문장 끝 판정은 말이 끝나고 약 0.6초 뒤에 확정을 보냅니다. 목표(문장 끝 → 자막 3초) 중 STT가 쓰는 몫은
 p90 0.8초라 번역(0.2~0.4초)을 더해도 여유가 있으므로, 기본값은 **VAD 켬 + 무음 1.5초 뒤 닫기**(문장이 잘리지 않음)입니다.
 번역을 포함한 전체 지연은 Translate 권한이 붙은 뒤 `bench_client --langs en`으로 잽니다.
+
+## 백엔드(gunggeum-be) 연동 자료
+
+백엔드는 해설 위치를 POI id(예: `place:geunjeongjeon-hall`)로 받는다. 우리 위치별 용어 목록을 POI id 기준으로 바꿔 내보낸다.
+
+```bash
+python -m gunggeum_stt.be_export --out dist/be                      # 파일로 내보내기
+AWS_PROFILE=<팀 계정 프로필> python -m gunggeum_stt.be_export --register   # 팀 계정에 어휘·용어집 등록
+```
+
+| 내보내는 것 | 쓰는 곳 |
+|---|---|
+| `dist/be/stt_hints.json` — POI 71곳 → 용어 목록 | 백엔드 `STT_HINTS_PATH` |
+| Transcribe 사용자 지정 어휘 72개 — `gungeum-<poiId>`(':' → '-') 71개 + 전체 `gungeum-gyeongbokgung-ko` | 백엔드 `TRANSCRIBE_VOCABULARY_PREFIX=gungeum-`, `TRANSCRIBE_VOCABULARY=gungeum-gyeongbokgung-ko` |
+| Translate 사용자 지정 용어집 `gungeum-ko` (329행, ko→en·th) | 백엔드 `TRANSLATE_TERMINOLOGY=gungeum-ko` |
+| `gunggeum_stt/data/translate_terms.csv` — 카드 표기 329행 + 일반 단어(`translate_plain_words.csv`: 왕 → the king, 왕비 → the queen, 경복궁 → Gyeongbokgung Palace) | 백엔드가 복사해 번역 전 바꿔 넣기에 사용 |
+
+`dist/be/vocab/*.txt` 는 콘솔의 "단어집 생성 → 파일 업로드"에 그대로 올릴 수 있는 표 형식이다(키 없이 손으로 올릴 때).
+위치 이름과 POI 대응 규칙은 `gunggeum_stt/be_export.py` 머리말 참고. POI 목록(`data/pois.json`)이 바뀌면 다시 받아 넣는다.
