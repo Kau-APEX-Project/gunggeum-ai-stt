@@ -1,0 +1,241 @@
+﻿판,id,언어,칸,용어,용어 일치,빠진 표기,남은 한글,남은 표시,줄 수 같음
+new,N01,en,title,0,0,,,,True
+new,N01,en,body,2,2,,,,True
+new,N01,th,title,0,0,,,,True
+new,N01,th,body,2,2,,,,True
+new,N02,en,title,0,0,,,,True
+new,N02,en,body,3,3,,,,True
+new,N02,th,title,0,0,,,,True
+new,N02,th,body,3,3,,,,True
+new,N03,en,title,1,1,,,,True
+new,N03,en,body,3,3,,,,True
+new,N03,th,title,1,1,,,,True
+new,N03,th,body,3,3,,,,True
+new,N04,en,title,1,1,,,,True
+new,N04,en,body,0,0,,,,True
+new,N04,th,title,0,0,,,,True
+new,N04,th,body,0,0,,,,True
+new,N05,en,title,0,0,,긴급,,True
+new,N05,en,body,2,2,,,,True
+new,N05,th,title,0,0,,긴급,,True
+new,N05,th,body,2,2,,,,True
+new,N06,en,title,1,1,,,,True
+new,N06,en,body,1,1,,,,True
+new,N06,th,title,1,1,,,,True
+new,N06,th,body,1,1,,,,True
+new,N07,en,title,1,1,,,,True
+new,N07,en,body,2,2,,,,True
+new,N07,th,title,1,1,,,,True
+new,N07,th,body,2,2,,,,True
+new,N08,en,title,0,0,,,,True
+new,N08,en,body,4,4,,,,True
+new,N08,th,title,0,0,,,,True
+new,N08,th,body,4,4,,,,True
+new,N09,en,title,0,0,,,,True
+new,N09,en,body,3,3,,,,True
+new,N09,th,title,0,0,,,,True
+new,N09,th,body,2,2,,,,True
+new,N10,en,title,0,0,,,,True
+new,N10,en,body,3,3,,,,True
+new,N10,th,title,0,0,,,,True
+new,N10,th,body,3,3,,,,True
+new,N11,en,title,0,0,,,,True
+new,N11,en,body,3,3,,,,True
+new,N11,th,title,0,0,,,,True
+new,N11,th,body,3,3,,,,True
+new,N12,en,title,0,0,,,,True
+new,N12,en,body,4,4,,,,True
+new,N12,th,title,0,0,,,,True
+new,N12,th,body,4,4,,,,True
+new,N13,en,title,0,0,,,,True
+new,N13,en,body,2,2,,,,True
+new,N13,th,title,0,0,,,,True
+new,N13,th,body,2,2,,,,True
+new,N14,en,title,0,0,,,,True
+new,N14,en,body,2,2,,,,True
+new,N14,th,title,0,0,,,,True
+new,N14,th,body,1,1,,,,True
+new,N15,en,title,1,1,,,,True
+new,N15,en,body,3,3,,,,True
+new,N15,th,title,1,1,,,,True
+new,N15,th,body,3,3,,,,True
+new,N16,en,title,0,0,,,,True
+new,N16,en,body,1,1,,,,True
+new,N16,th,title,0,0,,,,True
+new,N16,th,body,0,0,,,,True
+new,N17,en,title,0,0,,기상특보,,True
+new,N17,en,body,2,2,,,,True
+new,N17,th,title,0,0,,기상특보,,True
+new,N17,th,body,2,2,,,,True
+new,N18,en,title,1,1,,,,True
+new,N18,en,body,5,5,,,,True
+new,N18,th,title,1,1,,,,True
+new,N18,th,body,5,5,,,,True
+new,N19,en,title,0,0,,,,True
+new,N19,en,body,3,3,,,,True
+new,N19,th,title,0,0,,,,True
+new,N19,th,body,1,1,,,,True
+new,N20,en,title,0,0,,,,True
+new,N20,en,body,3,3,,,,True
+new,N20,th,title,0,0,,,,True
+new,N20,th,body,3,3,,,,True
+new,N21,en,title,0,0,,,,True
+new,N21,en,body,3,3,,,,True
+new,N21,th,title,0,0,,,,True
+new,N21,th,body,3,3,,,,True
+new,N22,en,title,0,0,,,,True
+new,N22,en,body,4,4,,,,True
+new,N22,th,title,0,0,,,,True
+new,N22,th,body,4,4,,,,True
+new,N23,en,title,1,1,,,,True
+new,N23,en,body,7,7,,,,True
+new,N23,th,title,1,1,,,,True
+new,N23,th,body,7,7,,,,True
+new,N24,en,title,0,0,,,,True
+new,N24,en,body,1,1,,,,True
+new,N24,th,title,0,0,,,,True
+new,N24,th,body,0,0,,,,True
+new,N25,en,title,0,0,,,,True
+new,N25,en,body,4,4,,,,True
+new,N25,th,title,0,0,,,,True
+new,N25,th,body,4,4,,,,True
+new,N26,en,title,2,2,,,,True
+new,N26,en,body,3,3,,,,True
+new,N26,th,title,2,2,,,,True
+new,N26,th,body,3,3,,,,True
+new,N27,en,title,0,0,,,,True
+new,N27,en,body,2,2,,,,True
+new,N27,th,title,0,0,,,,True
+new,N27,th,body,1,1,,,,True
+new,N28,en,title,1,1,,,,True
+new,N28,en,body,1,1,,,,True
+new,N28,th,title,1,1,,,,True
+new,N28,th,body,1,1,,,,True
+new,N29,en,title,0,0,,,,True
+new,N29,en,body,4,4,,,,True
+new,N29,th,title,0,0,,,,True
+new,N29,th,body,3,3,,,,True
+new,N30,en,title,0,0,,,,True
+new,N30,en,body,2,2,,,,True
+new,N30,th,title,0,0,,,,True
+new,N30,th,body,2,2,,,,True
+old,N01,en,title,0,0,,,,True
+old,N01,en,body,2,0,Geunjeongjeon (Throne Hall) | Gyeonghoeru (Banquet Pavilion),,,True
+old,N01,th,title,0,0,,,,True
+old,N01,th,body,2,0,คึนจองจอน (ท้องพระโรง) | คยองฮเวรู (พลับพลาจัดงานเลี้ยง),,,True
+old,N02,en,title,0,0,,,,True
+old,N02,en,body,3,2,Geunjeongjeon (Throne Hall),,,True
+old,N02,th,title,0,0,,,,True
+old,N02,th,body,3,2,คึนจองจอน (ท้องพระโรง),,,True
+old,N03,en,title,1,1,,,,True
+old,N03,en,body,3,3,,,,True
+old,N03,th,title,1,1,,,,True
+old,N03,th,body,3,3,,,,True
+old,N04,en,title,1,1,,,,True
+old,N04,en,body,0,0,,,,True
+old,N04,th,title,0,0,,,,True
+old,N04,th,body,0,0,,,,True
+old,N05,en,title,0,0,,긴급,,True
+old,N05,en,body,2,1,Gyeonghoeru (Banquet Pavilion),,,True
+old,N05,th,title,0,0,,긴급,,True
+old,N05,th,body,2,1,คยองฮเวรู (พลับพลาจัดงานเลี้ยง),,,True
+old,N06,en,title,1,1,,,,True
+old,N06,en,body,1,1,,,,True
+old,N06,th,title,1,1,,,,True
+old,N06,th,body,1,1,,,,True
+old,N07,en,title,1,1,,,,True
+old,N07,en,body,2,1,Heungnyemun (Palace Gate),,,True
+old,N07,th,title,1,1,,,,True
+old,N07,th,body,2,1,ฮึงนเยมุน (ประตูพระราชวัง),,,True
+old,N08,en,title,0,0,,,,True
+old,N08,en,body,4,4,,,,True
+old,N08,th,title,0,0,,,,True
+old,N08,th,body,4,4,,,,True
+old,N09,en,title,0,0,,,,True
+old,N09,en,body,3,2,Geunjeongjeon (Throne Hall),,,True
+old,N09,th,title,0,0,,,,True
+old,N09,th,body,2,1,คึนจองจอน (ท้องพระโรง),,,True
+old,N10,en,title,0,0,,,,True
+old,N10,en,body,3,3,,,,True
+old,N10,th,title,0,0,,,,True
+old,N10,th,body,3,3,,,,True
+old,N11,en,title,0,0,,,,True
+old,N11,en,body,3,1,Gyeonghoeru (Banquet Pavilion) | Hyangwonjeong (Pond Pavilion),,,True
+old,N11,th,title,0,0,,,,True
+old,N11,th,body,3,1,คยองฮเวรู (พลับพลาจัดงานเลี้ยง) | ฮยังวอนจอง (พลับพลากลางสระ),,,True
+old,N12,en,title,0,0,,,,True
+old,N12,en,body,4,3,Geunjeongjeon (Throne Hall),,,True
+old,N12,th,title,0,0,,,,True
+old,N12,th,body,4,3,คึนจองจอน (ท้องพระโรง),,,True
+old,N13,en,title,0,0,,,,True
+old,N13,en,body,2,2,,,,True
+old,N13,th,title,0,0,,,,True
+old,N13,th,body,2,2,,,,True
+old,N14,en,title,0,0,,,,True
+old,N14,en,body,2,1,Gwanghwamun (Palace Gate),,,True
+old,N14,th,title,0,0,,,,True
+old,N14,th,body,1,0,ควังฮวามุน (ประตูพระราชวัง),,,True
+old,N15,en,title,1,1,,,,True
+old,N15,en,body,3,3,,,,True
+old,N15,th,title,1,1,,,,True
+old,N15,th,body,3,3,,,,True
+old,N16,en,title,0,0,,,,True
+old,N16,en,body,1,1,,,,True
+old,N16,th,title,0,0,,,,True
+old,N16,th,body,0,0,,,,True
+old,N17,en,title,0,0,,기상특보,,True
+old,N17,en,body,2,2,,,,True
+old,N17,th,title,0,0,,기상특보,,True
+old,N17,th,body,2,2,,,,True
+old,N18,en,title,1,1,,,,True
+old,N18,en,body,5,4,Heungnyemun (Palace Gate),,,True
+old,N18,th,title,1,1,,,,True
+old,N18,th,body,5,4,ฮึงนเยมุน (ประตูพระราชวัง),,,True
+old,N19,en,title,0,0,,,,True
+old,N19,en,body,3,1,Gyeongbokgung Palace | Sinmumun (Palace Gate),,,True
+old,N19,th,title,0,0,,,,True
+old,N19,th,body,1,0,ชินมุมุน (ประตูพระราชวัง),,,True
+old,N20,en,title,0,0,,,,True
+old,N20,en,body,3,3,,,,True
+old,N20,th,title,0,0,,,,True
+old,N20,th,body,3,3,,,,True
+old,N21,en,title,0,0,,,,True
+old,N21,en,body,3,1,Gyeonghoeru (Banquet Pavilion) | Hyangwonjeong (Pond Pavilion),,,True
+old,N21,th,title,0,0,,,,True
+old,N21,th,body,3,1,คยองฮเวรู (พลับพลาจัดงานเลี้ยง) | ฮยังวอนจอง (พลับพลากลางสระ),,,True
+old,N22,en,title,0,0,,,,True
+old,N22,en,body,4,4,,,,True
+old,N22,th,title,0,0,,,,True
+old,N22,th,body,4,4,,,,True
+old,N23,en,title,1,1,,,,True
+old,N23,en,body,7,7,,,,True
+old,N23,th,title,1,1,,,,True
+old,N23,th,body,7,7,,,,True
+old,N24,en,title,0,0,,,,True
+old,N24,en,body,1,1,,,,True
+old,N24,th,title,0,0,,,,True
+old,N24,th,body,0,0,,,,True
+old,N25,en,title,0,0,,,,True
+old,N25,en,body,4,3,Gyotaejeon (Queen’s Bedchamber),,,True
+old,N25,th,title,0,0,,,,True
+old,N25,th,body,4,3,คโยแทจอน (พระตำหนักบรรทมราชินี),,,True
+old,N26,en,title,2,1,Hyeopgildang (Residence Hall),,,True
+old,N26,en,body,3,3,,,,True
+old,N26,th,title,2,1,ฮยอบกิลดัง (เรือนประทับ),,,True
+old,N26,th,body,3,3,,,,True
+old,N27,en,title,0,0,,,,True
+old,N27,en,body,2,2,,,,True
+old,N27,th,title,0,0,,,,True
+old,N27,th,body,1,1,,,,True
+old,N28,en,title,1,1,,,,True
+old,N28,en,body,1,1,,,,True
+old,N28,th,title,1,1,,,,True
+old,N28,th,body,1,1,,,,True
+old,N29,en,title,0,0,,,,True
+old,N29,en,body,4,2,Gyeongbokgung Palace | Bihyeongak (Crown Prince’s Study),,,True
+old,N29,th,title,0,0,,,,True
+old,N29,th,body,3,2,บีฮยองกัก (ห้องทรงงานองค์รัชทายาท),,,True
+old,N30,en,title,0,0,,,,True
+old,N30,en,body,2,2,,,,True
+old,N30,th,title,0,0,,,,True
+old,N30,th,body,2,2,,,,True
