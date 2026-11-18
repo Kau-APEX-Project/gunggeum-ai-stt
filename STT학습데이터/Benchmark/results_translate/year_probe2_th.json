@@ -1,0 +1,92 @@
+[
+ {
+  "id": "U063",
+  "form": "지금 그대로",
+  "sent": "<span translate=\"no\">Geunjeongmun</span>은 1985년에 보물로 지정됐습니다.",
+  "th": "<span translate=\"no\">Geunjeongmun</span> ถูกกำหนดให้เป็นสมบัติในปี ค."
+ },
+ {
+  "id": "U063",
+  "form": "서기를 붙임",
+  "sent": "<span translate=\"no\">Geunjeongmun</span>은 서기 1985년에 보물로 지정됐습니다.",
+  "th": "<span translate=\"no\">Geunjeongmun</span> ถูกกำหนดให้เป็นสมบัติในปี 1985 AD"
+ },
+ {
+  "id": "U063",
+  "form": "연도에 번역 제외 표시",
+  "sent": "<span translate=\"no\">Geunjeongmun</span>은 <span translate=\"no\">1985</span>년에 보물로 지정됐습니다.",
+  "th": "<span translate=\"no\">Geunjeongmun</span> ถูกกำหนดให้เป็นสมบัติใน <span translate=\"no\">1985</span>"
+ },
+ {
+  "id": "U007",
+  "form": "지금 그대로",
+  "sent": "1927년에 <span translate=\"no\">Joseon Chongdokbu</span> 청사를 짓는다는 이유로 <span translate=\"no\">Geonchunmun</span> 북쪽으로 옮겨졌습니다.",
+  "th": "1927 ถูกย้ายไปทางเหนือของ <span translate=\"no\">Geonchunmun</span> เพื่อสร้างอาคารรัฐบาล <span translate=\"no\">Joseon Chongdokbu</span> ในปี ค."
+ },
+ {
+  "id": "U007",
+  "form": "서기를 붙임",
+  "sent": "서기 1927년에 <span translate=\"no\">Joseon Chongdokbu</span> 청사를 짓는다는 이유로 <span translate=\"no\">Geonchunmun</span> 북쪽으로 옮겨졌습니다.",
+  "th": "โดยถูกย้ายไปทางเหนือของ <span translate=\"no\">Geonchunmun</span> เพื่อสร้างอาคาร <span translate=\"no\">Joseon Chongdokbu</span> ในปี ค."
+ },
+ {
+  "id": "U007",
+  "form": "연도에 번역 제외 표시",
+  "sent": "<span translate=\"no\">1927</span>년에 <span translate=\"no\">Joseon Chongdokbu</span> 청사를 짓는다는 이유로 <span translate=\"no\">Geonchunmun</span> 북쪽으로 옮겨졌습니다.",
+  "th": "ถูกย้ายไปทางทิศเหนือของ <span translate=\"no\">Geonchunmun</span> เนื่องจากมีการก่อสร้างอาคาร <span translate=\"no\">Joseon Chongdokbu</span> ใน <span translate=\"no\">1927</span>"
+ },
+ {
+  "id": "U158",
+  "form": "지금 그대로",
+  "sent": "<span translate=\"no\">Gyeonghoeru</span>는 1985년에 국보로 지정됐습니다.",
+  "th": "<span translate=\"no\">Gyeonghoeru</span> ได้รับการแต่งตั้งให้เป็นสมบัติแห่งชาติในปี ค."
+ },
+ {
+  "id": "U158",
+  "form": "서기를 붙임",
+  "sent": "<span translate=\"no\">Gyeonghoeru</span>는 서기 1985년에 국보로 지정됐습니다.",
+  "th": "<span translate=\"no\">Gyeonghoeru</span> ได้รับการแต่งตั้งให้เป็นสมบัติแห่งชาติในปี 1985 AD"
+ },
+ {
+  "id": "U158",
+  "form": "연도에 번역 제외 표시",
+  "sent": "<span translate=\"no\">Gyeonghoeru</span>는 <span translate=\"no\">1985</span>년에 국보로 지정됐습니다.",
+  "th": "<span translate=\"no\">Gyeonghoeru</span> ถูกกำหนดให้เป็นสมบัติแห่งชาติใน <span translate=\"no\">1985</span>"
+ },
+ {
+  "id": "U002",
+  "form": "지금 그대로",
+  "sent": "경복궁을 처음 창건한 1395년에는 <span translate=\"no\">Gungseong</span>이 없어서 지금의 <span translate=\"no\">Heungnyemun</span>인 오문이 정문 역할을 했습니다.",
+  "th": "1395 เมื่อพระราชวังคยองบกกกุงถูกสร้างขึ้นครั้งแรก ไม่มี <span translate=\"no\">Gungseong</span> ดังนั้นโอมุน ซึ่งปัจจุบันเป็น <span translate=\"no\">Heungnyemun</span> จึงทำหน้าที่เป็นประตูหลัก"
+ },
+ {
+  "id": "U002",
+  "form": "서기를 붙임",
+  "sent": "경복궁을 처음 창건한 서기 1395년에는 <span translate=\"no\">Gungseong</span>이 없어서 지금의 <span translate=\"no\">Heungnyemun</span>인 오문이 정문 역할을 했습니다.",
+  "th": "เนื่องจากไม่มี <span translate=\"no\">Gungseong</span> ในปี 1395 AD เมื่อพระราชวังคยองบกกกุงถูกสร้างขึ้นครั้งแรก โอโมน ปัจจุบันคือ <span translate=\"no\">Heungnyemun</span> ทำหน้าที่เป็นประตูหลัก"
+ },
+ {
+  "id": "U002",
+  "form": "연도에 번역 제외 표시",
+  "sent": "경복궁을 처음 창건한 <span translate=\"no\">1395</span>년에는 <span translate=\"no\">Gungseong</span>이 없어서 지금의 <span translate=\"no\">Heungnyemun</span>인 오문이 정문 역할을 했습니다.",
+  "th": "ใน <span translate=\"no\">1395</span> เมื่อพระราชวังคยองบกกกุงถูกสร้างขึ้นครั้งแรก ไม่มีเลย <span translate=\"no\">Gungseong</span> ดังนั้นโอมุน คือ <span translate=\"no\">Heungnyemun</span> ปัจจุบัน จึงทำหน้าที่เป็นประตูหลัก"
+ },
+ {
+  "id": "U032",
+  "form": "지금 그대로",
+  "sent": "<span translate=\"no\">Sinmumun</span>이라는 이름은 1475년 성종 6년에 붙여졌습니다.",
+  "th": "1475 ซึ่งเป็นปีที่ 6 ของเมืองซองจง <span translate=\"no\">Sinmumun</span>"
+ },
+ {
+  "id": "U032",
+  "form": "서기를 붙임",
+  "sent": "<span translate=\"no\">Sinmumun</span>이라는 이름은 서기 1475년 성종 6년에 붙여졌습니다.",
+  "th": "1475 ปีคริสตกาล ซึ่งเป็นปีที่ 6 ของเมืองซองจง <span translate=\"no\">Sinmumun</span>"
+ },
+ {
+  "id": "U032",
+  "form": "연도에 번역 제외 표시",
+  "sent": "<span translate=\"no\">Sinmumun</span>이라는 이름은 <span translate=\"no\">1475</span>년 성종 6년에 붙여졌습니다.",
+  "th": "ชื่อ <span translate=\"no\">Sinmumun</span> ได้รับมอบให้แก่ปีที่ 6 ของซองจง ในปีที่ <span translate=\"no\">1475</span>"
+ }
+]

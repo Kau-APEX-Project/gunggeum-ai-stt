@@ -1,0 +1,9 @@
+{
+ "model": "whisper-large-v3",
+ "repo": "Systran/faster-whisper-large-v3",
+ "hint": "location",
+ "device": "cuda",
+ "dtype": "float16",
+ "load_sec": 3.1,
+ "machine": "Linux-6.12.113-production+truenas-x86_64-with-glibc2.39"
+}
