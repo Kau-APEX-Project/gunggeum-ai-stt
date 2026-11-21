@@ -25,6 +25,8 @@
 | `STT_벤치마크_결과보고서.md` / `.pdf` | 결과 보고서 v1 (MacBook Pro 기준) |
 | `STT_벤치마크_결과보고서_v2.md` / `.pdf` | 결과 보고서 v2 (핸드폰에서 쓰는 경로별·장비별) |
 | `rename_log.csv` | 녹음 파일명 정리 전후 대응표 |
+| `slm_correct_eval.py` | 받아쓰기 → 서버 교정(gunggeum-be `postcorrect`) → 언어 모델 보정 단계별 측정, 두 순서(교정→언어 모델, 언어 모델→교정). 언어 모델은 llama-server(LFM3 1.7B) 또는 Claude API(`--claude claude-haiku-5-5`, 출력 형식 강제 `--force-format`, 키는 `~/.config/gungeum/anthropic.env`). 저장된 Transcribe 결과(조용함·소음 7조건·현장 녹음 `results_slm/field_transcribe_20261109.jsonl`)를 씀 → `results_slm/` |
+| `STT_주간보고_멘토피드백_단계별보정.md` / `.pdf` | 11/20 멘토 피드백 대응 주간 보고 (단어집 발음 표기 검수, 단계별 보정 시험) |
 
 ## 실행
 
