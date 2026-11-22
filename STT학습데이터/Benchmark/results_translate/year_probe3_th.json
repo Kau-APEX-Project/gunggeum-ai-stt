@@ -1,0 +1,18 @@
+{
+ "가. 연도만 감쌈(용어는 그대로)": {
+  "sent": "소주방은 문화재청, 지금의 국가유산청이 조선고적도보와 궁궐지, 북궐도형 같은 자료로 고증해서 <span translate=\"no\">2015</span>년에 복원했습니다.",
+  "th": "ห้องครัวขนาดเล็กได้รับการบูรณะใน <span translate=\"no\">2015</span> โดยหน่วยงานทรัพย์สินทางวัฒนธรรมและการบริหารมรดกแห่งชาติในปัจจุบัน โดยใช้วัสดุเช่นเส้นทางประวัติศาสตร์โจซอน, ไซต์พระราชวัง และ Bukgyeoldo"
+ },
+ "나. 용어·연도 감쌈, \"문화재청, 지금의\" 뺌": {
+  "sent": "<span translate=\"no\">Sojubang</span>은 <span translate=\"no\">Gukgayusancheong</span>이 <span translate=\"no\">Joseongojeokdobo</span>와 <span translate=\"no\">Gunggwolji</span>, <span translate=\"no\">Bukgwoldohyeong</span> 같은 자료로 고증해서 <span translate=\"no\">2015</span>년에 복원했습니다.",
+  "th": "<span translate=\"no\">Sojubang</span> ถูกกู้คืนในปี 1967 เนื่องจาก <span translate=\"no\">Gukgayusancheong</span> ทดสอบข้อมูล เช่น <span translate=\"no\">Joseongojeokdobo</span>, <span translate=\"no\">Gunggwolji</span> และ <span translate=\"no\">Bukgwoldohyeong</span><span translate=\"no\">2015</span>"
+ },
+ "다. 짧은 문장": {
+  "sent": "<span translate=\"no\">Sojubang</span>은 <span translate=\"no\">2015</span>년에 복원했습니다.",
+  "th": "<span translate=\"no\">Sojubang</span> ได้รับการฟื้นฟูใน <span translate=\"no\">2015</span>"
+ },
+ "라. 지금 형태, 연도만 2016으로": {
+  "sent": "<span translate=\"no\">Sojubang</span>은 문화재청, 지금의 <span translate=\"no\">Gukgayusancheong</span>이 <span translate=\"no\">Joseongojeokdobo</span>와 <span translate=\"no\">Gunggwolji</span>, <span translate=\"no\">Bukgwoldohyeong</span> 같은 자료로 고증해서 <span translate=\"no\">2016</span>년에 복원했습니다.",
+  "th": "<span translate=\"no\">Sojubang</span> ได้รับการฟื้นฟูในปี 1967 โดยหน่วยงานทรัพย์สินทางวัฒนธรรม และ <span translate=\"no\">Gukgayusancheong</span> ปัจจุบันได้รับการรับรองด้วยวัสดุเช่น <span translate=\"no\">Joseongojeokdobo</span>, <span translate=\"no\">Gunggwolji</span> และ <span translate=\"no\">Bukgwoldohyeong</span><span translate=\"no\">2016</span>"
+ }
+}
