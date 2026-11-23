@@ -82,9 +82,11 @@ def write(out: Path) -> None:
         rows = ["Phrase\tSoundsLike\tIPA\tDisplayAs"] + [f"{p}\t\t\t" for p in phrases]
         (vdir / f"{name}.txt").write_text("\n".join(rows) + "\n", encoding="utf-8")
     (out / "translate_terms.csv").write_text(glossary._data("translate_terms.csv"), encoding="utf-8")
+    (out / "notice_plain_words.csv").write_text(glossary._data("notice_plain_words.csv"), encoding="utf-8")
     print(f"{out}/stt_hints.json: POI {len(hints_by_poi())}곳")
     print(f"{vdir}/: 어휘 파일 {len(vocabularies())}개")
     print(f"{out}/translate_terms.csv: 용어 {len(glossary.terminology_rows())}개")
+    print(f"{out}/notice_plain_words.csv: 공지에서 감싸지 않을 용어 {len(glossary._data('notice_plain_words.csv').splitlines()) - 1}개")
 
 
 if __name__ == "__main__":

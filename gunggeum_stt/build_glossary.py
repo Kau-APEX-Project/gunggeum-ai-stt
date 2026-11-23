@@ -11,12 +11,19 @@
                                         + 아래 일반 단어 목록을 끝에 합침
 
 일반 단어 목록 (손으로 관리)
-  gunggeum_stt/data/translate_plain_words.csv  카드는 아니지만 번역이 자주 틀리는 일반 단어 (ko,en,th).
-                                        괄호 풀이 없이 일반 영어로 적는다(예: 왕비 → the queen). 카드 목록(cards.json)에는 들어가지 않는다.
+  gunggeum_stt/data/translate_plain_words.csv  카드는 아니지만 번역이 자주 틀리는 단어 (ko,en,th). 카드 목록(cards.json)에는 들어가지 않는다.
+                                        흔한 낱말은 일반 영어로(왕비 → the queen), 사람·건물 이름은 용어 엑셀처럼 '로마자 (설명)'으로 적는다.
+                                        용어에 다른 말이 붙은 이름(광화문광장·경복궁역)도 여기 넣는다. 백엔드는 긴 이름부터 맞추므로
+                                        넣지 않으면 앞부분만 용어로 바뀐다('Gwanghwamun (Palace Gate) Square'). gunggeum-be 이슈 16번 6번.
                                         표기가 없는 언어 칸은 비워 둔다(백엔드는 빈 칸이면 그 언어에서 바꾸지 않음).
                                         1글자 단어(왕)는 백엔드가 뒤가 조사이거나 낱말이 거기서 끝날 때만 바꾼다
                                         ('왕이'·'왕의'는 바꾸고 '왕실'·'왕권'은 그대로, gunggeum-be PR #7).
                                         띄어쓰기가 든 단어는 넣지 않는다(백엔드가 읽지 않음).
+
+공지에서 감싸지 않을 용어 (손으로 관리, 이 스크립트는 읽지 않음)
+  gunggeum_stt/data/notice_plain_words.csv  용어와 글자가 같지만 공지에서는 일반 낱말로 쓰이는 것 (ko, 공지에서 쓰이는 뜻).
+                                        백엔드가 공지 번역(notice=True)에서만 감싸지 않는다('폭염 대비', '보호자 동반').
+                                        '조정'은 공지에서도 마당 뜻으로 쓰여('근정전앞 조정에서는') 넣지 않는다.
 
 사용법: python -m gunggeum_stt.build_glossary [--buildings 경복궁_전각.xlsx] [--terms 경복궁_용어.xlsx]
 """
