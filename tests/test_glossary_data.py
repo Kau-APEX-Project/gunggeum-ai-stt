@@ -6,7 +6,8 @@ from pathlib import Path
 import pytest
 
 from gunggeum_stt import glossary
-from gunggeum_stt.build_glossary import ROOT, all_rows, card_metas, plain_rows, terminology_rows
+from gunggeum_stt.build_glossary import (KEEP_BUNDLED, ROOT, all_rows, card_metas, is_bundle, plain_rows, split_rows,
+                                         terminology_rows)
 
 XLSX_B, XLSX_T = ROOT / "경복궁_전각.xlsx", ROOT / "경복궁_용어.xlsx"
 
@@ -40,5 +41,17 @@ def test_notice_plain_words_are_terms():
     """공지에서 감싸지 않을 용어는 모두 용어 표에 있는 이름 ('조정'은 공지에서도 마당 뜻으로 쓰여 넣지 않음)"""
     words = [r["ko"] for r in csv.DictReader(glossary._data("notice_plain_words.csv").splitlines())]
     names = {ko for ko, *_ in glossary.terminology_rows()}
-    assert {"대비", "부재", "조회", "동반"} <= set(words) and "조정" not in words
+    assert {"대비", "부재", "조회", "동반", "보물", "국보", "복원"} <= set(words) and "조정" not in words
     assert set(words) <= names and len(words) == len(set(words))
+
+
+@pytest.mark.skipif(not (XLSX_B.exists() and XLSX_T.exists()), reason="엑셀 원본 없음")
+def test_bundles_are_split_except_keep():
+    """용어집에 남는 묶음 표기는 창건·중건·재건·복원·소실 5개뿐. 카드(cards.json)는 엑셀 묶음 표기 그대로"""
+    metas = card_metas(XLSX_B, XLSX_T)
+    rows = all_rows(metas)
+    assert {ko for ko, en, _ in rows if is_bundle(en)} == KEEP_BUNDLED
+    split = split_rows()
+    assert len(split) == 55 and all(en and th for en, th in split.values())
+    assert dict((ko, en) for ko, en, _ in rows)["세자"] == "Seja (Crown Prince)"
+    assert any(m["name_en"] == "Seja / Wangseja (Crown Prince)" for m in glossary.cards())
