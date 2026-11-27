@@ -70,6 +70,7 @@ def main():
     ap.add_argument("--lang", required=True, choices=("en", "th"))
     ap.add_argument("--dry", action="store_true", help="번역기를 부르지 않고 글자 수만 셈")
     ap.add_argument("--score", action="store_true", help="저장된 번역으로 채점만 다시 함")
+    ap.add_argument("--tag", default="", help="결과 파일 이름 뒤에 붙일 말 (예전 결과를 덮어쓰지 않게)")
     a = ap.parse_args()
     be, lang = Path(a.be), a.lang
     os.environ.setdefault("TRANSLATE_PROVIDER", "aws")
@@ -79,7 +80,7 @@ def main():
     items = T.load_items()
     mod = N.load(be)
     table = expected(be, lang)
-    raw_path = OUT / f"server300_raw_{lang}.jsonl"
+    raw_path = OUT / f"server300_raw_{lang}{a.tag}.jsonl"
 
     if a.score:
         raw = {r["id"]: r for r in map(json.loads, raw_path.open(encoding="utf-8"))}
@@ -109,8 +110,8 @@ def main():
     if a.dry:
         return
     print("한글이 남은 문장", c["한글이 남은 문장"], "| 표시가 남은 문장", c["표시가 남은 문장"])
-    T.write_jsonl(OUT / f"server300_scored_{lang}.jsonl", rows)
-    with (OUT / f"server300_summary_{lang}.csv").open("w", newline="", encoding="utf-8-sig") as f:
+    T.write_jsonl(OUT / f"server300_scored_{lang}{a.tag}.jsonl", rows)
+    with (OUT / f"server300_summary_{lang}{a.tag}.csv").open("w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["구분", "항목 수", "일치", "일치율(%)"])
         for k in keys:

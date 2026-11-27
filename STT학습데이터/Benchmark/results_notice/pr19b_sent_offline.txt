@@ -1,0 +1,180 @@
+[N01 title]
+  원문 '[안내] 우천에 따른 한국어 해설 운영 취소 안내'
+  보냄 '[안내] 우천에 따른 한국어 해설 운영 취소 안내'
+[N01 body]
+  원문 '오늘(11월 20일) 오전부터 비가 이어짐에 따라 해설 프로그램 운영을 취소합니다.\n근정전·경회루 일대는 미끄럼 사고 위험이 있어 해설 없이 자유 관람만 가능합니다.\n관람객 여러분의 양해를 부탁드립니다.'
+  보냄 '오늘(11월 20일) 오전부터 비가 이어짐에 따라 해설 프로그램 운영을 취소합니다.\n<span translate="no">Geunjeongjeon</span>·<span translate="no">Gyeonghoeru</span> 일대는 미끄럼 사고 위험이 있어 해설 없이 자유 관람만 가능합니다.\n관람객 여러분의 양해를 부탁드립니다.'
+[N02 title]
+  원문 '폭염에 따른 야외 해설 중지 안내'
+  보냄 '폭염에 따른 야외 해설 중지 안내'
+[N02 body]
+  원문 '폭염경보 발효로 오늘 오후 1시부터 5시까지 야외 해설을 중지합니다.\n근정전, 사정전, 강녕전 앞 해설 신청자께는 참가비를 환불해 드립니다.\n문의: 02-3700-3900'
+  보냄 '폭염경보 발효로 오늘 오후 1시부터 5시까지 야외 해설을 중지합니다.\n<span translate="no">Geunjeongjeon</span>, <span translate="no">Sajeongjeon</span>, <span translate="no">Gangnyeongjeon</span> 앞 해설 신청자께는 참가비를 환불해 드립니다.\n문의: 02-3700-3900'
+[N03 title]
+  원문 '해설 프로그램 일부 회차 취소 안내 (광화문)'
+  보냄 '해설 프로그램 일부 회차 취소 안내 (<span translate="no">Gwanghwamun</span>)'
+[N03 body]
+  원문 '11/22~11/23 이틀간 행사 준비로 정기 해설 일부 회차가 취소됩니다.\n- 취소 회차: 오전 10:00, 오후 2시\n- 대상 구역: 광화문, 흥례문, 근정문\n예약하신 분께는 개별 문자로 안내드립니다.'
+  보냄 '11/22~11/23 이틀간 행사 준비로 정기 해설 일부 회차가 취소됩니다.\n- 취소 회차: 오전 10:00, 오후 2시\n- 대상 구역: <span translate="no">Gwanghwamun</span>, <span translate="no">Heungnyemun</span>, <span translate="no">Geunjeongmun</span>\n예약하신 분께는 개별 문자로 안내드립니다.'
+[N04 title]
+  원문 '경복궁 해설 하루 중단 안내'
+  보냄 '<span translate="no">Gyeongbokgung Palace</span>의 해설 하루 중단 안내'
+[N04 body]
+  원문 '해설사 교육으로 11월 25일 해설을 운영하지 않습니다.'
+  보냄 '해설사 교육으로 11월 25일 해설을 운영하지 않습니다.'
+[N05 title]
+  원문 '<긴급> 태풍 접근에 따른 해설 전면 취소'
+  보냄 '[긴급] 태풍 접근에 따른 해설 전면 취소'
+[N05 body]
+  원문 '제14호 태풍 북상으로 오늘 모든 해설 프로그램을 취소합니다.\n경회루 & 향원정 일대는 출입이 통제됩니다.\n실외 관람도 가급적 삼가 주시기 바랍니다.'
+  보냄 '제14호 태풍 북상으로 오늘 모든 해설 프로그램을 취소합니다.\n<span translate="no">Gyeonghoeru</span>의 & <span translate="no">Hyangwonjeong</span> 일대는 출입이 통제됩니다.\n실외 관람도 가급적 삼가 주시기 바랍니다.'
+[N06 title]
+  원문 '[경회루] 특별 해설 회차 취소 안내'
+  보냄 '[<span translate="no">Gyeonghoeru</span>] 특별 해설 회차 취소 안내'
+[N06 body]
+  원문 '경회루 특별 해설(회당 30명, 사전 예약제) 11월 21일 14:00 회차가 해설사 사정으로 취소되었습니다.\n참가비 3,000원은 영업일 기준 3일 이내 환불됩니다.\n자세한 내용: https://royal.khs.go.kr/ROYAL/reservation'
+  보냄 '<span translate="no">Gyeonghoeru</span>의 특별 해설(회당 30명, 사전 예약제) 11월 21일 14:00 회차가 해설사 사정으로 취소되었습니다.\n참가비 3,000원은 영업일 기준 3일 이내 환불됩니다.\n자세한 내용: https://royal.khs.go.kr/ROYAL/reservation'
+[N07 title]
+  원문 '광화문광장 행사로 인한 해설 집결지 변경'
+  보냄 '<span translate="no">Gwanghwamun</span>광장 행사로 인한 해설 집결지 변경'
+[N07 body]
+  원문 '11월 29일(토) 광화문광장 행사로 해설 집결지를 변경합니다.\n흥례문 앞 안내판에서 모여 주시기 바랍니다.\n오전 11시 회차부터 적용됩니다.'
+  보냄 '11월 29일(토) <span translate="no">Gwanghwamun</span>광장 행사로 해설 집결지를 변경합니다.\n<span translate="no">Heungnyemun</span>의 앞 안내판에서 모여 주시기 바랍니다.\n오전 11시 회차부터 적용됩니다.'
+[N08 title]
+  원문 '결빙으로 인한 해설 구간 일부 취소 안내'
+  보냄 '결빙으로 인한 해설 구간 일부 취소 안내'
+[N08 body]
+  원문 '도로 결빙으로 해설 구간 일부를 취소합니다.\n○ 운영 구간: 광화문 → 근정전\n○ 취소 구간: 향원정, 건청궁\n※ 해설 시간이 평소보다 20분 짧아집니다.'
+  보냄 '도로 결빙으로 해설 구간 일부를 취소합니다.\n○ 운영 구간: <span translate="no">Gwanghwamun</span> → <span translate="no">Geunjeongjeon</span>\n○ 취소 구간: <span translate="no">Hyangwonjeong</span>, <span translate="no">Geoncheonggung</span>\n※ 해설 시간이 평소보다 20분 짧아집니다.'
+[N09 title]
+  원문 '[안내] 인력 부족에 따른 영어·태국어 해설 취소'
+  보냄 '[안내] 인력 부족에 따른 영어·태국어 해설 취소'
+[N09 body]
+  원문 '해설 인력 부족으로 아래 일정의 외국어 해설 프로그램을 취소합니다.\n- 영어 해설: 11월 18일~11월 21일 오전 10:00 회차\n- 태국어 해설: 11월 19일 오후 2시 회차\n취소된 회차를 예약하신 분들께는 예약 시 입력하신 연락처로 개별 안내드리며, 예약금 전액이 환불됩니다. 대체 일정은 경복궁관리소 누리집 https://royal.khs.go.kr/ROYAL/guide 에서 확인하실 수 있습니다.\n근정전과 경회루 한국어 해설은 평소와 같이 진행됩니다.\n자세한 내용은 02-3700-3900으로 문의해 주시기 바랍니다.\n불편을 드려 대단히 죄송합니다.'
+  보냄 '해설 인력 부족으로 아래 일정의 외국어 해설 프로그램을 취소합니다.\n- 영어 해설: 11월 18일~11월 21일 오전 10:00 회차\n- 태국어 해설: 11월 19일 오후 2시 회차\n취소된 회차를 예약하신 분들께는 예약 시 입력하신 연락처로 개별 안내드리며, 예약금 전액이 환불됩니다. 대체 일정은 <span translate="no">Gyeongbokgung Palace</span>관리소 누리집 https://royal.khs.go.kr/ROYAL/guide 에서 확인하실 수 있습니다.\n<span translate="no">Geunjeongjeon</span>과 <span translate="no">Gyeonghoeru</span> 한국어 해설은 평소와 같이 진행됩니다.\n자세한 내용은 02-3700-3900으로 문의해 주시기 바랍니다.\n불편을 드려 대단히 죄송합니다.'
+[N10 title]
+  원문 '교대의식 연계 해설 취소 안내'
+  보냄 '교대의식 연계 해설 취소 안내'
+[N10 body]
+  원문 '수문장청 교대의식 리허설로 2026. 11. 20.(금) 광화문 앞 해설을 취소합니다. "흥례문" 안 해설은 정상 운영합니다.'
+  보냄 '<span translate="no">Sumunjangcheong</span>의 교대의식 리허설로 <span translate="no">2026</span>년 11월 20일(금) <span translate="no">Gwanghwamun</span> 앞 해설을 취소합니다. "<span translate="no">Heungnyemun</span>" 안 해설은 정상 운영합니다.'
+[N11 title]
+  원문 '[기상특보] 폭염경보 발효 안내'
+  보냄 '[기상특보] 폭염경보 발효 안내'
+[N11 body]
+  원문 '2026. 8. 12.(수) 오후 2시부로 서울 폭염경보가 발효되었습니다.\n경회루·향원정 일대는 그늘이 적으니 수분을 충분히 섭취하시기 바랍니다.\n- 정오~오후 5시 야외 관람 자제\n- 생수 무료 제공: 근정문 앞 안내소'
+  보냄 '<span translate="no">2026</span>년 8월 12일(수) 오후 2시부로 서울 폭염경보가 발효되었습니다.\n<span translate="no">Gyeonghoeru</span>·<span translate="no">Hyangwonjeong</span> 일대는 그늘이 적으니 수분을 충분히 섭취하시기 바랍니다.\n- 정오~오후 5시 야외 관람 자제\n- 생수 무료 제공: <span translate="no">Geunjeongmun</span> 앞 안내소'
+[N12 title]
+  원문 '대설주의보에 따른 관람 안내'
+  보냄 '대설주의보에 따른 관람 안내'
+[N12 body]
+  원문 '대설주의보 발령으로 근정전 월대(근정전 앞 계단 구역)와 영제교 일대 바닥이 미끄럽습니다.\n미끄럽지 않은 신발을 착용해 주시기 바랍니다.\n제설 작업 중에는 출입이 제한될 수 있습니다.'
+  보냄 '대설주의보 발령으로 <span translate="no">Geunjeongjeon</span> <span translate="no">Woldae</span>(<span translate="no">Geunjeongjeon</span> 앞 계단 구역)와 <span translate="no">Yeongjegyo</span> 일대 바닥이 미끄럽습니다.\n미끄럽지 않은 신발을 착용해 주시기 바랍니다.\n제설 작업 중에는 출입이 제한될 수 있습니다.'
+[N13 title]
+  원문 "[안내] 초미세먼지 '나쁨' 단계 관람 안내"
+  보냄 "[안내] 초미세먼지 '나쁨' 단계 관람 안내"
+[N13 body]
+  원문 '서울 초미세먼지 농도가 \'나쁨\' 수준으로 예보되었습니다.\n마스크 착용을 권장하며 "근정전"과 "사정전" 앞 해설은 15분으로 단축 운영합니다.'
+  보냄 '서울 초미세먼지 농도가 \'나쁨\' 수준으로 예보되었습니다.\n마스크 착용을 권장하며 "<span translate="no">Geunjeongjeon</span>"과 "<span translate="no">Sajeongjeon</span>" 앞 해설은 15분으로 단축 운영합니다.'
+[N14 title]
+  원문 '호우경보 발효에 따른 임시 관람 중단 안내'
+  보냄 '호우경보 발효에 따른 임시 관람 중단 안내'
+[N14 body]
+  원문 '호우경보 발효로 오늘 오후 3시부터 관람을 중단합니다.\n광화문광장 및 경복궁역 방향 지하보도가 침수될 수 있으니 우회해 주시기 바랍니다.\n입장권은 7일 이내 재사용이 가능합니다.'
+  보냄 '호우경보 발효로 오늘 오후 3시부터 관람을 중단합니다.\n<span translate="no">Gwanghwamun</span>광장 및 <span translate="no">Gyeongbokgung Palace</span>역 방향 지하보도가 침수될 수 있으니 우회해 주시기 바랍니다.\n입장권은 7일 이내 재사용이 가능합니다.'
+[N15 title]
+  원문 '태풍 대비 야외 시설물 안전 점검 안내'
+  보냄 '태풍 대비 야외 시설물 안전 점검 안내'
+[N15 body]
+  원문 '제14호 태풍 북상에 대비해 관람로 일부를 통제합니다.\n[통제 구간] 경회루 ~ 향원정\n[통제 시간] 오늘 18:00 ~ 내일 09:00\n태풍 통과 후 안전 확인이 끝나면 개방합니다.'
+  보냄 '제14호 태풍 북상에 대비해 관람로 일부를 통제합니다.\n[통제 구간] <span translate="no">Gyeonghoeru</span> ~ <span translate="no">Hyangwonjeong</span>\n[통제 시간] 오늘 18:00 ~ 내일 09:00\n태풍 통과 후 안전 확인이 끝나면 개방합니다.'
+[N16 title]
+  원문 '한파주의보 안내'
+  보냄 '한파주의보 안내'
+[N16 body]
+  원문 '한파주의보로 경복궁 관람 시 방한 준비를 부탁드립니다.'
+  보냄 '한파주의보로 <span translate="no">Gyeongbokgung Palace</span> 관람 시 방한 준비를 부탁드립니다.'
+[N17 title]
+  원문 '<기상특보> 강풍주의보 발효 안내'
+  보냄 '[기상특보] 강풍주의보 발효 안내'
+[N17 body]
+  원문 '강풍주의보가 발효되어 오늘 14:00부터 경회루 & 아미산 일대 출입을 제한합니다.\n낙하물 위험이 있으니 안내 요원의 지시를 따라 주시기 바랍니다.'
+  보냄 '강풍주의보가 발효되어 오늘 14:00부터 <span translate="no">Gyeonghoeru</span> & <span translate="no">Amisan</span> 일대 출입을 제한합니다.\n낙하물 위험이 있으니 안내 요원의 지시를 따라 주시기 바랍니다.'
+[N18 title]
+  원문 '[안내] 폭설 대비 제설 작업 및 관람 제한 안내'
+  보냄 '[안내] 폭설 대비 제설 작업 및 관람 제한 안내'
+[N18 body]
+  원문 '서울 지역에 대설경보가 발효됨에 따라 궁 내 관람 방법을 아래와 같이 안내드립니다.\n○ 제설 작업 구간: 광화문·흥례문\n○ 임시 통제 구간: 향원정 연못 주변 (결빙 위험)\n○ 관람 가능 구간: 근정전 일원\n※ 눈이 그친 뒤에도 돌계단과 박석 위는 매우 미끄러우니 천천히 걸어 주시기 바랍니다.\n※ 노약자 및 어린이 동반 관람객께서는 가급적 방문을 다음 기회로 미뤄 주시기 바랍니다.\n제설 진행 상황은 https://royal.khs.go.kr/ROYAL/notice 에서 실시간으로 확인하실 수 있습니다.\n문의: 02-3700-3900'
+  보냄 '서울 지역에 대설경보가 발효됨에 따라 궁 내 관람 방법을 아래와 같이 안내드립니다.\n○ 제설 작업 구간: <span translate="no">Gwanghwamun</span>·<span translate="no">Heungnyemun</span>\n○ 임시 통제 구간: <span translate="no">Hyangwonjeong</span> 연못 주변 (결빙 위험)\n○ 관람 가능 구간: <span translate="no">Geunjeongjeon</span> 일원\n※ 눈이 그친 뒤에도 돌계단과 <span translate="no">Bakseok</span> 위는 매우 미끄러우니 천천히 걸어 주시기 바랍니다.\n※ 노약자 및 어린이 동반 관람객께서는 가급적 방문을 다음 기회로 미뤄 주시기 바랍니다.\n제설 진행 상황은 https://royal.khs.go.kr/ROYAL/notice 에서 실시간으로 확인하실 수 있습니다.\n문의: 02-3700-3900'
+[N19 title]
+  원문 '미세먼지 비상저감조치 시행에 따른 안내'
+  보냄 '미세먼지 비상저감조치 시행에 따른 안내'
+[N19 body]
+  원문 '비상저감조치 발령으로 11/20~11/21 경복궁 내 차량 진입을 제한합니다.\n신무문 방면 주차장은 운영하지 않으니 대중교통을 이용해 주시기 바랍니다.\n경복궁역 3번 출구가 가장 가깝습니다.'
+  보냄 '비상저감조치 발령으로 11/20~11/21 <span translate="no">Gyeongbokgung Palace</span> 내 차량 진입을 제한합니다.\n<span translate="no">Sinmumun</span>의 방면 주차장은 운영하지 않으니 대중교통을 이용해 주시기 바랍니다.\n<span translate="no">Gyeongbokgung Palace</span>역 3번 출구가 가장 가깝습니다.'
+[N20 title]
+  원문 '무더위 쉼터 & 생수 제공 안내'
+  보냄 '무더위 쉼터 & 생수 제공 안내'
+[N20 body]
+  원문 '폭염 대비 무더위 쉼터를 운영합니다.\n위치: 흥례문 옆 안내소, 자경전 뒤편 쉼터\n운영 시간: 09:00~18:00\n쉼터 이용은 무료이며 정원은 회당 50명입니다.'
+  보냄 '폭염 대비 무더위 쉼터를 운영합니다.\n위치: <span translate="no">Heungnyemun</span> 옆 안내소, <span translate="no">Jagyeongjeon</span> 뒤편 쉼터\n운영 시간: 09:00~18:00\n쉼터 이용은 무료이며 정원은 회당 50명입니다.'
+[N21 title]
+  원문 '[안내] 야간관람 운영 일정 변경 안내'
+  보냄 '[안내] 야간관람 운영 일정 변경 안내'
+[N21 body]
+  원문 '야간관람 일정이 11월 27일(목)~11월 30일(일)로 변경됩니다.\n관람 시간: 19:00~21:30\n입장권: 1인 3,000원\n경회루·향원정 일대 조명 관람은 (근정전 앞 광장)에서 출발하는 안내에 따라 진행됩니다.'
+  보냄 '야간관람 일정이 11월 27일(목)~11월 30일(일)로 변경됩니다.\n관람 시간: 19:00~21:30\n입장권: 1인 3,000원\n<span translate="no">Gyeonghoeru</span>·<span translate="no">Hyangwonjeong</span> 일대 조명 관람은 (<span translate="no">Geunjeongjeon</span> 앞 광장)에서 출발하는 안내에 따라 진행됩니다.'
+[N22 title]
+  원문 '[변경] 교대의식 운영 시간 및 장소 변경'
+  보냄 '[변경] 교대의식 운영 시간 및 장소 변경'
+[N22 body]
+  원문 '11월 24일부터 수문장청 주관 교대의식이 오전 10시와 오후 2시로 조정됩니다.\n행사 장소: 광화문 앞 → 흥례문 앞\n※ 우천 시에는 교대의식 규모를 축소합니다.'
+  보냄 '11월 24일부터 <span translate="no">Sumunjangcheong</span> 주관 교대의식이 오전 10시와 오후 2시로 조정됩니다.\n행사 장소: <span translate="no">Gwanghwamun</span> 앞 → <span translate="no">Heungnyemun</span> 앞\n※ 우천 시에는 교대의식 규모를 축소합니다.'
+[N23 title]
+  원문 '근정전 보수 공사에 따른 관람 구역 제한 안내'
+  보냄 '<span translate="no">Geunjeongjeon</span>의 보수 공사에 따른 관람 구역 제한 안내'
+[N23 body]
+  원문 '근정전 지붕 보수 공사로 2026. 12. 1.(화)부터 2027. 3. 31.(수)까지 월대 위 출입이 제한됩니다.\n공사 중에도 근정전앞 조정에서는 관람이 가능합니다.\n○ 공사 가림막 설치 구간: 근정전 월대 사방\n○ 임시 우회 관람로: 수정전 방면 (안내 요원 배치)\n○ 공사 시간: 평일 09:00~17:00 (주말·공휴일 공사 없음)\n※ 공사 소음과 분진이 발생할 수 있으니 관람객 여러분의 양해를 부탁드립니다.\n※ 공사 진행 상황에 따라 일정이 변경될 수 있으며 변경 시 누리집을 통해 다시 안내드립니다.\n관람객 안전을 위해 가림막 안쪽으로는 출입하지 마시기 바랍니다.'
+  보냄 '<span translate="no">Geunjeongjeon</span>의 지붕 보수 공사로 <span translate="no">2026</span>년 12월 1일(화)부터 <span translate="no">2027</span>년 3월 31일(수)까지 <span translate="no">Woldae</span> 위 출입이 제한됩니다.\n공사 중에도 <span translate="no">Geunjeongjeon</span>앞 <span translate="no">Jojeong</span>에서는 관람이 가능합니다.\n○ 공사 가림막 설치 구간: <span translate="no">Geunjeongjeon</span> <span translate="no">Woldae</span> 사방\n○ 임시 우회 관람로: <span translate="no">Sujeongjeon</span> 방면 (안내 요원 배치)\n○ 공사 시간: 평일 09:00~17:00 (주말·공휴일 공사 없음)\n※ 공사 소음과 분진이 발생할 수 있으니 관람객 여러분의 양해를 부탁드립니다.\n※ 공사 진행 상황에 따라 일정이 변경될 수 있으며 변경 시 누리집을 통해 다시 안내드립니다.\n관람객 안전을 위해 가림막 안쪽으로는 출입하지 마시기 바랍니다.'
+[N24 title]
+  원문 '설 연휴 관람 시간 안내'
+  보냄 '설 연휴 관람 시간 안내'
+[N24 body]
+  원문 '설 연휴(2월 5일~2월 8일)에도 경복궁은 정상 개방합니다.'
+  보냄 '설 연휴(2월 5일~2월 8일)에도 <span translate="no">Gyeongbokgung Palace</span>은 정상 개방합니다.'
+[N25 title]
+  원문 '[안내] 일부 전각 임시 관람 제한 안내'
+  보냄 '[안내] 일부 전각 임시 관람 제한 안내'
+[N25 body]
+  원문 '보수 정비로 아래 기간 동안 일부 구역 관람이 제한됩니다.\n○ 제한 기간: 2026. 12. 8.(화) ~ 12. 19.(토)\n○ 제한 구역: 강녕전·교태전\n○ 관람 가능 구역: 경회루, 향원정\n※ 정비 일정은 기상 상황에 따라 변동될 수 있습니다.\n최신 안내는 https://royal.khs.go.kr/ROYAL/notice/list 를 참고해 주시기 바랍니다.\n정비 기간 중 입장권 환불을 원하시는 분은 매표소에서 신청해 주시기 바랍니다.\n제한 구역 앞에는 안내 요원이 배치되며 우회 동선이 표시됩니다.\n문의: 02-3700-3900'
+  보냄 '보수 정비로 아래 기간 동안 일부 구역 관람이 제한됩니다.\n○ 제한 기간: <span translate="no">2026</span>년 12월 8일(화) ~ 12월 19일(토)\n○ 제한 구역: <span translate="no">Gangnyeongjeon</span>·<span translate="no">Gyotaejeon</span>\n○ 관람 가능 구역: <span translate="no">Gyeonghoeru</span>, <span translate="no">Hyangwonjeong</span>\n※ 정비 일정은 기상 상황에 따라 변동될 수 있습니다.\n최신 안내는 https://royal.khs.go.kr/ROYAL/notice/list 를 참고해 주시기 바랍니다.\n정비 기간 중 입장권 환불을 원하시는 분은 매표소에서 신청해 주시기 바랍니다.\n제한 구역 앞에는 안내 요원이 배치되며 우회 동선이 표시됩니다.\n문의: 02-3700-3900'
+[N26 title]
+  원문 '[특별개방] 집옥재·협길당 내부 관람 안내'
+  보냄 '[특별개방] <span translate="no">Jibokjae</span>·<span translate="no">Hyeopgildang</span> 내부 관람 안내'
+[N26 body]
+  원문 '11월 22일(토) 하루 집옥재와 협길당 내부를 특별 개방합니다.\n운영 시간은 오전 10시~오후 4시이며 회당 20명 선착순입니다.\n접수는 "집옥재" 앞 안내소에서 받습니다.'
+  보냄 '11월 22일(토) 하루 <span translate="no">Jibokjae</span>와 <span translate="no">Hyeopgildang</span> 내부를 특별 개방합니다.\n운영 시간은 오전 10시~오후 4시이며 회당 20명 선착순입니다.\n접수는 "<span translate="no">Jibokjae</span>" 앞 안내소에서 받습니다.'
+[N27 title]
+  원문 '[변경] 관람료 & 운영 시간 안내'
+  보냄 '[변경] 관람료 & 운영 시간 안내'
+[N27 body]
+  원문 '2026. 12. 1.(화)부터 관람 시간이 09:00~17:00로 조정됩니다.\n입장권은 1인 3,000원이며 "경복궁" 누리집에서 예매하실 수 있습니다.\nhttps://royal.khs.go.kr/ROYAL/ticket'
+  보냄 '<span translate="no">2026</span>년 12월 1일(화)부터 관람 시간이 09:00~17:00로 조정됩니다.\n입장권은 1인 3,000원이며 "<span translate="no">Gyeongbokgung Palace</span>" 누리집에서 예매하실 수 있습니다.\nhttps://royal.khs.go.kr/ROYAL/ticket'
+[N28 title]
+  원문 '광화문 야간 조명 연장 안내'
+  보냄 '<span translate="no">Gwanghwamun</span>의 야간 조명 연장 안내'
+[N28 body]
+  원문 '광화문 야간 조명 점등 시간을 12월 한 달간 21시까지 연장합니다.'
+  보냄 '<span translate="no">Gwanghwamun</span>의 야간 조명 점등 시간을 12월 한 달간 21시까지 연장합니다.'
+[N29 title]
+  원문 '입장 동선 & 임시 통로 변경 안내'
+  보냄 '입장 동선 & 임시 통로 변경 안내'
+[N29 body]
+  원문 '공사로 입장 동선이 변경됩니다.\n경복궁역 5번 출구 → 영추문 방면 임시 통로(비현각 쪽 출입 불가) 이용\n※ 영추문 개방 시간은 09:00~16:30입니다.'
+  보냄 '공사로 입장 동선이 변경됩니다.\n<span translate="no">Gyeongbokgung Palace</span>역 5번 출구 → <span translate="no">Yeongchumun</span> 방면 임시 통로(<span translate="no">Bihyeongak</span> 쪽 출입 불가) 이용\n※ <span translate="no">Yeongchumun</span> 개방 시간은 09:00~16:30입니다.'
+[N30 title]
+  원문 '[행사] 궁중 음악회 개최 일정 변경 안내'
+  보냄 '[행사] 궁중 음악회 개최 일정 변경 안내'
+[N30 body]
+  원문 '11/29(토) 예정이던 음악회가 우천 시 12/6(토)로 순연됩니다.\n장소: 경회루 앞 (자경전 앞 대체 무대 이용 가능)\n행사 문의: 02-3700-3900'
+  보냄 '11/29(토) 예정이던 음악회가 우천 시 12/6(토)로 순연됩니다.\n장소: <span translate="no">Gyeonghoeru</span> 앞 (<span translate="no">Jagyeongjeon</span> 앞 대체 무대 이용 가능)\n행사 문의: 02-3700-3900'
