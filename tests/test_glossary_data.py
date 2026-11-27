@@ -38,10 +38,12 @@ def test_every_card_has_english_name():
 
 
 def test_notice_plain_words_are_terms():
-    """공지에서 감싸지 않을 용어는 모두 용어 표에 있는 이름 ('조정'은 공지에서도 마당 뜻으로 쓰여 넣지 않음)"""
+    """공지에서 감싸지 않을 용어는 모두 용어 표에 있는 이름.
+    '조정'은 '시간 조정 안내'(바꿈)가 마당 이름으로 바뀌어 넣음. 마당 뜻('근정전앞 조정')은 앞 어절에 용어 이름이 있으면
+    감싸는 백엔드 규칙으로 맞춤 (2026-11-27)"""
     words = [r["ko"] for r in csv.DictReader(glossary._data("notice_plain_words.csv").splitlines())]
     names = {ko for ko, *_ in glossary.terminology_rows()}
-    assert {"대비", "부재", "조회", "동반", "보물", "국보", "복원"} <= set(words) and "조정" not in words
+    assert {"대비", "부재", "조회", "동반", "보물", "국보", "복원", "조정"} <= set(words)
     assert set(words) <= names and len(words) == len(set(words))
 
 
