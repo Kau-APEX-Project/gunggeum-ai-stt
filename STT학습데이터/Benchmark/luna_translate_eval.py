@@ -248,6 +248,8 @@ def main():
     ap.add_argument("--report", action="store_true")
     ap.add_argument("--mode", choices=("once", "wrap"), default="once", help="once 교정+번역 한 번 / wrap 서버 용어 고정 코드 안에서 번역만")
     a = ap.parse_args()
+    if not a.report and not a.set:
+        ap.error("--set 이 필요합니다 (--report 가 아니면)")
     if a.report:
         return report(a.be)
     table = {r["ko"].strip(): {"en": (r["en"] or "").strip(), "th": (r["th"] or "").strip()}
