@@ -20,6 +20,7 @@
 import argparse
 import asyncio
 import csv
+import inspect
 import json
 import os
 import re
@@ -90,6 +91,7 @@ def main():
     ap.add_argument("--be", required=True, help="고친 판: gunggeum-be/api 폴더")
     ap.add_argument("--old", help="고치기 전 판의 api 폴더 (비교용)")
     ap.add_argument("--dry", action="store_true", help="번역기를 부르지 않고 글자 수만 셈")
+    ap.add_argument("--tag", default="", help="결과 파일 이름 뒤에 붙일 말 (예전 결과를 덮어쓰지 않게)")
     args = ap.parse_args()
     os.environ.setdefault("TRANSLATE_PROVIDER", "aws")
     for k in ("TRANSLATE_TERM_MODE", "TRANSLATE_TERMS_PATH", "TRANSLATE_TERMINOLOGY"):
@@ -111,6 +113,8 @@ def main():
         mod = load(root)
         client = Client(real, cache)
         tr = mod.AwsTranslator(client)
+        # 백엔드가 공지용 처리(notice=True, gunggeum-be 이슈 16번)를 받으면 켜서 부름
+        kw = {"notice": True} if "notice" in inspect.signature(mod.AwsTranslator.translate).parameters else {}
         rows = []
         agg = {lang: dict(terms=0, terms_hit=0, hangul=0, markup=0, times=0, times_kept=0, phones=0, phones_kept=0,
                           urls=0, urls_kept=0, lines_diff=0) for lang in LANGS}
@@ -119,7 +123,7 @@ def main():
                 for field in ("title", "body"):
                     src = n[field]
                     client.sent.clear()
-                    out = asyncio.run(tr.translate(src, lang))
+                    out = asyncio.run(tr.translate(src, lang, **kw))
                     s = score(src, out, expected_terms(new, table, src, lang))
                     rows.append({"id": n["id"], "type": n["type"], "lang": lang, "field": field, "src": src,
                                  "sent": client.sent[-1], "out": out, **s})
@@ -134,7 +138,7 @@ def main():
                                 "남은 표시": " ".join(s["markup"]), "줄 수 같음": s["lines_same"]})
         total_chars += client.chars
         if not args.dry:
-            with (OUT / f"raw_{name}.jsonl").open("w", encoding="utf-8") as fp:
+            with (OUT / f"raw_{name}{args.tag}.jsonl").open("w", encoding="utf-8") as fp:
                 for r in rows:
                     fp.write(json.dumps(r, ensure_ascii=False) + "\n")
         for lang, a in agg.items():
@@ -147,7 +151,7 @@ def main():
     print(f"보낸 글자 합계 {total_chars}자 (100만 자당 15달러 기준 약 {total_chars * 15 / 1e6:.2f}달러)" + (" — 세기만 함" if args.dry else ""))
     if args.dry:
         return
-    for name, rows in (("summary.csv", summary), ("per_notice.csv", per)):
+    for name, rows in ((f"summary{args.tag}.csv", summary), (f"per_notice{args.tag}.csv", per)):
         with open(OUT / name, "w", newline="", encoding="utf-8-sig") as fp:
             w = csv.DictWriter(fp, fieldnames=list(rows[0]))
             w.writeheader()

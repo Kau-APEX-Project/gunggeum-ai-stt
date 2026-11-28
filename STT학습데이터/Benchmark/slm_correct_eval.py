@@ -73,7 +73,7 @@ def slm(url, model, text, terms):
     return out, sec
 
 
-PRICE = {"claude-haiku-5-5": (0.10, 0.50)}  # 달러 / 100만 토큰 (입력, 출력), 10만 토큰 이하 프롬프트
+PRICE = {"claude-haiku-5-5": (0.10, 0.50), "gpt-6-luna": (0.10, 0.50)}  # 달러 / 100만 토큰 (입력, 출력), 10만 토큰 이하 프롬프트
 SPENT = {"in": 0, "out": 0}
 LOCK = threading.Lock()
 _claude = None
@@ -105,6 +105,50 @@ def claude(model, text, terms, cap):
     if cost > cap:
         raise SystemExit(f"비용 상한 {cap}달러를 넘어 멈춤 (지금까지 {cost:.4f}달러)")
     out = "".join(b.text for b in r.content if b.type == "text").strip()
+    if FORCE:
+        return json.loads(out)["corrected"].strip(), sec
+    out = out.splitlines()[0].strip() if out else ""
+    for p in ("문장:", "고친 문장:"):
+        if out.startswith(p):
+            out = out[len(p):].strip()
+    return out, sec
+
+
+_openai_key = None
+
+
+def openai(model, text, terms, cap):
+    """OpenAI Responses API (키는 ~/.config/gungeum/openai.env 에서 읽기만 함). 서비스(gunggeum-ai-llm-gps server/ask.py)와 같게
+    추론은 끄고(effort none), --force-format 이면 답 모양을 JSON 으로 강제(strict). 패키지 없이 urllib 로 부름"""
+    global _openai_key
+    if _openai_key is None:
+        env = Path.home() / ".config" / "gungeum" / "openai.env"
+        _openai_key = next(l.split("=", 1)[1].strip().strip("\"'") for l in env.read_text().splitlines() if l.startswith("OPENAI_API_KEY="))
+    body = {"model": model, "reasoning": {"effort": "none"}, "max_output_tokens": 256, "instructions": SYSTEM,
+            "input": f"용어 목록: {', '.join(terms)}\n문장: {text}"}
+    if FORCE:
+        body["text"] = {"format": {"type": "json_schema", "name": "out", "schema": SCHEMA["schema"], "strict": True}}
+    req = urllib.request.Request("https://api.openai.com/v1/responses", json.dumps(body).encode(),
+                                 {"Content-Type": "application/json", "Authorization": f"Bearer {_openai_key}"})
+    for attempt in range(6):
+        t = time.perf_counter()
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                res = json.load(r)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code not in (429, 500, 502, 503) or attempt == 5:
+                raise SystemExit(f"OpenAI 오류 {e.code}: {e.read()[:300]!r}")
+            time.sleep(2 ** attempt)
+    sec = time.perf_counter() - t
+    pin, pout = PRICE[model]
+    with LOCK:
+        SPENT["in"] += res["usage"]["input_tokens"]
+        SPENT["out"] += res["usage"]["output_tokens"]
+        cost = (SPENT["in"] * pin + SPENT["out"] * pout) / 1e6
+    if cost > cap:
+        raise SystemExit(f"비용 상한 {cap}달러를 넘어 멈춤 (지금까지 {cost:.4f}달러)")
+    out = "".join(c["text"] for o in res["output"] if o["type"] == "message" for c in o["content"] if c["type"] == "output_text").strip()
     if FORCE:
         return json.loads(out)["corrected"].strip(), sec
     out = out.splitlines()[0].strip() if out else ""
@@ -148,6 +192,7 @@ def main():
     ap.add_argument("--only", choices=["quiet", "noise", "field"])
     ap.add_argument("--score", action="store_true", help="저장된 결과로 채점만")
     ap.add_argument("--claude", help="Claude API 모델 (예: claude-haiku-5-5). 주면 llama-server 대신 씀")
+    ap.add_argument("--openai", help="OpenAI 모델 (예: gpt-6-luna). 주면 llama-server 대신 씀")
     ap.add_argument("--cap", type=float, default=0.3, help="Claude 비용 상한(달러). 넘으면 멈춤")
     ap.add_argument("--limit", type=int, help="조건마다 앞에서 이만큼만 (형식 확인용)")
     ap.add_argument("--force-format", action="store_true", help="Claude 답을 JSON 한 칸으로 강제 (결과 이름 뒤에 +json)")
@@ -159,8 +204,9 @@ def main():
     if field_path.exists():
         for r in map(json.loads, field_path.open(encoding="utf-8")):
             refs[r["id"]] = r  # 구간 정답·위치·용어(구간에 든 문장들의 용어를 합침)
-    if a.claude:
-        a.model_name = a.claude + ("+json" if a.force_format else "")
+    api = a.claude or a.openai
+    if api:
+        a.model_name = api + ("+json" if a.force_format else "")
         global FORCE
         FORCE = a.force_format
     raw_path = OUT / f"{a.model_name}_raw.jsonl"
@@ -170,7 +216,12 @@ def main():
         for r in map(json.loads, raw_path.open(encoding="utf-8")):
             done[(r["cond"], r["id"])] = r
     fix = server_correct(a.be)
-    call = (lambda t, terms: claude(a.claude, t, terms, a.cap)) if a.claude else (lambda t, terms: slm(a.url, a.model_name, t, terms))
+    if a.claude:
+        call = lambda t, terms: claude(a.claude, t, terms, a.cap)
+    elif a.openai:
+        call = lambda t, terms: openai(a.openai, t, terms, a.cap)
+    else:
+        call = lambda t, terms: slm(a.url, a.model_name, t, terms)
     if not a.score:
         def one(cond, uid, hyp):
             terms = hints[refs[uid]["location"]]
@@ -179,14 +230,14 @@ def main():
             d, d_sec = call(b, terms)
             return {"cond": cond, "id": uid, "A": hyp, "B": b, "C": c, "D": d, "E": fix(c, terms),
                     "C_sec": round(c_sec, 3), "D_sec": round(d_sec, 3)}
-        with raw_path.open("a", encoding="utf-8") as fp, ThreadPoolExecutor(6 if a.claude else 1) as ex:
+        with raw_path.open("a", encoding="utf-8") as fp, ThreadPoolExecutor(6 if api else 1) as ex:
             for cond, items in load_inputs(a.only).items():
                 todo = [(uid, hyp) for uid, hyp in items[:a.limit] if (cond, uid) not in done]
                 for row in ex.map(lambda x: one(cond, *x), todo):
                     fp.write(json.dumps(row, ensure_ascii=False) + "\n")
                     fp.flush()
                     done[(cond, row["id"])] = row
-                print(cond, len(todo), "문장", (f"| 지금까지 입력 {spent(a.claude)[0]} 출력 {spent(a.claude)[1]} 토큰, {spent(a.claude)[2]:.4f}달러" if a.claude else ""), flush=True)
+                print(cond, len(todo), "문장", (f"| 지금까지 입력 {spent(api)[0]} 출력 {spent(api)[1]} 토큰, {spent(api)[2]:.4f}달러" if api else ""), flush=True)
     for (c, uid), r in done.items():
         if "E" not in r:
             r["E"] = fix(r["C"], hints[refs[uid]["location"]])
